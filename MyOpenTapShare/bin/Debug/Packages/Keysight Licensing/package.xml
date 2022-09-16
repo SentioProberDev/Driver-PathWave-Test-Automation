@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package InfoLink="http://gitlab.it.keysight.com/tap/licensing/wikis/home" Date="04/28/2022 13:28:55" Name="Keysight Licensing" Version="1.1.1+7a2a1fe3" Architecture="x64" OS="Windows" xmlns="http://opentap.io/schemas/package">
+  <Hash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</Hash>
+  <Description>Licensing for Keysight products based on OpenTap.
+    <Organisation>Keysight Technologies, Inc.</Organisation><Contacts>
+      tap.support@keysight.com
+    </Contacts></Description>
+  <Dependencies>
+    <PackageDependency Package="OpenTAP" Version="^9.17.4+ea67c63a" />
+  </Dependencies>
+  <Files>
+    <File Path="Dependencies/Keysight.Ccl.Licensing.Api.5.2.0.5231/.OpenTapIgnore">
+      <Hash>AD85E3CC7FA29F9F9608A82B32EFA3ABEB60C43E</Hash>
+    </File>
+    <File Path="Dependencies/Keysight.Ccl.Licensing.Api.5.3.2.19/Keysight.Ccl.Licensing.Api.dll">
+      <Hash>07CD2511A008F3F2441DB7952239BF20DB51914D</Hash>
+    </File>
+    <File Path="Dependencies/x64/Keysight.Tap.Library.dll">
+      <Hash>2E18B4EED7E198F72C3BFA43B04C1AE7A33995DF</Hash>
+    </File>
+    <File Path="Dependencies/x64/Keysight.Tap.Library.v9.dll">
+      <Hash>BEA3FD6155185D54F108AB7FB4B515A14C8F7A58</Hash>
+    </File>
+    <File Path="Dependencies/Keysight.Kal.Licensing.Api.4.0.0/Keysight.Kal.Licensing.Api.dll">
+      <IgnoreDependency>netstandard</IgnoreDependency>
+      <Hash>7D377BCBE2EF7C3C27D0ED80A85D57447CA8FB9D</Hash>
+    </File>
+    <File Path="Dependencies/Keysight.Kal.Licensing.Api.4.0.0/Keysight.Kal.Licensing.Api.dll.sig">
+      <Hash>ADA6496553525305969CEB2AAEF4F5E21C51CC42</Hash>
+    </File>
+    <File Path="Dependencies/Keysight.Kal.Licensing.Api.4.0.0/KalApi.dll">
+      <Hash>00DAAA17F03A549ACBE80E993A70C51A4C32A9A3</Hash>
+    </File>
+    <File Path="Dependencies/Keysight.Kal.Licensing.Api.4.0.0/KalApi.dll.sig">
+      <Hash>50B2DF673FEFB4165887AF1B4A0EDCD8288EB3D8</Hash>
+    </File>
+    <File Path="Packages/Keysight Licensing/Keysight.OpenTap.Licensing.dll">
+      <Plugins>
+        <Plugin Type="Keysight.OpenTap.Licensing.CliActions.CheckoutLicense" BaseType="ICliAction">
+          <Name>checkout</Name>
+          <Order>-10000</Order>
+          <Browsable>false</Browsable>
+          <Description />
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>license</String>
+          </Groups>
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Licensing.CliActions.ListCachedLicenses" BaseType="ICliAction">
+          <Name>list-cached</Name>
+          <Order>-10000</Order>
+          <Browsable>false</Browsable>
+          <Description>Lists FTL Cached licenses.</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>license</String>
+          </Groups>
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Licensing.CliActions.ListAvailableLicenses" BaseType="ICliAction">
+          <Name>list-available</Name>
+          <Order>-10000</Order>
+          <Browsable>false</Browsable>
+          <Description />
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>license</String>
+          </Groups>
+        </Plugin>
+      </Plugins>
+      <IgnoreDependency>Keysight.Ccl.Licensing.Api</IgnoreDependency>
+      <IgnoreDependency>Keysight.Kal.Licensing.Api</IgnoreDependency>
+      <IgnoreDependency>Keysight.Ftl.Licensing.Api</IgnoreDependency>
+      <IgnoreDependency>System</IgnoreDependency>
+      <Hash>AE3A6518242416C129DBBF01FBE8DE452424A446</Hash>
+    </File>
+    <File Path="Packages/Keysight Licensing/Keysight.OpenTap.Licensing.dll.sig">
+      <Hash>AA3BD47D6011CA04FD6C3B6CB54919E652BDB728</Hash>
+    </File>
+  </Files>
+</Package>

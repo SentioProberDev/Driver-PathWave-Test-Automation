@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package Date="04/29/2022 12:08:23" Class="bundle" Name="Developer's System CE" Version="9.17.4+5e508f08" Architecture="AnyCPU" OS="Windows" xmlns="http://opentap.io/schemas/package">
+  <Hash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</Hash>
+  <Description>This is the Community Edition of the Keysight Test Automation Developer’s System for OpenTAP. It provides powerful, flexible and extensible test sequence and test plan creation.
+   <Status>Released</Status><Organisation>Keysight Technologies</Organisation></Description>
+  <Dependencies>
+    <PackageDependency Package="OpenTAP" Version="^9.17.4+ea67c63a" />
+    <PackageDependency Package="Editor CE" Version="^9.17.4+5e508f08" />
+    <PackageDependency Package="WPF Controls" Version="^9.17.4+5e508f08" />
+    <PackageDependency Package="Results Viewer CE" Version="^9.17.4+5e508f08" />
+    <PackageDependency Package="CSV" Version="^9.11.0+98498e58" />
+    <PackageDependency Package="SQLite and PostgreSQL" Version="^9.4" />
+    <PackageDependency Package="SDK" Version="^9.17.4+ea67c63a" />
+    <PackageDependency Package="Visual Studio SDK CE" Version="^1.2.6" />
+  </Dependencies>
+  <Owner>Keysight Technologies, Inc.</Owner>
+</Package>

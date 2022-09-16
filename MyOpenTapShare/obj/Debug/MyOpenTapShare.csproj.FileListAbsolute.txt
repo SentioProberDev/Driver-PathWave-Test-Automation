@@ -1,0 +1,9 @@
+D:\MPI Project\Test\MyOpenTap\MyOpenTapShare\bin\Debug\MyOpenTapShare.dll
+D:\MPI Project\Test\MyOpenTap\MyOpenTapShare\bin\Debug\MyOpenTapShare.pdb
+D:\MPI Project\Test\MyOpenTap\MyOpenTapShare\bin\Debug\OpenTap.dll
+D:\MPI Project\Test\MyOpenTap\MyOpenTapShare\obj\Debug\MyOpenTapShare.GeneratedMSBuildEditorConfig.editorconfig
+D:\MPI Project\Test\MyOpenTap\MyOpenTapShare\obj\Debug\MyOpenTapShare.csproj.CoreCompileInputs.cache
+D:\MPI Project\Test\MyOpenTap\MyOpenTapShare\obj\Debug\MyOpenTapShare.csproj.CopyComplete
+D:\MPI Project\Test\MyOpenTap\MyOpenTapShare\obj\Debug\MyOpenTapShare.dll
+D:\MPI Project\Test\MyOpenTap\MyOpenTapShare\obj\Debug\MyOpenTapShare.pdb
+D:\MPI Project\Test\MyOpenTap\MyOpenTapShare\obj\Debug\MyOpenTapShare.csproj.AssemblyReference.cache

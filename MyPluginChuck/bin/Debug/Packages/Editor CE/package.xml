@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package InfoLink="http://www.keysight.com/find/TAP" Date="04/29/2022 12:02:44" Name="Editor CE" Version="9.17.4+5e508f08" Architecture="x64" OS="Windows" xmlns="http://opentap.io/schemas/package">
+  <Hash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</Hash>
+  <Description>This is the Community Edition (CE) of the Test Plan Editor. It is a graphical user interface (GUI) that consists of a set of user panels that make it possible to quickly construct test plans consisting of multiple test steps. Furthermore, it allows the assignment of resources such as DUTs and instruments as well as result storage. It lets you control test plan execution, monitor progress and log output. Update required to use after 5/21 2020.
+    <Status>Released</Status><Organisation>Keysight Technologies</Organisation></Description>
+  <Dependencies>
+    <PackageDependency Package="OSIntegration" Version="^1" />
+    <PackageDependency Package="OpenTAP" Version="^9.17.4+ea67c63a" />
+    <PackageDependency Package="Keysight Licensing" Version="^1.1.1+7a2a1fe3" />
+    <PackageDependency Package="WPF Controls" Version="^9.17.4+5e508f08" />
+  </Dependencies>
+  <Owner>Keysight Technologies, Inc.</Owner>
+  <Files>
+    <File Path="EditorHelp.chm">
+      <Hash>14E55F52F933DDE3157A3D3EB4ACCA2575B217C6</Hash>
+    </File>
+    <File Path="Editor.exe">
+      <Plugins>
+        <Plugin Type="Keysight.OpenTap.Gui.PanelSettings" BaseType="Component Settings">
+          <Name>GUI Panels</Name>
+          <Order>-10000</Order>
+          <Browsable>false</Browsable>
+          <Description />
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Gui.EditorCliAction" BaseType="ICliAction">
+          <Name>editor</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Starts the Editor GUI</Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Gui.LogPanelPlugin" BaseType="ITapDockPanel">
+          <Name>Log</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Log Panel</Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Gui.StepExplorerPlugin" BaseType="ITapDockPanel">
+          <Name>Test Steps</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Shows the available steps.</Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Gui.StepSettingsPlugin" BaseType="ITapDockPanel">
+          <Name>Test Step Settings</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Step Settings Panel</Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Gui.TestPlanGridListener" BaseType="Result Listener">
+          <Name>TestPlanGridListener</Name>
+          <Order>-10000</Order>
+          <Browsable>false</Browsable>
+          <Description></Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Gui.TestPlanPlugin" BaseType="ITapDockPanel">
+          <Name>Test Plan</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Test Plan Panel</Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Gui.TestPlanSettings" BaseType="ITapDockPanel">
+          <Name>Test Plan Settings</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Show the settings of the test plan.</Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Gui.PackageManagerToolProvider" BaseType="ToolProvider">
+          <Name>Package Manager</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description />
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Gui.RunExplorerToolProvider" BaseType="ToolProvider">
+          <Name>Run Explorer</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Open the Run Explorer Tool.</Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Gui.ResultViewerToolProvider" BaseType="ToolProvider">
+          <Name>Results Viewer</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Open the Results Viewer, showing the most recent test plan runs result.</Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Gui.ToolMenuEntry" BaseType="Menu Item">
+          <Name>ToolMenuEntry</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description></Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+      </Plugins>
+      <StartMenuEntry Group="Keysight Test Automation" Name="Keysight Test Automation" Args=""></StartMenuEntry>
+      <FileAssociation Verb="Open" Extension=".TapPlan" Description="TAP Test Plan" Args=""></FileAssociation>
+      <Hash>BF1B5EE38446FFFECC08699935CE1C4A99A95D30</Hash>
+    </File>
+    <File Path="PackageManager.exe">
+      <Plugins>
+        <Plugin Type="Keysight.OpenTap.Package.Gui.GuiAction" BaseType="ICliAction">
+          <Name>packagemanager</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Starts the Package Manager GUI.</Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Package.Gui.PackageManagerGuiSettings" BaseType="Component Settings">
+          <Name>Package Manager GUI</Name>
+          <Order>-10000</Order>
+          <Browsable>false</Browsable>
+          <Description />
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Package.Gui.RepositoryListProvider" BaseType="Control Provider">
+          <Name>RepositoryListProvider</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description></Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+      </Plugins>
+      <StartMenuEntry Group="Keysight Test Automation" Name="Keysight Package Manager" Args=""></StartMenuEntry>
+      <FileAssociation Verb="Install" Extension=".TapPackage" Description="TAP Package" Args="--install"></FileAssociation>
+      <FileAssociation Verb="Install" Extension=".TapPackages" Description="TAP Packages" Args="--install"></FileAssociation>
+      <Hash>2F7252E5BC68CBE5E513F6A031B1D28F5A47E953</Hash>
+    </File>
+    <File Path="Packages/Editor CE/Keysight.OpenTap.CommunityEditionPopup.exe">
+      <Plugins>
+        <Plugin Type="Keysight.OpenTap.CommunityEditionPopup.GuiAction" BaseType="ICliAction">
+          <Name>communityeditionpopup</Name>
+          <Order>-10000</Order>
+          <Browsable>false</Browsable>
+          <Description>Starts the community EULA popup, if it has not already been accepted.</Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+      </Plugins>
+      <Hash>B9B33136A4FB7A628BD2D3C0ED5B1F1D29EB8AA1</Hash>
+    </File>
+    <File Path="Packages/Editor CE/EULA.rtf">
+      <Hash>A52B3B2F315B570A45287667500DA2A496664D56</Hash>
+    </File>
+    <File Path="Dependencies/AvalonDock.4.60.0.0/AvalonDock.dll">
+      <Hash>5834738B9882DCBC37760AA5D66517699A454262</Hash>
+    </File>
+  </Files>
+  <PackageActionExtensions>
+    <ActionStep ExeFile="tap.exe" ExpectedExitCodes="0" Arguments="communityeditionpopup" ActionName="install"></ActionStep>
+  </PackageActionExtensions>
+</Package>

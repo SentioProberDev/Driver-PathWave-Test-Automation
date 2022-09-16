@@ -1,0 +1,2859 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPackages>
+  <Package Date="09/05/2022 13:22:48" LicenseRequired="(KS8001A&amp;KS8002A&amp;KS8003A)|KS8400A|TAP_Editor" Class="bundle" Name="Developer's System" Version="9.18.4+d4f8248d" Architecture="AnyCPU" OS="Windows" xmlns="http://opentap.io/schemas/package">
+    <Extensions>B63BFBDD-14E3-49AE-BFF3-ABE2BBA91ADBKeysight Test Automation 9Keysight Technologieshttp://www.keysight.com/find/tapKeysight\Test AutomationEditor.exeSDKDeveloper's SystemVisual Studio SDK</Extensions>
+    <Hash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</Hash>
+    <Description>The Keysight KS8400A/KS8400B Test Automation Developer’s System for OpenTAP provides powerful, flexible and extensible test sequence and test plan creation with additional capabilities that optimize your test software development and overall performance. 
+   <Status>Released</Status><Organisation>Keysight Technologies</Organisation></Description>
+    <Dependencies>
+      <PackageDependency Package="OpenTAP" Version="^9.18.5+0328e9b4" />
+      <PackageDependency Package="Editor" Version="^9.18.4+d4f8248d" />
+      <PackageDependency Package="WPF Controls" Version="^9.18.4+d4f8248d" />
+      <PackageDependency Package="Results Viewer" Version="^9.18.4+d4f8248d" />
+      <PackageDependency Package="Timing Analyzer" Version="^9.18.4+d4f8248d" />
+      <PackageDependency Package="CSV" Version="^9.11.0+98498e58" />
+      <PackageDependency Package="SQLite and PostgreSQL" Version="^9.4" />
+      <PackageDependency Package="Keysight Licensing" Version="^1.2.2" />
+      <PackageDependency Package="SDK" Version="^9.18.5+0328e9b4" />
+      <PackageDependency Package="Visual Studio SDK" Version="^1.4.0" />
+    </Dependencies>
+    <Location>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Developer's System.9.18.4+d4f8248d.TapPackage</Location>
+    <PackageSource type="OpenTap.Package.FileRepositoryPackageDefSource">
+      <RepositoryUrl>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache</RepositoryUrl>
+      <PackageFilePath>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Developer's System.9.18.4+d4f8248d.TapPackage</PackageFilePath>
+    </PackageSource>
+    <Owner>Keysight Technologies, Inc.</Owner>
+  </Package>
+  <Package InfoLink="http://www.keysight.com/find/TAP" Date="10/13/2021 12:38:14" Name="CSV" Version="9.11.0+98498e58" Architecture="AnyCPU" OS="Windows,Linux" xmlns="http://opentap.io/schemas/package">
+    <Hash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</Hash>
+    <Description>This plugin package contains a result listener that allows for results to be output in a CSV format. CSV is a common data exchange format that is widely supported by consumer, business, and scientific applications. It is basically plain text saved in a tabular format and the settings let you configure which separator to use: comma, semicolon or tabular.
+  <Status>Released</Status><Organisation>Keysight Technologies</Organisation></Description>
+    <Dependencies>
+      <PackageDependency Package="OpenTAP" Version="^9.16.0-rc.1+2b4975a7" />
+    </Dependencies>
+    <Location>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\CSV.9.11.0+98498e58.Windows,Linux.TapPackage</Location>
+    <PackageSource type="OpenTap.Package.FileRepositoryPackageDefSource">
+      <RepositoryUrl>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache</RepositoryUrl>
+      <PackageFilePath>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\CSV.9.11.0+98498e58.Windows,Linux.TapPackage</PackageFilePath>
+    </PackageSource>
+    <Owner>Keysight Technologies, Inc.</Owner>
+    <Files>
+      <File Path="Packages/CSV/Csv.dll">
+        <Plugins>
+          <Plugin Type="Keysight.OpenTap.Plugins.Csv.CsvResultListener" BaseType="Result Listener">
+            <Name>CSV</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Save results to one or more CSV files. Allows splitting the file(s) based on a maximum file size.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>Text</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Plugins.Csv.ExternalTestPlanParameterCsvFileHandler" BaseType="External Parameter Import | External Parameter Export">
+            <Name>Comma Separated Values</Name>
+            <Order>-10001</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Plugins.Csv.SweepValueCsvFileHandler" BaseType="Table Export | Table Import">
+            <Name>Comma Separated Values</Name>
+            <Order>-10001</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+        </Plugins>
+        <Hash>444631C481A72FFFF1A0C0DF541990363733DEA4</Hash>
+      </File>
+    </Files>
+  </Package>
+  <Package Date="06/16/2022 14:17:51" Name="OSIntegration" Version="1.4.2+15f32a31" Architecture="AnyCPU" OS="Windows" xmlns="http://opentap.io/schemas/package">
+    <Description>This package makes it possible to create Windows file associations and Start Menu items if specified by the plugin.
+    <Status>Released</Status><Organisation>Keysight Technologies</Organisation></Description>
+    <Dependencies>
+      <PackageDependency Package="OpenTAP" Version="^9.5.0+45ab79bc" />
+    </Dependencies>
+    <Location>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\OSIntegration.1.4.2+15f32a31.TapPackage</Location>
+    <PackageSource type="OpenTap.Package.FileRepositoryPackageDefSource">
+      <RepositoryUrl>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache</RepositoryUrl>
+      <PackageFilePath>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\OSIntegration.1.4.2+15f32a31.TapPackage</PackageFilePath>
+    </PackageSource>
+    <Owner>Keysight Technologies, Inc.</Owner>
+    <Files>
+      <File Path="Packages/OSIntegration/OpenTap.OSIntegration.Windows.dll">
+        <Plugins>
+          <Plugin Type="OSIntegration.Windows.StartMenuItemData" BaseType="ICustomPackageData">
+            <Name>StartMenuEntry</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="OSIntegration.Windows.FileAssociationData" BaseType="ICustomPackageData">
+            <Name>FileAssociation</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="OSIntegration.Windows.OSIntegrationInstallAction" BaseType="ICustomPackageAction">
+            <Name>OSIntegrationInstallAction</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="OSIntegration.Windows.OSIntegrationUninstallAction" BaseType="ICustomPackageAction">
+            <Name>OSIntegrationUninstallAction</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="OSIntegration.Windows.FirewallRule" BaseType="ICliAction">
+            <Name>firewall</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="OSIntegration.Windows.IconTool" BaseType="ICliAction">
+            <Name>icons</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="OSIntegration.Windows.SingleFileAssociation" BaseType="ICliAction">
+            <Name>assoc</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description>Sets up or removes a file association.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="OSIntegration.Windows.FileAssociation" BaseType="ICliAction">
+            <Name>associations</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="OSIntegration.Windows.ElevateActions" BaseType="ICliAction">
+            <Name>elevated</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="OSIntegration.Windows.LaunchAction" BaseType="ICliAction">
+            <Name>launch</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description>Launch OpenTap package/packages or test plan as separate processes.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="OSIntegration.Windows.ListInstallationsAction" BaseType="ICliAction">
+            <Name>list</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description>Lists registered installations.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>path</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OSIntegration.Windows.RegisterInstallationAction" BaseType="ICliAction">
+            <Name>register</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description>Registers an OpenTAP installation in a given directory.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>path</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OSIntegration.Windows.UnregisterInstallationAction" BaseType="ICliAction">
+            <Name>unregister</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description>Unregisters an OpenTAP installation in a given directory.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>path</String>
+            </Groups>
+          </Plugin>
+        </Plugins>
+        <Hash>hLYQXHgAFW4hkgRqTmikiQ7e1pU=</Hash>
+      </File>
+    </Files>
+    <PackageActionExtensions>
+      <ActionStep ExeFile="tap.exe" ExpectedExitCodes="0" Arguments="path register" ActionName="install"></ActionStep>
+      <ActionStep ExeFile="tap.exe" ExpectedExitCodes="0" Arguments="path unregister" ActionName="uninstall"></ActionStep>
+    </PackageActionExtensions>
+  </Package>
+  <Package InfoLink="http://www.keysight.com/find/TAP" Date="09/05/2022 13:14:00" LicenseRequired="TAP_Editor|KS8400A|TAP_Engine|KS8000A" Name="Editor" Version="9.18.4+d4f8248d" Architecture="x64" OS="Windows" xmlns="http://opentap.io/schemas/package">
+    <Hash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</Hash>
+    <Description>The Test Plan Editor is a graphical user interface (GUI) that consists of a set of user panels that make it possible to quickly construct test plans consisting of multiple test steps. Furthermore, it allows the assignment of resources such as DUTs and instruments as well as result storage. It lets you control test plan execution, monitor progress and log output.
+    <Status>Released</Status><Organisation>Keysight Technologies</Organisation></Description>
+    <Dependencies>
+      <PackageDependency Package="OSIntegration" Version="^1" />
+      <PackageDependency Package="OpenTAP" Version="^9.18.5+0328e9b4" />
+      <PackageDependency Package="Keysight Licensing" Version="^1.2.2+b06a51aa" />
+      <PackageDependency Package="WPF Controls" Version="^9.18.4+d4f8248d" />
+    </Dependencies>
+    <Location>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Editor.9.18.4+d4f8248d.x64.TapPackage</Location>
+    <PackageSource type="OpenTap.Package.FileRepositoryPackageDefSource">
+      <RepositoryUrl>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache</RepositoryUrl>
+      <PackageFilePath>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Editor.9.18.4+d4f8248d.x64.TapPackage</PackageFilePath>
+    </PackageSource>
+    <Owner>Keysight Technologies, Inc.</Owner>
+    <Files>
+      <File Path="EditorHelp.chm">
+        <Hash>329E6C30128F5D9959A62BB8E64F875C9EC00248</Hash>
+      </File>
+      <File Path="Editor.exe" LicenseRequired="TAP_Editor|KS8400A|TAP_Engine|KS8000A">
+        <Plugins>
+          <Plugin Type="Keysight.OpenTap.Gui.PanelSettings" BaseType="Component Settings">
+            <Name>GUI Panels</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Gui.EditorCliAction" BaseType="ICliAction">
+            <Name>editor</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Starts the Editor GUI</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Gui.LogPanelPlugin" BaseType="ITapDockPanel">
+            <Name>Log</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Log Panel</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Gui.StepExplorerPlugin" BaseType="ITapDockPanel">
+            <Name>Test Steps</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Shows the available steps.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Gui.StepSettingsPlugin" BaseType="ITapDockPanel">
+            <Name>Test Step Settings</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Step Settings Panel</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Gui.TestPlanGridListener" BaseType="Result Listener">
+            <Name>TestPlanGridListener</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Gui.TestPlanPlugin" BaseType="ITapDockPanel">
+            <Name>Test Plan</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Test Plan Panel</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Gui.TestPlanSettings" BaseType="ITapDockPanel">
+            <Name>Test Plan Settings</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Show the settings of the test plan.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Gui.PackageManagerToolProvider" BaseType="ToolProvider">
+            <Name>Package Manager</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Gui.RunExplorerToolProvider" BaseType="ToolProvider">
+            <Name>Run Explorer</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Open the Run Explorer Tool.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Gui.ResultViewerToolProvider" BaseType="ToolProvider">
+            <Name>Results Viewer</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Open the Results Viewer, showing the most recent test plan runs result.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Gui.ToolMenuEntry" BaseType="Menu Item">
+            <Name>ToolMenuEntry</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+        </Plugins>
+        <Hash>8266570C2958A4350295DEC1B7BD8A86DF0BBBEB</Hash>
+      </File>
+      <File Path="PackageManager.exe">
+        <Plugins>
+          <Plugin Type="Keysight.OpenTap.Package.Gui.GuiAction" BaseType="ICliAction">
+            <Name>packagemanager</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Starts the Package Manager GUI.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Package.Gui.PackageManagerGuiSettings" BaseType="Component Settings">
+            <Name>Package Manager GUI</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Package.Gui.RepositoryListProvider" BaseType="Control Provider">
+            <Name>RepositoryListProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+        </Plugins>
+        <Hash>E9E0B30767E5F4F4831B842C51A913E1801B8E87</Hash>
+      </File>
+      <File Path="Packages/Editor/System.Security.Principal.Windows.dll">
+        <Hash>9A5BE1FCF410FE5934D720329D36A2377E83747E</Hash>
+      </File>
+      <File Path="Dependencies/AvalonDock.4.60.0.0/AvalonDock.dll">
+        <Hash>5834738B9882DCBC37760AA5D66517699A454262</Hash>
+      </File>
+    </Files>
+  </Package>
+  <Package InfoLink="https://ksm.software.keysight.com/ASM/External/default.aspx" Date="06/14/2022 10:37:58" Class="system-wide" Name="PathWave License Manager" Version="2.5.0" Architecture="x64" OS="Windows" xmlns="http://opentap.io/schemas/package">
+    <Description>This package contains PathWave License Manager version 2.5.0</Description>
+    <Dependencies>
+      <PackageDependency Package="OpenTAP" Version="^9.14.0" />
+    </Dependencies>
+    <Location>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\PathWave License Manager.2.5.0.x64.TapPackage</Location>
+    <PackageSource type="OpenTap.Package.FileRepositoryPackageDefSource">
+      <RepositoryUrl>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache</RepositoryUrl>
+      <PackageFilePath>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\PathWave License Manager.2.5.0.x64.TapPackage</PackageFilePath>
+    </PackageSource>
+    <Files>
+      <File Path="Packages/PathWave License Manager/PathWaveLicenseManager.exe">
+        <Hash>mBrCpo102l/nPxQC5xXsjjf+8FU=</Hash>
+      </File>
+      <File Path="Packages/PathWave License Manager/PwlmLicenseInstaller.exe">
+        <Hash>2LYPbXjpPcQwz4KWORFFglJOuYM=</Hash>
+      </File>
+      <File Path="Packages/PathWave License Manager/testautomation.xml">
+        <Hash>GBtvOGlRsut6xYcitzPqPjDbuIo=</Hash>
+      </File>
+    </Files>
+    <PackageActionExtensions>
+      <ActionStep ExeFile="Packages/PathWave License Manager/PwlmLicenseInstaller.exe" ExpectedExitCodes="0" Arguments="--install" ActionName="install"></ActionStep>
+      <ActionStep ExeFile="Packages/PathWave License Manager/PwlmLicenseInstaller.exe" ExpectedExitCodes="0" Arguments="--uninstall" ActionName="uninstall"></ActionStep>
+    </PackageActionExtensions>
+  </Package>
+  <Package InfoLink="http://gitlab.it.keysight.com/tap/licensing/wikis/home" Date="04/28/2022 13:28:55" Name="Keysight Licensing" Version="1.1.1+7a2a1fe3" Architecture="x64" OS="Windows" xmlns="http://opentap.io/schemas/package">
+    <Hash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</Hash>
+    <Description>Licensing for Keysight products based on OpenTap.
+    <Organisation>Keysight Technologies, Inc.</Organisation><Contacts>
+      tap.support@keysight.com
+    </Contacts></Description>
+    <Dependencies>
+      <PackageDependency Package="OpenTAP" Version="^9.17.4+ea67c63a" />
+    </Dependencies>
+    <Location>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Keysight Licensing.1.1.1+7a2a1fe3.x64.TapPackage</Location>
+    <PackageSource type="OpenTap.Package.FileRepositoryPackageDefSource">
+      <RepositoryUrl>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache</RepositoryUrl>
+      <PackageFilePath>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Keysight Licensing.1.1.1+7a2a1fe3.x64.TapPackage</PackageFilePath>
+    </PackageSource>
+    <Files>
+      <File Path="Dependencies/Keysight.Ccl.Licensing.Api.5.2.0.5231/.OpenTapIgnore">
+        <Hash>AD85E3CC7FA29F9F9608A82B32EFA3ABEB60C43E</Hash>
+      </File>
+      <File Path="Dependencies/Keysight.Ccl.Licensing.Api.5.3.2.19/Keysight.Ccl.Licensing.Api.dll">
+        <Hash>07CD2511A008F3F2441DB7952239BF20DB51914D</Hash>
+      </File>
+      <File Path="Dependencies/x64/Keysight.Tap.Library.dll">
+        <Hash>2E18B4EED7E198F72C3BFA43B04C1AE7A33995DF</Hash>
+      </File>
+      <File Path="Dependencies/x64/Keysight.Tap.Library.v9.dll">
+        <Hash>BEA3FD6155185D54F108AB7FB4B515A14C8F7A58</Hash>
+      </File>
+      <File Path="Dependencies/Keysight.Kal.Licensing.Api.4.0.0/Keysight.Kal.Licensing.Api.dll">
+        <IgnoreDependency>netstandard</IgnoreDependency>
+        <Hash>7D377BCBE2EF7C3C27D0ED80A85D57447CA8FB9D</Hash>
+      </File>
+      <File Path="Dependencies/Keysight.Kal.Licensing.Api.4.0.0/Keysight.Kal.Licensing.Api.dll.sig">
+        <Hash>ADA6496553525305969CEB2AAEF4F5E21C51CC42</Hash>
+      </File>
+      <File Path="Dependencies/Keysight.Kal.Licensing.Api.4.0.0/KalApi.dll">
+        <Hash>00DAAA17F03A549ACBE80E993A70C51A4C32A9A3</Hash>
+      </File>
+      <File Path="Dependencies/Keysight.Kal.Licensing.Api.4.0.0/KalApi.dll.sig">
+        <Hash>50B2DF673FEFB4165887AF1B4A0EDCD8288EB3D8</Hash>
+      </File>
+      <File Path="Packages/Keysight Licensing/Keysight.OpenTap.Licensing.dll">
+        <Plugins>
+          <Plugin Type="Keysight.OpenTap.Licensing.CliActions.CheckoutLicense" BaseType="ICliAction">
+            <Name>checkout</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>license</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Licensing.CliActions.ListCachedLicenses" BaseType="ICliAction">
+            <Name>list-cached</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description>Lists FTL Cached licenses.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>license</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Licensing.CliActions.ListAvailableLicenses" BaseType="ICliAction">
+            <Name>list-available</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>license</String>
+            </Groups>
+          </Plugin>
+        </Plugins>
+        <IgnoreDependency>Keysight.Ccl.Licensing.Api</IgnoreDependency>
+        <IgnoreDependency>Keysight.Kal.Licensing.Api</IgnoreDependency>
+        <IgnoreDependency>Keysight.Ftl.Licensing.Api</IgnoreDependency>
+        <IgnoreDependency>System</IgnoreDependency>
+        <Hash>AE3A6518242416C129DBBF01FBE8DE452424A446</Hash>
+      </File>
+      <File Path="Packages/Keysight Licensing/Keysight.OpenTap.Licensing.dll.sig">
+        <Hash>AA3BD47D6011CA04FD6C3B6CB54919E652BDB728</Hash>
+      </File>
+    </Files>
+  </Package>
+  <Package InfoLink="http://www.keysight.com/find/TAP" Date="04/29/2022 12:02:44" Name="Editor CE" Version="9.17.4+5e508f08" Architecture="x64" OS="Windows" xmlns="http://opentap.io/schemas/package">
+    <Hash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</Hash>
+    <Description>This is the Community Edition (CE) of the Test Plan Editor. It is a graphical user interface (GUI) that consists of a set of user panels that make it possible to quickly construct test plans consisting of multiple test steps. Furthermore, it allows the assignment of resources such as DUTs and instruments as well as result storage. It lets you control test plan execution, monitor progress and log output. Update required to use after 5/21 2020.
+    <Status>Released</Status><Organisation>Keysight Technologies</Organisation></Description>
+    <Dependencies>
+      <PackageDependency Package="OSIntegration" Version="^1" />
+      <PackageDependency Package="OpenTAP" Version="^9.17.4+ea67c63a" />
+      <PackageDependency Package="Keysight Licensing" Version="^1.1.1+7a2a1fe3" />
+      <PackageDependency Package="WPF Controls" Version="^9.17.4+5e508f08" />
+    </Dependencies>
+    <Location>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Editor CE.9.17.4+5e508f08.x64.TapPackage</Location>
+    <PackageSource type="OpenTap.Package.FileRepositoryPackageDefSource">
+      <RepositoryUrl>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache</RepositoryUrl>
+      <PackageFilePath>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Editor CE.9.17.4+5e508f08.x64.TapPackage</PackageFilePath>
+    </PackageSource>
+    <Owner>Keysight Technologies, Inc.</Owner>
+    <Files>
+      <File Path="EditorHelp.chm">
+        <Hash>14E55F52F933DDE3157A3D3EB4ACCA2575B217C6</Hash>
+      </File>
+      <File Path="Editor.exe">
+        <Plugins>
+          <Plugin Type="Keysight.OpenTap.Gui.PanelSettings" BaseType="Component Settings">
+            <Name>GUI Panels</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Gui.EditorCliAction" BaseType="ICliAction">
+            <Name>editor</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Starts the Editor GUI</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Gui.LogPanelPlugin" BaseType="ITapDockPanel">
+            <Name>Log</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Log Panel</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Gui.StepExplorerPlugin" BaseType="ITapDockPanel">
+            <Name>Test Steps</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Shows the available steps.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Gui.StepSettingsPlugin" BaseType="ITapDockPanel">
+            <Name>Test Step Settings</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Step Settings Panel</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Gui.TestPlanGridListener" BaseType="Result Listener">
+            <Name>TestPlanGridListener</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Gui.TestPlanPlugin" BaseType="ITapDockPanel">
+            <Name>Test Plan</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Test Plan Panel</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Gui.TestPlanSettings" BaseType="ITapDockPanel">
+            <Name>Test Plan Settings</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Show the settings of the test plan.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Gui.PackageManagerToolProvider" BaseType="ToolProvider">
+            <Name>Package Manager</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Gui.RunExplorerToolProvider" BaseType="ToolProvider">
+            <Name>Run Explorer</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Open the Run Explorer Tool.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Gui.ResultViewerToolProvider" BaseType="ToolProvider">
+            <Name>Results Viewer</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Open the Results Viewer, showing the most recent test plan runs result.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Gui.ToolMenuEntry" BaseType="Menu Item">
+            <Name>ToolMenuEntry</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+        </Plugins>
+        <Hash>BF1B5EE38446FFFECC08699935CE1C4A99A95D30</Hash>
+      </File>
+      <File Path="PackageManager.exe">
+        <Plugins>
+          <Plugin Type="Keysight.OpenTap.Package.Gui.GuiAction" BaseType="ICliAction">
+            <Name>packagemanager</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Starts the Package Manager GUI.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Package.Gui.PackageManagerGuiSettings" BaseType="Component Settings">
+            <Name>Package Manager GUI</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Package.Gui.RepositoryListProvider" BaseType="Control Provider">
+            <Name>RepositoryListProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+        </Plugins>
+        <Hash>2F7252E5BC68CBE5E513F6A031B1D28F5A47E953</Hash>
+      </File>
+      <File Path="Packages/Editor CE/Keysight.OpenTap.CommunityEditionPopup.exe">
+        <Plugins>
+          <Plugin Type="Keysight.OpenTap.CommunityEditionPopup.GuiAction" BaseType="ICliAction">
+            <Name>communityeditionpopup</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description>Starts the community EULA popup, if it has not already been accepted.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+        </Plugins>
+        <Hash>B9B33136A4FB7A628BD2D3C0ED5B1F1D29EB8AA1</Hash>
+      </File>
+      <File Path="Packages/Editor CE/EULA.rtf">
+        <Hash>A52B3B2F315B570A45287667500DA2A496664D56</Hash>
+      </File>
+      <File Path="Dependencies/AvalonDock.4.60.0.0/AvalonDock.dll">
+        <Hash>5834738B9882DCBC37760AA5D66517699A454262</Hash>
+      </File>
+    </Files>
+    <PackageActionExtensions>
+      <ActionStep ExeFile="tap.exe" ExpectedExitCodes="0" Arguments="communityeditionpopup" ActionName="install"></ActionStep>
+    </PackageActionExtensions>
+  </Package>
+  <Package InfoLink="http://www.keysight.com/find/TAP" Date="04/29/2022 11:55:47" Name="Results Viewer CE" Version="9.17.4+5e508f08" Architecture="x64" OS="Windows" xmlns="http://opentap.io/schemas/package">
+    <Hash>9318E7B620C122B95D09177D1CFE7A15D7733941</Hash>
+    <Description>The Results Viewer brings the power of relational databases to result visualization, empowering your test plan development with a consistent way of viewing data across multiple stages of your engineering process. Each time a test plan is executed the results can be stored in a database (SQLite, PostgreSQL,.. ) which can be graphed and visualized using the Results Viewer. Also provided is the test plan Run Explorer to help manage test plan data, recall old test plans, merge and compare test log timings and more. Update required to use after 5/21 2020.
+    <Status>Released</Status><Organisation>Keysight Technologies</Organisation></Description>
+    <Dependencies>
+      <PackageDependency Package="OSIntegration" Version="^1" />
+      <PackageDependency Package="CSV" Version="^9.11.0+98498e58" />
+      <PackageDependency Package="Keysight Licensing" Version="^1.1.1+7a2a1fe3" />
+      <PackageDependency Package="OpenTAP" Version="^9.17.4+ea67c63a" />
+      <PackageDependency Package="WPF Controls" Version="^9.17.4+5e508f08" />
+    </Dependencies>
+    <Location>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Results Viewer CE.9.17.4+5e508f08.x64.TapPackage</Location>
+    <PackageSource type="OpenTap.Package.FileRepositoryPackageDefSource">
+      <RepositoryUrl>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache</RepositoryUrl>
+      <PackageFilePath>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Results Viewer CE.9.17.4+5e508f08.x64.TapPackage</PackageFilePath>
+    </PackageSource>
+    <Owner>Keysight Technologies, Inc.</Owner>
+    <Files>
+      <File Path="ResultsViewer.exe">
+        <Plugins>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.ColumnChart" BaseType="Results Viewer Plugin">
+            <Name>Column</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.DatagridPlot" BaseType="Results Viewer Plugin">
+            <Name>Data Table</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.DatagridFullPlot" BaseType="Results Viewer Plugin">
+            <Name>Data Table (Full)</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.HistogramChart" BaseType="Results Viewer Plugin">
+            <Name>Histogram</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.LineChart" BaseType="Results Viewer Plugin">
+            <Name>Line</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.ScatterPlot" BaseType="Results Viewer Plugin">
+            <Name>XY Scatter</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.XYLineChart" BaseType="Results Viewer Plugin">
+            <Name>XY Line</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.ResultColumnControlProvider" BaseType="Control Provider">
+            <Name>ResultColumnControlProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.SplitModifier" BaseType="Result Modifier">
+            <Name>Split</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.TakeEveryNthModifier" BaseType="Result Modifier">
+            <Name>Take Every</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Take only every nth of the data points.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.FilterModifier" BaseType="Result Modifier">
+            <Name>Filter</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.ResultTypeModifier" BaseType="Result Modifier">
+            <Name>Result Name</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.OrderSeriesModifier" BaseType="Result Modifier">
+            <Name>Order Series</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.OrderPointsModifier" BaseType="Result Modifier">
+            <Name>Order Points</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.TagFilterModifier" BaseType="Result Modifier">
+            <Name>Tag Filter</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.ResultFilterValueControlProvider" BaseType="Control Provider">
+            <Name>ResultFilterValueControlProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.ViewerSettings" BaseType="Component Settings">
+            <Name>Results Viewer</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description>Results Viewer Settings</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.ResultViewerCliAction" BaseType="ICliAction">
+            <Name>resultsviewer</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Starts the Results Viewer GUI</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+        </Plugins>
+        <Hash>2114DA1B402D3B572C685E441E0A9CF967DBDE66</Hash>
+      </File>
+      <File Path="RunExplorer.exe">
+        <Plugins>
+          <Plugin Type="Keysight.OpenTap.RunExplorer.RunExplorerSettings" BaseType="Component Settings">
+            <Name>Run Explorer</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.RunExplorer.RunExplorerCliAction" BaseType="ICliAction">
+            <Name>runexplorer</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Starts the Run Explorer GUI</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+        </Plugins>
+        <Hash>E56124A764C0B563C82A83FBAF5C714ED08EF78A</Hash>
+      </File>
+      <File Path="ResultsViewerHelp.chm">
+        <Hash>30F7AB9C03622B046642A6FE09BEE4AF0F2B8B8A</Hash>
+      </File>
+      <File Path="RunExplorerHelp.chm">
+        <Hash>EB9CE59A3343FFA902E7F59136635C64DD54D343</Hash>
+      </File>
+      <File Path="Packages/Editor CE/Keysight.OpenTap.CommunityEditionPopup.exe">
+        <Plugins>
+          <Plugin Type="Keysight.OpenTap.CommunityEditionPopup.GuiAction" BaseType="ICliAction">
+            <Name>communityeditionpopup</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description>Starts the community EULA popup, if it has not already been accepted.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+        </Plugins>
+        <Hash>739D069228C8CCB099B62DECBA85A87B6078350B</Hash>
+      </File>
+      <File Path="Packages/Editor CE/EULA.rtf">
+        <Hash>A52B3B2F315B570A45287667500DA2A496664D56</Hash>
+      </File>
+      <File Path="Dependencies/OxyPlot.1.0.0.0/OxyPlot.dll">
+        <Hash>02602B4CA886A5F0A2D220E7BBC5AA7AE17FBDC0</Hash>
+      </File>
+      <File Path="Dependencies/OxyPlot.Wpf.1.0.0.0/OxyPlot.Wpf.dll">
+        <Hash>7B442E30194D87E8DB77F6BEAAD4583853C1617D</Hash>
+      </File>
+      <File Path="Dependencies/DocX.1.0.0.22/DocX.dll">
+        <Hash>73BE47D086F2E2EDBEF9938AE7FC235B407E1974</Hash>
+      </File>
+      <File Path="Dependencies/ReactiveUI.6.5.0.0/ReactiveUI.dll">
+        <Hash>1F9D374BEB7EDA08BFF50C2845F3F879CFCE732B</Hash>
+      </File>
+      <File Path="Dependencies/System.Reactive.Interfaces.2.2.5.0/System.Reactive.Interfaces.dll">
+        <Hash>BB7C4D3930358FA574136248CC1DA6C9BCF5F192</Hash>
+      </File>
+      <File Path="Dependencies/System.Reactive.Core.2.2.5.0/System.Reactive.Core.dll">
+        <Hash>C5EA57F70835E22CBAF08AC5262716DE3DE16F2B</Hash>
+      </File>
+      <File Path="Dependencies/System.Reactive.Linq.2.2.5.0/System.Reactive.Linq.dll">
+        <Hash>3123573B2291A0F01BADB10B149F741BCB9EB0F7</Hash>
+      </File>
+      <File Path="Dependencies/Splat.1.6.2.0/Splat.dll">
+        <Hash>EB254B470DF9172AA07F13E7280BCED746D95E22</Hash>
+      </File>
+      <File Path="Dependencies/System.Reactive.Windows.Threading.2.2.5.0/System.Reactive.Windows.Threading.dll">
+        <Hash>E079E329A9703DD5B2402678F91B53E15F1A46F6</Hash>
+      </File>
+      <File Path="Dependencies/System.Reactive.PlatformServices.2.2.5.0/System.Reactive.PlatformServices.dll">
+        <Hash>DA45CC120B5BD844612D5126EBFE7B36133323DC</Hash>
+      </File>
+    </Files>
+    <PackageActionExtensions>
+      <ActionStep ExeFile="tap.exe" ExpectedExitCodes="0" Arguments="communityeditionpopup" ActionName="install"></ActionStep>
+    </PackageActionExtensions>
+  </Package>
+  <Package Date="04/29/2022 12:08:23" Class="bundle" Name="Developer's System CE" Version="9.17.4+5e508f08" Architecture="AnyCPU" OS="Windows" xmlns="http://opentap.io/schemas/package">
+    <Hash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</Hash>
+    <Description>This is the Community Edition of the Keysight Test Automation Developer’s System for OpenTAP. It provides powerful, flexible and extensible test sequence and test plan creation.
+   <Status>Released</Status><Organisation>Keysight Technologies</Organisation></Description>
+    <Dependencies>
+      <PackageDependency Package="OpenTAP" Version="^9.17.4+ea67c63a" />
+      <PackageDependency Package="Editor CE" Version="^9.17.4+5e508f08" />
+      <PackageDependency Package="WPF Controls" Version="^9.17.4+5e508f08" />
+      <PackageDependency Package="Results Viewer CE" Version="^9.17.4+5e508f08" />
+      <PackageDependency Package="CSV" Version="^9.11.0+98498e58" />
+      <PackageDependency Package="SQLite and PostgreSQL" Version="^9.4" />
+      <PackageDependency Package="SDK" Version="^9.17.4+ea67c63a" />
+      <PackageDependency Package="Visual Studio SDK CE" Version="^1.2.6" />
+    </Dependencies>
+    <Location>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Developer's System CE.9.17.4+5e508f08.TapPackage</Location>
+    <PackageSource type="OpenTap.Package.FileRepositoryPackageDefSource">
+      <RepositoryUrl>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache</RepositoryUrl>
+      <PackageFilePath>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Developer's System CE.9.17.4+5e508f08.TapPackage</PackageFilePath>
+    </PackageSource>
+    <Owner>Keysight Technologies, Inc.</Owner>
+  </Package>
+  <Package InfoLink="http://gitlab.it.keysight.com/tap/licensing/wikis/home" Date="08/24/2022 12:40:07" Name="Keysight Licensing" Version="1.2.2+b06a51aa" Architecture="x64" OS="Windows" xmlns="http://opentap.io/schemas/package">
+    <Hash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</Hash>
+    <Description>Licensing for Keysight products based on OpenTap.
+    <Organisation>Keysight Technologies, Inc.</Organisation><Contacts>
+      tap.support@keysight.com
+    </Contacts></Description>
+    <Dependencies>
+      <PackageDependency Package="OpenTAP" Version="^9.17.4+ea67c63a" />
+    </Dependencies>
+    <Location>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Keysight Licensing.1.2.2+b06a51aa.x64.TapPackage</Location>
+    <PackageSource type="OpenTap.Package.FileRepositoryPackageDefSource">
+      <RepositoryUrl>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache</RepositoryUrl>
+      <PackageFilePath>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Keysight Licensing.1.2.2+b06a51aa.x64.TapPackage</PackageFilePath>
+    </PackageSource>
+    <Files>
+      <File Path="Dependencies/Keysight.Ccl.Licensing.Api.5.2.0.5231/.OpenTapIgnore">
+        <Hash>AD85E3CC7FA29F9F9608A82B32EFA3ABEB60C43E</Hash>
+      </File>
+      <File Path="Dependencies/Keysight.Ccl.Licensing.Api.5.3.2.19/Keysight.Ccl.Licensing.Api.dll">
+        <Hash>07CD2511A008F3F2441DB7952239BF20DB51914D</Hash>
+      </File>
+      <File Path="Dependencies/x64/Keysight.Tap.Library.dll">
+        <Hash>2E18B4EED7E198F72C3BFA43B04C1AE7A33995DF</Hash>
+      </File>
+      <File Path="Dependencies/x64/Keysight.Tap.Library.v9.dll">
+        <Hash>BEA3FD6155185D54F108AB7FB4B515A14C8F7A58</Hash>
+      </File>
+      <File Path="Dependencies/Keysight.Kal.Licensing.Api.4.0.0/.OpenTapIgnore">
+        <Hash>AD85E3CC7FA29F9F9608A82B32EFA3ABEB60C43E</Hash>
+      </File>
+      <File Path="Dependencies/Keysight.Kal.Licensing.Api.4.3.0/Keysight.Kal.Licensing.Api.dll">
+        <IgnoreDependency>netstandard</IgnoreDependency>
+        <Hash>0EAD3E9B8F6161C3D4088B6071CF547CF0045D81</Hash>
+      </File>
+      <File Path="Dependencies/Keysight.Kal.Licensing.Api.4.3.0/Keysight.Kal.Licensing.Api.dll.sig">
+        <Hash>831A65FC83DB707C1A08E944227A29471EA068E3</Hash>
+      </File>
+      <File Path="Dependencies/Keysight.Kal.Licensing.Api.4.3.0/KalApi.dll">
+        <Hash>D10D5A641CE9F71FA028864EA5012F4F9569598F</Hash>
+      </File>
+      <File Path="Dependencies/Keysight.Kal.Licensing.Api.4.3.0/KalApi.dll.sig">
+        <Hash>F808176B664C1BC322BDBF35754F10721F029070</Hash>
+      </File>
+      <File Path="Packages/Keysight Licensing/Keysight.OpenTap.Licensing.dll">
+        <Plugins>
+          <Plugin Type="Keysight.OpenTap.Licensing.CliActions.CheckoutLicense" BaseType="ICliAction">
+            <Name>checkout</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>license</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Licensing.CliActions.ListCachedLicenses" BaseType="ICliAction">
+            <Name>list-cached</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description>Lists FTL Cached licenses.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>license</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Licensing.CliActions.ListAvailableLicenses" BaseType="ICliAction">
+            <Name>list-available</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>license</String>
+            </Groups>
+          </Plugin>
+        </Plugins>
+        <IgnoreDependency>Keysight.Ccl.Licensing.Api</IgnoreDependency>
+        <IgnoreDependency>Keysight.Kal.Licensing.Api</IgnoreDependency>
+        <IgnoreDependency>Keysight.Ftl.Licensing.Api</IgnoreDependency>
+        <IgnoreDependency>System</IgnoreDependency>
+        <Hash>127607F52A78C6F301FB3C637AFBE905EFEEFF3C</Hash>
+      </File>
+      <File Path="Packages/Keysight Licensing/Keysight.OpenTap.Licensing.dll.sig">
+        <Hash>2765B5E2103938F5A6648854C07E9E030818D3CA</Hash>
+      </File>
+    </Files>
+  </Package>
+  <Package Date="09/05/2022 13:07:48" LicenseRequired="KS8000A|KS8400A|TAP_Engine" Name="KS8000" Version="9.18.4+d4f8248d" Architecture="AnyCPU" OS="Windows,Linux" xmlns="http://opentap.io/schemas/package">
+    <Hash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</Hash>
+    <Description>Makes this installation a Keysight supported PathWave Test Automation Runtime (KS8000) installation.</Description>
+    <Dependencies>
+      <PackageDependency Package="Keysight Licensing" Version="^1.2.2+b06a51aa" />
+      <PackageDependency Package="OpenTAP" Version="^9.18.5+0328e9b4" />
+    </Dependencies>
+    <Location>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\KS8000.9.18.4+d4f8248d.Windows,Linux.TapPackage</Location>
+    <PackageSource type="OpenTap.Package.FileRepositoryPackageDefSource">
+      <RepositoryUrl>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache</RepositoryUrl>
+      <PackageFilePath>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\KS8000.9.18.4+d4f8248d.Windows,Linux.TapPackage</PackageFilePath>
+    </PackageSource>
+    <Owner>Keysight Technologies, Inc.</Owner>
+    <Files>
+      <File Path="Packages/KS8000/Keysight.OpenTap.KS8000.dll" LicenseRequired="KS8000A|KS8400A|TAP_Engine">
+        <Plugins>
+          <Plugin Type="Keysight.OpenTap.KS8000.LogStamper" BaseType="Component Settings | ITestPlanRunMonitor">
+            <Name>LogStamper</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+        </Plugins>
+        <Hash>E34D426DE6B7C0A5437D10A7A540BA2A8C86CB68</Hash>
+      </File>
+    </Files>
+  </Package>
+  <Package Date="03/22/2022 09:05:09" Name="Visual Studio SDK CE" Version="1.2.6+ef0ad804" Architecture="AnyCPU" OS="Windows" xmlns="http://opentap.io/schemas/package">
+    <Hash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</Hash>
+    <Description>This Visual Studio SDK includes a OpenTap.IDebugger to help attach the Visual Studio debugger to the OpenTAP process, Visual Studio templates for OpenTAP Plugins and a Visual Studio integration that enables intellisense for package files.
+    <Status>Released</Status><Organisation>Keysight Technologies</Organisation><Prerequisites>Visual Studio 2017 or newer</Prerequisites></Description>
+    <Dependencies>
+      <PackageDependency Package="SDK" Version="Any" />
+      <PackageDependency Package="OpenTAP" Version="^9.17.4+ea67c63a" />
+    </Dependencies>
+    <Location>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Visual Studio SDK CE.1.2.6+ef0ad804.TapPackage</Location>
+    <PackageSource type="OpenTap.Package.FileRepositoryPackageDefSource">
+      <RepositoryUrl>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache</RepositoryUrl>
+      <PackageFilePath>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Visual Studio SDK CE.1.2.6+ef0ad804.TapPackage</PackageFilePath>
+    </PackageSource>
+    <Owner>Keysight Technologies, Inc.</Owner>
+    <Files>
+      <File Path="Packages/Visual Studio SDK CE/OpenTap.VSSdk.Debugger.dll">
+        <Hash>5D2168E69756C5D842FD238D1E1B392F91E50017</Hash>
+      </File>
+      <File Path="Packages/Visual Studio SDK CE/Install/OpenTap.VSSdk.vsix">
+        <Hash>C3421A7AA1B358C420D09C00D7BEB7E071FCD53A</Hash>
+      </File>
+      <File Path="Packages/Visual Studio SDK CE/Install/OpenTap.VSSdk.Installer.dll">
+        <Plugins>
+          <Plugin Type="OpenTap.VSSdk.Installer.VSSdkInstaller" BaseType="ICliAction">
+            <Name>vs-integration</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description>Installs OpenTAP Visual Studio integrations (Templates).</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+            </Groups>
+          </Plugin>
+        </Plugins>
+        <Hash>812D1322F6DB4623BF3CD47661749F7B8A6A9052</Hash>
+      </File>
+      <File Path="Dependencies/EnvDTE.8.0.0.0/EnvDTE.dll">
+        <Hash>EF5B076D64CA90F1D834FA8D8464970960810120</Hash>
+      </File>
+      <File Path="Dependencies/System.ValueTuple.4.0.2.0/System.ValueTuple.dll">
+        <Hash>0B7A9EC0DFF6D958C9C64B5F592993372D31C5E9</Hash>
+      </File>
+      <File Path="Dependencies/stdole.7.0.3300.0/stdole.dll">
+        <Hash>239EC8AFAC9EA8D92A1D1076A3A5D57073DEA29A</Hash>
+      </File>
+    </Files>
+    <PackageActionExtensions>
+      <ActionStep ExeFile="tap.exe" ExpectedExitCodes="0" Arguments="sdk vs-integration --install" ActionName="install"></ActionStep>
+      <ActionStep ExeFile="tap.exe" ExpectedExitCodes="0" Arguments="sdk vs-integration --uninstall" ActionName="uninstall"></ActionStep>
+    </PackageActionExtensions>
+  </Package>
+  <Package InfoLink="http://www.keysight.com/find/TAP" Date="11/05/2019 13:12:42" Name="SQLite and PostgreSQL" Version="9.4.2+3009aace" Architecture="AnyCPU" OS="Windows" xmlns="http://opentap.io/schemas/package">
+    <Description>This package contains two result listeners that make it possible to connect to an SQLite or PostgreSQL database. SQLite is a self-contained, high-reliability, embedded SQL database that is represented by a single file (SqliteDatabase.TapResults) in the installation directory. For larger data sets or remote collection and sharing of data, a more standard database like PostgreSQL is recommended. The PostgreSQL plugin lets you specify a connection to a local or remote PostgreSQL database server (PostgreSQL is free and open source).
+
+Note that the Run Explorer and Results Viewer applications leverage the SQLite or PostgreSQL plugins to data mine and visualize the measurement data.
+    <Status>Released</Status><Organisation>Keysight Technologies</Organisation></Description>
+    <Dependencies>
+      <PackageDependency Package="OpenTAP" Version="^9.4.2-rc.3+5ce8e52c" />
+    </Dependencies>
+    <Location>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\SQLite and PostgreSQL.9.4.2+3009aace.TapPackage</Location>
+    <PackageSource type="OpenTap.Package.FileRepositoryPackageDefSource">
+      <RepositoryUrl>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache</RepositoryUrl>
+      <PackageFilePath>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\SQLite and PostgreSQL.9.4.2+3009aace.TapPackage</PackageFilePath>
+    </PackageSource>
+    <Files>
+      <File Path="Packages/SQLite and PostgreSQL/Keysight.OpenTap.Plugins.ResultListener.SqlDatabase.dll" />
+      <File Path="Packages/SQLite and PostgreSQL/Keysight.OpenTap.Plugins.ResultListener.SQLite.dll">
+        <Plugins>
+          <Plugin Type="Keysight.OpenTap.Plugins.ResultListeners.SQLiteDatabase" BaseType="Result Listener | IResultStore">
+            <Name>SQLite</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Save results in a SQLite database.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>Database</String>
+            </Groups>
+          </Plugin>
+        </Plugins>
+      </File>
+      <File Path="Packages/SQLite and PostgreSQL/Keysight.OpenTap.Plugins.ResultListener.PostgreSQL.dll">
+        <Plugins>
+          <Plugin Type="Keysight.OpenTap.Plugins.ResultListeners.PostgreSQLDatabase" BaseType="Result Listener | IResultStore">
+            <Name>PostgreSQL</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Save results in a PostgreSQL database.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>Database</String>
+            </Groups>
+          </Plugin>
+        </Plugins>
+      </File>
+      <File Path="x86/SQLite.Interop.dll" />
+      <File Path="x64/SQLite.Interop.dll" />
+      <File Path="Dependencies/System.Data.SQLite.1.0.109.0/System.Data.SQLite.dll" />
+      <File Path="Dependencies/Npgsql.4.0.4.0/Npgsql.dll" />
+      <File Path="Dependencies/System.Threading.Tasks.Extensions.4.2.0.0/System.Threading.Tasks.Extensions.dll" />
+      <File Path="Dependencies/System.Runtime.CompilerServices.Unsafe.4.0.4.0/System.Runtime.CompilerServices.Unsafe.dll" />
+      <File Path="Dependencies/System.Runtime.4.1.2.0/System.Runtime.dll" />
+    </Files>
+  </Package>
+  <Package InfoLink="http://www.keysight.com/find/TAP" Date="09/05/2022 13:09:49" LicenseRequired="KS8001A|KS8400A|TAP_ResultsViewer, KS8001A|KS8400A|TAP_RunExplorer" Name="Results Viewer" Version="9.18.4+d4f8248d" Architecture="x64" OS="Windows" xmlns="http://opentap.io/schemas/package">
+    <Hash>F253D71DCAFFB84346F584D7BD5555D748BF5533</Hash>
+    <Description>The Results Viewer brings the power of relational databases to result visualization, empowering your test plan development with a consistent way of viewing data across multiple stages of your engineering process. Each time a test plan is executed the results can be stored in a database (SQLite, PostgreSQL,.. ) which can be graphed and visualized using the Results Viewer. Also provided is the test plan Run Explorer to help manage test plan data, recall old test plans, merge and compare test log timings and more.
+    <Status>Released</Status><Organisation>Keysight Technologies</Organisation></Description>
+    <Dependencies>
+      <PackageDependency Package="OSIntegration" Version="^1" />
+      <PackageDependency Package="CSV" Version="^9.11.0+98498e58" />
+      <PackageDependency Package="Keysight Licensing" Version="^1.2.2+b06a51aa" />
+      <PackageDependency Package="OpenTAP" Version="^9.18.5+0328e9b4" />
+      <PackageDependency Package="WPF Controls" Version="^9.18.4+d4f8248d" />
+    </Dependencies>
+    <Location>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Results Viewer.9.18.4+d4f8248d.x64.TapPackage</Location>
+    <PackageSource type="OpenTap.Package.FileRepositoryPackageDefSource">
+      <RepositoryUrl>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache</RepositoryUrl>
+      <PackageFilePath>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Results Viewer.9.18.4+d4f8248d.x64.TapPackage</PackageFilePath>
+    </PackageSource>
+    <Owner>Keysight Technologies, Inc.</Owner>
+    <Files>
+      <File Path="ResultsViewer.exe" LicenseRequired="KS8001A|KS8400A|TAP_ResultsViewer">
+        <Plugins>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.ColumnChart" BaseType="Results Viewer Plugin">
+            <Name>Column</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.DatagridPlot" BaseType="Results Viewer Plugin">
+            <Name>Data Table</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.DatagridFullPlot" BaseType="Results Viewer Plugin">
+            <Name>Data Table (Full)</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.HistogramChart" BaseType="Results Viewer Plugin">
+            <Name>Histogram</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.LineChart" BaseType="Results Viewer Plugin">
+            <Name>Line</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.ScatterPlot" BaseType="Results Viewer Plugin">
+            <Name>XY Scatter</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.XYLineChart" BaseType="Results Viewer Plugin">
+            <Name>XY Line</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.ResultColumnControlProvider" BaseType="Control Provider">
+            <Name>ResultColumnControlProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.SplitModifier" BaseType="Result Modifier">
+            <Name>Split</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.TakeEveryNthModifier" BaseType="Result Modifier">
+            <Name>Take Every</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Take only every nth of the data points.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.FilterModifier" BaseType="Result Modifier">
+            <Name>Filter</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.ResultTypeModifier" BaseType="Result Modifier">
+            <Name>Result Name</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.OrderSeriesModifier" BaseType="Result Modifier">
+            <Name>Order Series</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.OrderPointsModifier" BaseType="Result Modifier">
+            <Name>Order Points</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.TagFilterModifier" BaseType="Result Modifier">
+            <Name>Tag Filter</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.ResultFilterValueControlProvider" BaseType="Control Provider">
+            <Name>ResultFilterValueControlProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.ViewerSettings" BaseType="Component Settings">
+            <Name>Results Viewer</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description>Results Viewer Settings</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.ResultsViewer.ResultViewerCliAction" BaseType="ICliAction">
+            <Name>resultsviewer</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Starts the Results Viewer GUI</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+        </Plugins>
+        <Hash>BA1426A9A6A2E59D008E83402BE5FDB1EEE9A4BE</Hash>
+      </File>
+      <File Path="RunExplorer.exe" LicenseRequired="KS8001A|KS8400A|TAP_RunExplorer">
+        <Plugins>
+          <Plugin Type="Keysight.OpenTap.RunExplorer.RunExplorerSettings" BaseType="Component Settings">
+            <Name>Run Explorer</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.RunExplorer.RunExplorerCliAction" BaseType="ICliAction">
+            <Name>runexplorer</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Starts the Run Explorer GUI</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+        </Plugins>
+        <Hash>7FF61E286A1AFE8F8E9CFFA254F1A94650AD011A</Hash>
+      </File>
+      <File Path="ResultsViewerHelp.chm">
+        <Hash>A17724E85C209E43A648100C79DA725E6C93DC93</Hash>
+      </File>
+      <File Path="RunExplorerHelp.chm">
+        <Hash>3795CA92ADFF8F9EE7C4AA02A93B2C9BA699CBD6</Hash>
+      </File>
+      <File Path="Dependencies/OxyPlot.1.0.0.0/OxyPlot.dll">
+        <Hash>02602B4CA886A5F0A2D220E7BBC5AA7AE17FBDC0</Hash>
+      </File>
+      <File Path="Dependencies/OxyPlot.Wpf.1.0.0.0/OxyPlot.Wpf.dll">
+        <Hash>7B442E30194D87E8DB77F6BEAAD4583853C1617D</Hash>
+      </File>
+      <File Path="Dependencies/DocX.1.0.0.22/DocX.dll">
+        <Hash>73BE47D086F2E2EDBEF9938AE7FC235B407E1974</Hash>
+      </File>
+      <File Path="Dependencies/ReactiveUI.6.5.0.0/ReactiveUI.dll">
+        <Hash>1F9D374BEB7EDA08BFF50C2845F3F879CFCE732B</Hash>
+      </File>
+      <File Path="Dependencies/System.Reactive.Interfaces.2.2.5.0/System.Reactive.Interfaces.dll">
+        <Hash>BB7C4D3930358FA574136248CC1DA6C9BCF5F192</Hash>
+      </File>
+      <File Path="Dependencies/System.Reactive.Core.2.2.5.0/System.Reactive.Core.dll">
+        <Hash>C5EA57F70835E22CBAF08AC5262716DE3DE16F2B</Hash>
+      </File>
+      <File Path="Dependencies/System.Reactive.Linq.2.2.5.0/System.Reactive.Linq.dll">
+        <Hash>3123573B2291A0F01BADB10B149F741BCB9EB0F7</Hash>
+      </File>
+      <File Path="Dependencies/Splat.1.6.2.0/Splat.dll">
+        <Hash>EB254B470DF9172AA07F13E7280BCED746D95E22</Hash>
+      </File>
+      <File Path="Dependencies/System.Reactive.Windows.Threading.2.2.5.0/System.Reactive.Windows.Threading.dll">
+        <Hash>E079E329A9703DD5B2402678F91B53E15F1A46F6</Hash>
+      </File>
+      <File Path="Dependencies/System.Reactive.PlatformServices.2.2.5.0/System.Reactive.PlatformServices.dll">
+        <Hash>DA45CC120B5BD844612D5126EBFE7B36133323DC</Hash>
+      </File>
+    </Files>
+  </Package>
+  <Package InfoLink="http://www.keysight.com/find/TAP" Date="03/22/2022 08:38:04" Tags="SDK" Name="SDK" Version="9.17.4+ea67c63a" Architecture="AnyCPU" OS="Windows,Linux,MacOS" xmlns="http://opentap.io/schemas/package">
+    <Hash>3A122E65D7E1394376B98179ACECE45DD3077B00</Hash>
+    <Description>OpenTAP’s SDK contains code example files, an MSBuild task to help create TapPackage files and the developer guide. This package demonstrates the core capabilities of OpenTAP and makes it faster and simpler to develop custom Test Automation solutions, especially for new developers.
+    <Status>Released</Status><Organisation>Keysight Technologies</Organisation></Description>
+    <Dependencies>
+      <PackageDependency Package="OpenTAP" Version="^9.17.4+ea67c63a" />
+    </Dependencies>
+    <Location>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\SDK.9.17.4+ea67c63a.Windows,Linux,MacOS.TapPackage</Location>
+    <PackageSource type="OpenTap.Package.FileRepositoryPackageDefSource">
+      <RepositoryUrl>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache</RepositoryUrl>
+      <PackageFilePath>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\SDK.9.17.4+ea67c63a.Windows,Linux,MacOS.TapPackage</PackageFilePath>
+    </PackageSource>
+    <Owner>OpenTAP</Owner>
+    <SourceUrl>https://github.com/opentap/opentap</SourceUrl>
+    <Files>
+      <File Path="Packages/SDK/Keysight.OpenTap.Sdk.MSBuild.dll">
+        <Hash>E1989F54771BC396F7DDF4B69926ADEBEB5AB240</Hash>
+      </File>
+      <File Path="Packages/SDK/OpenTap.Sdk.New.dll">
+        <Plugins>
+          <Plugin Type="OpenTap.Sdk.New.GenerateDut" BaseType="ICliAction">
+            <Name>dut</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>C# template for a DUT plugin.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.GenerateInstrument" BaseType="ICliAction">
+            <Name>instrument</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>C# template for a Instrument plugin.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.GenerateResultListener" BaseType="ICliAction">
+            <Name>resultlistener</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>C# template for a ResultListener plugin.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.GenerateSetting" BaseType="ICliAction">
+            <Name>settings</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>C# template for a ComponentSetting plugin.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.GenerateTestStep" BaseType="ICliAction">
+            <Name>teststep</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>C# template for a TestStep plugin.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.GenerateTestPlan" BaseType="ICliAction">
+            <Name>testplan</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description>Deprecated! Creates a TestPlan (.TapPlan) containing all TestSteps types defined in this project.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.GenerateCliAction" BaseType="ICliAction">
+            <Name>cliaction</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>C# template for a CliAction plugin.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.GeneratePackageXml" BaseType="ICliAction">
+            <Name>packagexml</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Package Definition file (package.xml).</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.GenerateProject" BaseType="ICliAction">
+            <Name>project</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>OpenTAP C# Project (.csproj). Including a new TestStep, solution file (.sln) and package.xml.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.GenerateVs" BaseType="ICliAction">
+            <Name>vs</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Solution file for Visual Studio projects.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+              <String>integration</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.GenerateGitlab" BaseType="ICliAction">
+            <Name>gitlab-ci</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>GitLab CI build script. For building and publishing the TapPackage in this project.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+              <String>integration</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.GenerateVsCode" BaseType="ICliAction">
+            <Name>vscode</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Files to enable building and debugging with vscode.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+              <String>integration</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.GenerateGit" BaseType="ICliAction">
+            <Name>gitversion</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Configures automatic version of the package using version numbers generated from git history.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+              <String>integration</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.NewPackageReference" BaseType="ICliAction">
+            <Name>package-reference</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Add an OpenTAP Package to a C# Project (.csproj).</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+            </Groups>
+          </Plugin>
+        </Plugins>
+        <Hash>2AE9A114AFF5430A5B9D29285C89141B984C81A7</Hash>
+      </File>
+      <File Path="OpenTap.xml">
+        <Hash>F313D97353E55FE9BA471ACBCCCC6BBFEBCFDC44</Hash>
+      </File>
+      <File Path="OpenTap.Package.xml">
+        <Hash>277FA500F7CE40541F564C8B3D3360356DA2F44D</Hash>
+      </File>
+      <File Path="Packages/SDK/PackageSchema.xsd">
+        <Hash>18C835DCF05C3ACE0BA05562C143BB508A18A625</Hash>
+      </File>
+      <File Path="Packages/SDK/OpenTAP Developer Guide.pdf">
+        <Hash>EE66E0658FE7926F315CFC0A500A68B165FB4ECA</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/.OpenTapIgnore">
+        <Hash>5A908756276E48E93AC423E147A58D6BE04A7A35</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/.HiddenFile.txt">
+        <Hash>A555C9C6ECAF64D059A4F484EC9F03760D8FB299</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/.HiddenFolder/Empty.txt">
+        <Hash>470CDC586CB706E98BB106F26D3B8CE11A4589B1</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/Examples.sln">
+        <Hash>44EC954A9B28C330637319BBF9996C963333B0AA</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/Directory.Build.props">
+        <Hash>F7082C23D8F7200034EA63FAE25458AB5B96F1AA</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/ExamplePlugin/ExamplePlugin.csproj">
+        <Hash>75793C95EBB18ED833A3B0755BD7BE125A0E917E</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/ExamplePlugin/GeneratorInstrument.cs">
+        <Hash>163F3E127E4CBF4AEA520F2CAD37759C64C48E1D</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/ExamplePlugin/LowPassFilterDut.cs">
+        <Hash>A2AD5C4B465AE0ED9D41CE1D499F2BCC0649BFE0</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/ExamplePlugin/MeasurePeakAmplitudeTestStep.cs">
+        <Hash>285768A4A9BCA58FE45AF1C35198B127BC6C6C0F</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/ExamplePlugin/package.xml">
+        <Hash>719934A77122FC53F74C897129BF1AA77A47EA4D</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/ExamplePlugin/SomeSampleData.txt">
+        <Hash>EC08191B6754A2D1742263905F3EB6731ED82EBA</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/ExamplePlugin/Properties/AssemblyInfo.cs">
+        <Hash>2F2DB865FB12B35FCA8127CB99498C843D2BE16D</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/ExamplePlugin/Properties/launchSettings.json">
+        <Hash>FE7840F7B6452DB5AEDB8BD7CEADEBD9BA6070E4</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/package.xml">
+        <Hash>4E6DA76FD810C23B7712788C6AA3978ABA565DB7</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/PluginDevelopment.csproj">
+        <Hash>A9600026D3079A080951D3D9E34D22C42F4D3E84</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/Advanced Examples/AttachedPropertyExample.cs">
+        <Hash>B7F5A0C680699F4340C6D3A5F26DA7CA180FA3FF</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/Advanced Examples/BreakSerializerExample.cs">
+        <Hash>68ADC592FB1C6ACCD42C3ADE42EA0F909307C9F1</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/Advanced Examples/ComplexSettingsExample1.cs">
+        <Hash>D04E94A828CA847F43ECAF61AD817C73DB61ED55</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/Advanced Examples/ComplexSettingsExample2.cs">
+        <Hash>71B9368B9A7D6C2088D9EAE2B6328D9D814D7F60</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/Advanced Examples/MenuModelExample.cs">
+        <Hash>9141E7D5F23501A66AB0F7B07D28C1B056CE1119</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/GUI/ButtonCreation.cs">
+        <Hash>033FE34CCA0452B6301E9BED21E018D4001E69A0</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/GUI/CustomBenchSettings.cs">
+        <Hash>26C28A0075870C1EBEF2FFE991FAEDC2FFB287D0</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/GUI/ExampleSettings.cs">
+        <Hash>AF056DEDA0C5C52B5B1434BB7E6E45FCE2754AAD</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/GUI/IPAnnotation.cs">
+        <Hash>EEAD26FC930A6152F29B646685818D34D6A8B53F</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/GUI/OpenTapPictureExample.cs">
+        <Hash>5071EC9F029491F2CC57ABF06C3CCC0CDEC49DB5</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/GUI/TestPlanCustomImportExport.cs">
+        <Hash>0ACEA30F660530E888D9BE514AE55E41967955BB</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/GUI/UserInputExample.cs">
+        <Hash>F64DE181A09DEAA9A2CA82E719A09D9806ECE19B</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/ConnectionStep.cs">
+        <Hash>53021E865810C59BB266233763EBAD188D08B817</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/FourPortDut.cs">
+        <Hash>3B8D564E9E586B207CC94180F2D9BCA770A3F2BE</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/InterfaceBasedInstrument.cs">
+        <Hash>5514A83B28048454A7198157812B67C5676880D9</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/MeasureUsingConnectionsStep.cs">
+        <Hash>C15602AB8B16922DF7F020BA8AC84F27696E7E6E</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/ResourceTopology.cs">
+        <Hash>2C4DA48551FE96DF4DDFAD4477748ACF1CD027BD</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/ScpiInstrumentExample.cs">
+        <Hash>6C0AE67D7DEFA3EEAE9984265A0FF7A9A1130D8E</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/SetSwitchMatrixStep.cs">
+        <Hash>B8F9CA788C37EFFF798E7248D892CD807DC3EEE9</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/SetSwitchStep.cs">
+        <Hash>46FBECF044C2AB22737569BC49272380DAF2208F</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/SimpleDut.cs">
+        <Hash>EE20D7EE74E560992A53E6E5C275D44E3932DB46</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/SimpleInstrument.cs">
+        <Hash>5F4DD5133788F35C42A2DA74786308D80C68FA35</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/SwitchMatrixInstrument.cs">
+        <Hash>8EAA4F69A9DB5A5A91835886DAE39D191E6E41F6</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/TwoPortInstrument.cs">
+        <Hash>5D73A9315A7828570AF9FEF564FAC04E6596EE7C</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/TwoPositionSwitchInstrument.cs">
+        <Hash>C349DDB789B984A2463AED821D21BF48C3100B78</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/UsingDutAndInstStep.cs">
+        <Hash>ED403B8C0B04A794146963F779C587B36ACC79FF</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/Properties/AssemblyInfo.cs">
+        <Hash>4DAABD5C24EB726564FDFAA02A4F9C4B718E9551</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/Properties/launchSettings.json">
+        <Hash>FE7840F7B6452DB5AEDB8BD7CEADEBD9BA6070E4</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/ResultListeners/EventResultListener.cs">
+        <Hash>61276FFB8A660D45B96B3788C62A93452992B5DA</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/ResultListeners/ExampleResultListener.cs">
+        <Hash>A11F3EA7A75FE9D090A73C58810916C0DCE41D7E</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/AvailableValuesAttributeExample.cs">
+        <Hash>04A10ACA7F853ECEBCE622F6711847E69583F024</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/BrowsableAttributeExample.cs">
+        <Hash>49505E344B627E9E2100614662F7C5C4EFBD53D3</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/ColumnDisplayAttributeExample.cs">
+        <Hash>39D5B13F8AD831D2B514569A3F224E670AF3467B</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/DefaultValueExample.cs">
+        <Hash>C72C3FF052E02CECAF409A17F01C2D0856679F4C</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/DisplayAttributeExample.cs">
+        <Hash>E6FD6F4B2DC46E037E3017E44F8379180B027DF8</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/DynamicNameDisplayAttribute.cs">
+        <Hash>5027198325A4B1E03BE0ECDFE9EF0B82959BF03A</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/EmbedPropertiesAttributeExample.cs">
+        <Hash>945C73A1FDBFD80F2696FFE6483E640DC344E1FE</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/EnabledIfAttributeExample.cs">
+        <Hash>F9E60DC848B6FC17E08FC1A4C45A22A7BD8C775D</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/FlagsAttributeExample.cs">
+        <Hash>737887D9BDACBC86C0357579D1A14EC49206677C</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/PathAttributeExample.cs">
+        <Hash>5B0F6349DEFB180FD2DF649DA751A3FBA7BE2DD0</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/ResourceOpenAttributeExample.cs">
+        <Hash>9CA18EDEC17BFF103716B0A7B1546735305DD27E</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/ScpiAttributeExample.cs">
+        <Hash>2F65DE13750A61F6041EB1CD7E9CF029906EEB67</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/UnitAttributeExample.cs">
+        <Hash>BABA240E815F241E0EADB92717C2CCA4A6B77A88</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/XmlIgnoreAttributeExample.cs">
+        <Hash>9E699E25296300469F9522A70601181586C29DDA</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/InputOutput/GenerateOutput.cs">
+        <Hash>B27E77A59AA017328BEBC7D20E79D1BBDC3CB16E</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/InputOutput/HandleInput.cs">
+        <Hash>F6E82DCA1D7A0A2D53DD92FFC2963FC73007C66F</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/ParentChild/ChildSeekingResources.cs">
+        <Hash>85A8284F95094E7ACE7FB882E2BC7085A18E08EA</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/ParentChild/ParentAnyChildren.cs">
+        <Hash>0848504B96E0F9DB9968161C6C44356A70A6D54A</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/ParentChild/ParentWithResources.cs">
+        <Hash>9165E3D53854AEB61C8DA61DFDE7269403831891</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/PublishResults/ResultsForXyArray.cs">
+        <Hash>3A7985DB6BEA9724CBA2E9682D64B3CD9C4B61AD</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/PublishResults/ResultsWithCustomClass.cs">
+        <Hash>195AE3318F083F8680FC1EC038C2F2FEDDB9CBA8</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/PublishResults/SetOfNameValuePairs.cs">
+        <Hash>A541D3ABC943154F18D059FF5CAD6C5514786E52</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/PublishResults/SingleNameValuePair.cs">
+        <Hash>F40D3FCB456FD8F6958FE40CE539B8C9FF515DF4</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Step Execution/AbortsTheTestPlan.cs">
+        <Hash>90558A63283C71B0F792DD2373DD349692B7D439</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Step Execution/AccessingComponentSettings.cs">
+        <Hash>455CA7419EABCBAF4177342FEF2BA5BBF1CB4C77</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Step Execution/DeferTaskStep.cs">
+        <Hash>1AAD12FA577683C7091A34F860AB314FAFE8B2A9</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Step Execution/LogMessages.cs">
+        <Hash>769879BF3EA59BDE951C6239B438240AD86FF76C</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Step Execution/OfferBreakExample.cs">
+        <Hash>BBF351CE275FF4A8A7B1C4D41D151054E70B85E4</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Step Execution/SetVerdict.cs">
+        <Hash>996F246FDFCE4DBAC61C60B9C4CD032ECDCBA8D8</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Step Settings/EnabledCheckBoxes.cs">
+        <Hash>0B0714C09E44A1CE3583AC046904D6102311965C</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Step Settings/ListOfObjects.cs">
+        <Hash>E6E4DB54500D1729F7E25F206EAF9FADDA2C0398</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Step Settings/ReadOnlyListExample.cs">
+        <Hash>B6C76978A64949D4699B6DFE0375640206330586</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Step Settings/RuleValidation.cs">
+        <Hash>F8E70EDAAA11A812FA796F126EAA4F14EC164182</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment.Gui/PluginDevelopment.Gui.csproj">
+        <Hash>4BAD34000E9F9D52C9587D04826643993CFB92A3</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment.Gui/Properties/AssemblyInfo.cs">
+        <Hash>C1A3DCA689160446229D017B19301DB0641821CC</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment.Gui/Properties/launchSettings.json">
+        <Hash>FE7840F7B6452DB5AEDB8BD7CEADEBD9BA6070E4</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment.Gui/GUI/CustomControlProvider.cs">
+        <Hash>EDACC359FC696CC7E98570E49F66BC33F4E56D89</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment.Gui/GUI/DockablePanel.cs">
+        <Hash>7CAFAC296C8C066F8CDD9309B0E6ED6E483ACF25</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment.Gui/GUI/ResultXYChartExample.cs">
+        <Hash>66473E10F047049339FE3BE46C6482DAF4174DE6</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment.Gui/GUI/ToolsMenu.cs">
+        <Hash>D28278E5A067CFD0EAD239F235AEF9031F8A0C92</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/GUI/SomeInstrument.png">
+        <Hash>5F8321CAC54FE8C2488AAFE75A61C48011E06E2D</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/TestPlanExecution/BuildTestPlan.Api/BuildTestPlan.Api.csproj">
+        <Hash>078D10B4E0D1A688656851699AF57F3193170102</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/TestPlanExecution/BuildTestPlan.Api/Program.cs">
+        <Hash>2EF47CB6F9AEF344763BC0FC4C8B3A1B9CCEFAF8</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/TestPlanExecution/BuildTestPlan.Api/Properties/AssemblyInfo.cs">
+        <Hash>F0F8E5F1E4F0CD9851C296EBA44BFE5F3CD5F9B2</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/TestPlanExecution/RunTestPlan.Api/Program.cs">
+        <Hash>82CC43CFEA04B45BB7B0DC1FECA73E10A30C2592</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/TestPlanExecution/RunTestPlan.Api/RunTestPlan.Api.csproj">
+        <Hash>351DAFDBE8826180F516691A2DDE6D824E3729C7</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/TestPlanExecution/RunTestPlan.Api/Properties/AssemblyInfo.cs">
+        <Hash>A066180C1D4F091BBB075D052CCD07A51AA081A9</Hash>
+      </File>
+      <File Path="Dependencies/Microsoft.Build.Utilities.Core.15.1.0.0/Microsoft.Build.Utilities.Core.dll">
+        <Hash>635297925BCF9107882E3054FC0D2390ABF84B72</Hash>
+      </File>
+      <File Path="Dependencies/Microsoft.Build.Framework.15.1.0.0/Microsoft.Build.Framework.dll">
+        <Hash>F7E999225E9BF299043DC4F1B99964098A68972D</Hash>
+      </File>
+      <File Path="Dependencies/Microsoft.Build.15.1.0.0/Microsoft.Build.dll">
+        <Hash>368CE37932474E48F369DA25EB7CDBED075130BF</Hash>
+      </File>
+      <File Path="Dependencies/System.Text.Encoding.CodePages.4.0.2.0/System.Text.Encoding.CodePages.dll">
+        <Hash>48A7A46827ED0F797B36BAEC8F57FB98DE541524</Hash>
+      </File>
+      <File Path="Dependencies/System.IO.Compression.4.2.0.0/System.IO.Compression.dll">
+        <Hash>609F31B98831327677E89E08BFF7D7322BA0F4A4</Hash>
+      </File>
+      <File Path="Dependencies/System.Resources.ResourceManager.4.0.1.0/System.Resources.ResourceManager.dll">
+        <Hash>BF83A7E98418BDE907DEAE8C0C0F3FB0F6C9DB1A</Hash>
+      </File>
+      <File Path="Dependencies/System.Text.Encoding.4.0.11.0/System.Text.Encoding.dll">
+        <Hash>3946DFF0B68F0CA01689BD44C348559ADF548258</Hash>
+      </File>
+      <File Path="Dependencies/System.Threading.4.0.11.0/System.Threading.dll">
+        <Hash>DDDA49572D112944EC9AB62B31959AA93A386618</Hash>
+      </File>
+      <File Path="Dependencies/System.Runtime.InteropServices.4.1.2.0/System.Runtime.InteropServices.dll">
+        <Hash>2E6A3047BD3BCEE01F55D139A3C03E6D4D2DB14A</Hash>
+      </File>
+      <File Path="Dependencies/System.Reflection.4.1.2.0/System.Reflection.dll">
+        <Hash>3CA31DE7F0F0784559E5A73EBD0EFB42C34D18FC</Hash>
+      </File>
+      <File Path="Dependencies/System.Runtime.Handles.4.0.1.0/System.Runtime.Handles.dll">
+        <Hash>584B8683943A8E0AE98B10F452C94F6109D1C4EA</Hash>
+      </File>
+      <File Path="Dependencies/System.Globalization.4.0.11.0/System.Globalization.dll">
+        <Hash>846711D4161A3950FACDEF97037898A71F4EFDA1</Hash>
+      </File>
+    </Files>
+  </Package>
+  <Package InfoLink="http://www.keysight.com/find/TAP" Date="04/29/2022 11:54:51" Name="WPF Controls" Version="9.17.4+5e508f08" Architecture="AnyCPU" OS="Windows" xmlns="http://opentap.io/schemas/package">
+    <Hash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</Hash>
+    <Description>This package contains a number of common WPF GUI components and settings used by the different plugins and tools (e.g. Editor, Results Viewer and Timing Analyzer).
+    <Status>Released</Status><Organisation>Keysight Technologies</Organisation></Description>
+    <Dependencies>
+      <PackageDependency Package="OpenTAP" Version="^9.17.4+ea67c63a" />
+      <PackageDependency Package="Keysight Licensing" Version="^1.1.1+7a2a1fe3" />
+    </Dependencies>
+    <Location>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\WPF Controls.9.17.4+5e508f08.TapPackage</Location>
+    <PackageSource type="OpenTap.Package.FileRepositoryPackageDefSource">
+      <RepositoryUrl>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache</RepositoryUrl>
+      <PackageFilePath>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\WPF Controls.9.17.4+5e508f08.TapPackage</PackageFilePath>
+    </PackageSource>
+    <Owner>Keysight Technologies, Inc.</Owner>
+    <Files>
+      <File Path="Packages/WPF Controls/Keysight.OpenTap.Wpf.dll">
+        <Plugins>
+          <Plugin Type="OpenTap.KeysightVisaDeviceDiscovery" BaseType="Device Discovery">
+            <Name>KeysightVisaDeviceDiscovery</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.ThreadBreakAnnotator" BaseType="IAnnotator">
+            <Name>ThreadBreakAnnotator</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.AvailableValuesControlProvider" BaseType="Control Provider">
+            <Name>AvailableValuesControlProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.BoolControlProvider" BaseType="Control Provider">
+            <Name>BoolControlProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.FilePathControlProvider" BaseType="Control Provider">
+            <Name>FilePathControlProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.MethodControlProvider" BaseType="Control Provider">
+            <Name>MethodControlProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.MultiSelectProvider" BaseType="Control Provider">
+            <Name>MultiSelectProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.CollectionControlProvider" BaseType="Control Provider">
+            <Name>CollectionControlProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.PictureControlProvider" BaseType="Control Provider">
+            <Name>PictureControlProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.SimpleControlProvider" BaseType="Control Provider">
+            <Name>SimpleControlProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.GuiControlsSettings" BaseType="Component Settings">
+            <Name>GUI Controls</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.GuiMenuModelFactory" BaseType="IMenuModelFactory">
+            <Name>GuiMenuModelFactory</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.EditorSettings" BaseType="Component Settings">
+            <Name>Editor</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Editor Settings</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.NotifyingResultListener" BaseType="Result Listener">
+            <Name>Notifying Result Listener</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Windows specific notifying result listener. It is capable of playing sounds and blinking the application main window.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.ControlProviders.EnabledControlProvider" BaseType="Control Provider">
+            <Name>EnabledControlProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.ControlProviders.PasswordControlProvider" BaseType="Control Provider">
+            <Name>PasswordControlProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.ControlProviders.VerdictControlProvider" BaseType="Control Provider">
+            <Name>VerdictControlProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+        </Plugins>
+        <IgnoreDependency>Keysight.Ftl.Licensing.Api</IgnoreDependency>
+        <Hash>A62E0C94DC524B787045133622621ED025A6361A</Hash>
+      </File>
+      <File Path="Dependencies/Keysight.Ccl.Wsl.4.0.1.9/Keysight.Ccl.Wsl.dll">
+        <Hash>D964F9679CFA293EB4515109A786AF11C298CD18</Hash>
+      </File>
+      <File Path="Dependencies/EnvDTE.8.0.0.0/EnvDTE.dll">
+        <Hash>EF5B076D64CA90F1D834FA8D8464970960810120</Hash>
+      </File>
+      <File Path="Dependencies/MahApps.Metro.1.3.0.0/MahApps.Metro.dll">
+        <Hash>01C30F77D3F8F2983483AECC548D06CC1EA9B1CE</Hash>
+      </File>
+      <File Path="Dependencies/System.Windows.Interactivity.4.5.0.0/System.Windows.Interactivity.dll">
+        <Hash>CE6C4C18CF638F980905B9CB6710EE1FA73BB397</Hash>
+      </File>
+      <File Path="Dependencies/Microsoft.Expression.Interactions.4.5.0.0/Microsoft.Expression.Interactions.dll">
+        <Hash>AACE8D26358D9829F0E6632BDDF183534ACFEC0D</Hash>
+      </File>
+      <File Path="Dependencies/stdole.7.0.3300.0/stdole.dll">
+        <Hash>239EC8AFAC9EA8D92A1D1076A3A5D57073DEA29A</Hash>
+      </File>
+    </Files>
+  </Package>
+  <Package Date="09/01/2022 06:38:52" Name="Visual Studio SDK" Version="1.4.0+4b5f3d34" Architecture="AnyCPU" OS="Windows" xmlns="http://opentap.io/schemas/package">
+    <Hash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</Hash>
+    <Description>This Visual Studio SDK includes a OpenTap.IDebugger to help attach the Visual Studio debugger to the OpenTAP process, Visual Studio templates for OpenTAP Plugins and a Visual Studio integration that enables intellisense for package files.
+    <Status>Released</Status><Organisation>Keysight Technologies</Organisation><Prerequisites>Visual Studio 2017 or newer</Prerequisites></Description>
+    <Dependencies>
+      <PackageDependency Package="SDK" Version="Any" />
+      <PackageDependency Package="OpenTAP" Version="^9.18.5+0328e9b4" />
+    </Dependencies>
+    <Location>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Visual Studio SDK.1.4.0+4b5f3d34.TapPackage</Location>
+    <PackageSource type="OpenTap.Package.FileRepositoryPackageDefSource">
+      <RepositoryUrl>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache</RepositoryUrl>
+      <PackageFilePath>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Visual Studio SDK.1.4.0+4b5f3d34.TapPackage</PackageFilePath>
+    </PackageSource>
+    <Owner>Keysight Technologies, Inc.</Owner>
+    <Files>
+      <File Path="Packages/Visual Studio SDK/OpenTap.VSSdk.Debugger.dll">
+        <Hash>B3E9490843A37FEAA31D3712E1349AE2B2B33E14</Hash>
+      </File>
+      <File Path="Packages/Visual Studio SDK/Install/OpenTap.VSSdk.vsix">
+        <Hash>3BBE1155A127CDB3F7829C58116B1C7D478283D3</Hash>
+      </File>
+      <File Path="Packages/Visual Studio SDK/Install/OpenTap.VSSdk.Installer.dll">
+        <Plugins>
+          <Plugin Type="OpenTap.VSSdk.Installer.VSSdkInstaller" BaseType="ICliAction">
+            <Name>vs-integration</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description>Installs OpenTAP Visual Studio integrations (Templates).</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+            </Groups>
+          </Plugin>
+        </Plugins>
+        <Hash>62503AA3F12195C3ACBF0E00977F68BFAF887EF7</Hash>
+      </File>
+      <File Path="Dependencies/EnvDTE.8.0.0.0/EnvDTE.dll">
+        <Hash>EF5B076D64CA90F1D834FA8D8464970960810120</Hash>
+      </File>
+      <File Path="Dependencies/stdole.7.0.3300.0/stdole.dll">
+        <Hash>239EC8AFAC9EA8D92A1D1076A3A5D57073DEA29A</Hash>
+      </File>
+    </Files>
+    <PackageActionExtensions>
+      <ActionStep ExeFile="tap.exe" ExpectedExitCodes="0" Arguments="sdk vs-integration --install" ActionName="install"></ActionStep>
+      <ActionStep ExeFile="tap.exe" ExpectedExitCodes="0" Arguments="sdk vs-integration --uninstall" ActionName="uninstall"></ActionStep>
+    </PackageActionExtensions>
+  </Package>
+  <Package InfoLink="http://www.keysight.com/find/TAP" Date="09/05/2022 13:08:52" LicenseRequired="KS8002A|KS8400A|TAP_TimingAnalyzer" Name="Timing Analyzer" Version="9.18.4+d4f8248d" Architecture="x64" OS="Windows" xmlns="http://opentap.io/schemas/package">
+    <Hash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</Hash>
+    <Description>The Timing Analyzer Tool provides powerful insights into optimizing your overall test plan execution speed. You can visualize the test plan execution time in depth to see how much time each test step contributes.
+    <Status>Released</Status><Organisation>Keysight Technologies</Organisation></Description>
+    <Dependencies>
+      <PackageDependency Package="OSIntegration" Version="^1" />
+      <PackageDependency Package="Keysight Licensing" Version="^1.2.2+b06a51aa" />
+      <PackageDependency Package="OpenTAP" Version="^9.18.5+0328e9b4" />
+      <PackageDependency Package="WPF Controls" Version="^9.18.4+d4f8248d" />
+    </Dependencies>
+    <Location>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Timing Analyzer.9.18.4+d4f8248d.x64.TapPackage</Location>
+    <PackageSource type="OpenTap.Package.FileRepositoryPackageDefSource">
+      <RepositoryUrl>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache</RepositoryUrl>
+      <PackageFilePath>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Timing Analyzer.9.18.4+d4f8248d.x64.TapPackage</PackageFilePath>
+    </PackageSource>
+    <Owner>Keysight Technologies, Inc.</Owner>
+    <Files>
+      <File Path="TimingAnalyzer.exe" LicenseRequired="KS8002A|KS8400A|TAP_TimingAnalyzer">
+        <Plugins>
+          <Plugin Type="Keysight.OpenTap.TimingAnalyzer.LogAnalyzerHandler" BaseType="Log Analyzer">
+            <Name>LogAnalyzerHandler</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.TimingAnalyzer.TimingAnalyzerToolProvider" BaseType="ToolProvider">
+            <Name>Timing Analyzer</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Opens the OpenTAP Timing Analyzer with the log from the most recent test plan run.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.TimingAnalyzer.TimingAnalyzerCliAction" BaseType="ICliAction">
+            <Name>timinganalyzer</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Starts the Timing Analyzer GUI</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.TimingAnalyzer.TimingAnalyzerSettings" BaseType="Component Settings">
+            <Name>Timing Analyzer</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+        </Plugins>
+        <Hash>8AF6740009C40A7470862B6D2A4F3BB0677CC617</Hash>
+      </File>
+      <File Path="TimingAnalyzerHelp.chm">
+        <Hash>E3EE113BE90AFD485FCF3BCE04038129EB7AA0E0</Hash>
+      </File>
+      <File Path="Dependencies/OxyPlot.Wpf.1.0.0.0/OxyPlot.Wpf.dll">
+        <Hash>7B442E30194D87E8DB77F6BEAAD4583853C1617D</Hash>
+      </File>
+      <File Path="Dependencies/OxyPlot.1.0.0.0/OxyPlot.dll">
+        <Hash>02602B4CA886A5F0A2D220E7BBC5AA7AE17FBDC0</Hash>
+      </File>
+    </Files>
+  </Package>
+  <Package InfoLink="http://www.keysight.com/find/TAP" Date="08/31/2022 09:46:24" Tags="SDK" Name="SDK" Version="9.18.5+0328e9b4" Architecture="AnyCPU" OS="Windows,Linux,MacOS" xmlns="http://opentap.io/schemas/package">
+    <Hash>F9B8C8EC843603C6F6C0083835B515F4380A4701</Hash>
+    <Description>OpenTAP’s SDK contains code example files, an MSBuild task to help create TapPackage files and the developer guide. This package demonstrates the core capabilities of OpenTAP and makes it faster and simpler to develop custom Test Automation solutions, especially for new developers.
+    <Status>Released</Status><Organisation>Keysight Technologies</Organisation></Description>
+    <Dependencies>
+      <PackageDependency Package="OpenTAP" Version="^9.18.5+0328e9b4" />
+    </Dependencies>
+    <Location>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\SDK.9.18.5+0328e9b4.Windows,Linux,MacOS.TapPackage</Location>
+    <PackageSource type="OpenTap.Package.FileRepositoryPackageDefSource">
+      <RepositoryUrl>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache</RepositoryUrl>
+      <PackageFilePath>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\SDK.9.18.5+0328e9b4.Windows,Linux,MacOS.TapPackage</PackageFilePath>
+    </PackageSource>
+    <Owner>OpenTAP</Owner>
+    <SourceUrl>https://github.com/opentap/opentap</SourceUrl>
+    <Files>
+      <File Path="Packages/SDK/Keysight.OpenTap.Sdk.MSBuild.dll">
+        <Hash>18D8D3A2140B05481B4E1C1A772A7619CE7896A6</Hash>
+      </File>
+      <File Path="Packages/SDK/OpenTap.Sdk.New.dll">
+        <Plugins>
+          <Plugin Type="OpenTap.Sdk.New.GenerateDut" BaseType="ICliAction">
+            <Name>dut</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>C# template for a DUT plugin.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.GenerateInstrument" BaseType="ICliAction">
+            <Name>instrument</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>C# template for a Instrument plugin.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.GenerateResultListener" BaseType="ICliAction">
+            <Name>resultlistener</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>C# template for a ResultListener plugin.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.GenerateSetting" BaseType="ICliAction">
+            <Name>settings</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>C# template for a ComponentSetting plugin.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.GenerateTestStep" BaseType="ICliAction">
+            <Name>teststep</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>C# template for a TestStep plugin.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.GenerateTestPlan" BaseType="ICliAction">
+            <Name>testplan</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description>Deprecated! Creates a TestPlan (.TapPlan) containing all TestSteps types defined in this project.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.GenerateCliAction" BaseType="ICliAction">
+            <Name>cliaction</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>C# template for a CliAction plugin.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.GeneratePackageXml" BaseType="ICliAction">
+            <Name>packagexml</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Package Definition file (package.xml).</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.GenerateProject" BaseType="ICliAction">
+            <Name>project</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>OpenTAP C# Project (.csproj). Including a new TestStep, solution file (.sln) and package.xml.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.GenerateVs" BaseType="ICliAction">
+            <Name>vs</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Solution file for Visual Studio projects.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+              <String>integration</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.GenerateGitlab" BaseType="ICliAction">
+            <Name>gitlab-ci</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>GitLab CI build script. For building and publishing the TapPackage in this project.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+              <String>integration</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.GenerateVsCode" BaseType="ICliAction">
+            <Name>vscode</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Files to enable building and debugging with vscode.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+              <String>integration</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.GenerateGit" BaseType="ICliAction">
+            <Name>gitversion</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Configures automatic version of the package using version numbers generated from git history.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+              <String>integration</String>
+            </Groups>
+          </Plugin>
+          <Plugin Type="OpenTap.Sdk.New.NewPackageReference" BaseType="ICliAction">
+            <Name>package-reference</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Add an OpenTAP Package to a C# Project (.csproj).</Description>
+            <Collapsed>false</Collapsed>
+            <Groups>
+              <String>sdk</String>
+              <String>new</String>
+            </Groups>
+          </Plugin>
+        </Plugins>
+        <Hash>E4DAAE94611D1C31EBA09D79D6004F15D7E1A7F5</Hash>
+      </File>
+      <File Path="OpenTap.xml">
+        <Hash>787D64CF83DEAA1C4B0FA07BC19CB26FFF5CFBEF</Hash>
+      </File>
+      <File Path="OpenTap.Package.xml">
+        <Hash>BD7E60128B7E97408720E1458F20886775E049B4</Hash>
+      </File>
+      <File Path="Packages/SDK/PackageSchema.xsd">
+        <Hash>18C835DCF05C3ACE0BA05562C143BB508A18A625</Hash>
+      </File>
+      <File Path="Packages/SDK/OpenTAP Developer Guide.pdf">
+        <Hash>D346FD56F445FB61CE08DC7CDF29E18A093B2EBF</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/.OpenTapIgnore">
+        <Hash>5A908756276E48E93AC423E147A58D6BE04A7A35</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/.HiddenFile.txt">
+        <Hash>A555C9C6ECAF64D059A4F484EC9F03760D8FB299</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/.HiddenFolder/Empty.txt">
+        <Hash>470CDC586CB706E98BB106F26D3B8CE11A4589B1</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/Examples.sln">
+        <Hash>44EC954A9B28C330637319BBF9996C963333B0AA</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/Directory.Build.props">
+        <Hash>1EBF13A9C4EF8101335B7E4E9F04E621F034F177</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/ExamplePlugin/ExamplePlugin.csproj">
+        <Hash>75793C95EBB18ED833A3B0755BD7BE125A0E917E</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/ExamplePlugin/GeneratorInstrument.cs">
+        <Hash>163F3E127E4CBF4AEA520F2CAD37759C64C48E1D</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/ExamplePlugin/LowPassFilterDut.cs">
+        <Hash>A2AD5C4B465AE0ED9D41CE1D499F2BCC0649BFE0</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/ExamplePlugin/MeasurePeakAmplitudeTestStep.cs">
+        <Hash>285768A4A9BCA58FE45AF1C35198B127BC6C6C0F</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/ExamplePlugin/package.xml">
+        <Hash>719934A77122FC53F74C897129BF1AA77A47EA4D</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/ExamplePlugin/SomeSampleData.txt">
+        <Hash>EC08191B6754A2D1742263905F3EB6731ED82EBA</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/ExamplePlugin/Properties/AssemblyInfo.cs">
+        <Hash>2F2DB865FB12B35FCA8127CB99498C843D2BE16D</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/ExamplePlugin/Properties/launchSettings.json">
+        <Hash>FE7840F7B6452DB5AEDB8BD7CEADEBD9BA6070E4</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/package.xml">
+        <Hash>4E6DA76FD810C23B7712788C6AA3978ABA565DB7</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/PluginDevelopment.csproj">
+        <Hash>A9600026D3079A080951D3D9E34D22C42F4D3E84</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/Advanced Examples/AttachedPropertyExample.cs">
+        <Hash>B7F5A0C680699F4340C6D3A5F26DA7CA180FA3FF</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/Advanced Examples/BreakSerializerExample.cs">
+        <Hash>68ADC592FB1C6ACCD42C3ADE42EA0F909307C9F1</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/Advanced Examples/ComplexSettingsExample1.cs">
+        <Hash>D04E94A828CA847F43ECAF61AD817C73DB61ED55</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/Advanced Examples/ComplexSettingsExample2.cs">
+        <Hash>71B9368B9A7D6C2088D9EAE2B6328D9D814D7F60</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/Advanced Examples/MenuModelExample.cs">
+        <Hash>9141E7D5F23501A66AB0F7B07D28C1B056CE1119</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/GUI/ButtonCreation.cs">
+        <Hash>033FE34CCA0452B6301E9BED21E018D4001E69A0</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/GUI/CustomBenchSettings.cs">
+        <Hash>26C28A0075870C1EBEF2FFE991FAEDC2FFB287D0</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/GUI/ExampleSettings.cs">
+        <Hash>AF056DEDA0C5C52B5B1434BB7E6E45FCE2754AAD</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/GUI/IPAnnotation.cs">
+        <Hash>EEAD26FC930A6152F29B646685818D34D6A8B53F</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/GUI/OpenTapPictureExample.cs">
+        <Hash>5071EC9F029491F2CC57ABF06C3CCC0CDEC49DB5</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/GUI/TestPlanCustomImportExport.cs">
+        <Hash>0ACEA30F660530E888D9BE514AE55E41967955BB</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/GUI/UserInputExample.cs">
+        <Hash>F64DE181A09DEAA9A2CA82E719A09D9806ECE19B</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/ConnectionStep.cs">
+        <Hash>53021E865810C59BB266233763EBAD188D08B817</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/FourPortDut.cs">
+        <Hash>3B8D564E9E586B207CC94180F2D9BCA770A3F2BE</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/InterfaceBasedInstrument.cs">
+        <Hash>5514A83B28048454A7198157812B67C5676880D9</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/MeasureUsingConnectionsStep.cs">
+        <Hash>C15602AB8B16922DF7F020BA8AC84F27696E7E6E</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/ResourceTopology.cs">
+        <Hash>2C4DA48551FE96DF4DDFAD4477748ACF1CD027BD</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/ScpiInstrumentExample.cs">
+        <Hash>6C0AE67D7DEFA3EEAE9984265A0FF7A9A1130D8E</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/SetSwitchMatrixStep.cs">
+        <Hash>B8F9CA788C37EFFF798E7248D892CD807DC3EEE9</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/SetSwitchStep.cs">
+        <Hash>46FBECF044C2AB22737569BC49272380DAF2208F</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/SimpleDut.cs">
+        <Hash>EE20D7EE74E560992A53E6E5C275D44E3932DB46</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/SimpleInstrument.cs">
+        <Hash>5F4DD5133788F35C42A2DA74786308D80C68FA35</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/SwitchMatrixInstrument.cs">
+        <Hash>8EAA4F69A9DB5A5A91835886DAE39D191E6E41F6</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/TwoPortInstrument.cs">
+        <Hash>5D73A9315A7828570AF9FEF564FAC04E6596EE7C</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/TwoPositionSwitchInstrument.cs">
+        <Hash>C349DDB789B984A2463AED821D21BF48C3100B78</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/InstrumentsAndDuts/UsingDutAndInstStep.cs">
+        <Hash>ED403B8C0B04A794146963F779C587B36ACC79FF</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/Properties/AssemblyInfo.cs">
+        <Hash>4DAABD5C24EB726564FDFAA02A4F9C4B718E9551</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/Properties/launchSettings.json">
+        <Hash>FE7840F7B6452DB5AEDB8BD7CEADEBD9BA6070E4</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/ResultListeners/EventResultListener.cs">
+        <Hash>61276FFB8A660D45B96B3788C62A93452992B5DA</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/ResultListeners/ExampleResultListener.cs">
+        <Hash>A11F3EA7A75FE9D090A73C58810916C0DCE41D7E</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/AvailableValuesAttributeExample.cs">
+        <Hash>04A10ACA7F853ECEBCE622F6711847E69583F024</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/BrowsableAttributeExample.cs">
+        <Hash>49505E344B627E9E2100614662F7C5C4EFBD53D3</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/ColumnDisplayAttributeExample.cs">
+        <Hash>39D5B13F8AD831D2B514569A3F224E670AF3467B</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/DefaultValueExample.cs">
+        <Hash>C72C3FF052E02CECAF409A17F01C2D0856679F4C</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/DisplayAttributeExample.cs">
+        <Hash>E6FD6F4B2DC46E037E3017E44F8379180B027DF8</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/DynamicNameDisplayAttribute.cs">
+        <Hash>5027198325A4B1E03BE0ECDFE9EF0B82959BF03A</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/EmbedPropertiesAttributeExample.cs">
+        <Hash>945C73A1FDBFD80F2696FFE6483E640DC344E1FE</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/EnabledIfAttributeExample.cs">
+        <Hash>F9E60DC848B6FC17E08FC1A4C45A22A7BD8C775D</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/FlagsAttributeExample.cs">
+        <Hash>737887D9BDACBC86C0357579D1A14EC49206677C</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/PathAttributeExample.cs">
+        <Hash>5B0F6349DEFB180FD2DF649DA751A3FBA7BE2DD0</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/ResourceOpenAttributeExample.cs">
+        <Hash>9CA18EDEC17BFF103716B0A7B1546735305DD27E</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/ScpiAttributeExample.cs">
+        <Hash>2F65DE13750A61F6041EB1CD7E9CF029906EEB67</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/UnitAttributeExample.cs">
+        <Hash>BABA240E815F241E0EADB92717C2CCA4A6B77A88</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Attributes/XmlIgnoreAttributeExample.cs">
+        <Hash>9E699E25296300469F9522A70601181586C29DDA</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/InputOutput/GenerateOutput.cs">
+        <Hash>B27E77A59AA017328BEBC7D20E79D1BBDC3CB16E</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/InputOutput/HandleInput.cs">
+        <Hash>F6E82DCA1D7A0A2D53DD92FFC2963FC73007C66F</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/ParentChild/ChildSeekingResources.cs">
+        <Hash>85A8284F95094E7ACE7FB882E2BC7085A18E08EA</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/ParentChild/ParentAnyChildren.cs">
+        <Hash>0848504B96E0F9DB9968161C6C44356A70A6D54A</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/ParentChild/ParentWithResources.cs">
+        <Hash>9165E3D53854AEB61C8DA61DFDE7269403831891</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/PublishResults/ResultsForXyArray.cs">
+        <Hash>3A7985DB6BEA9724CBA2E9682D64B3CD9C4B61AD</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/PublishResults/ResultsWithCustomClass.cs">
+        <Hash>195AE3318F083F8680FC1EC038C2F2FEDDB9CBA8</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/PublishResults/SetOfNameValuePairs.cs">
+        <Hash>A541D3ABC943154F18D059FF5CAD6C5514786E52</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/PublishResults/SingleNameValuePair.cs">
+        <Hash>F40D3FCB456FD8F6958FE40CE539B8C9FF515DF4</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Step Execution/AbortsTheTestPlan.cs">
+        <Hash>90558A63283C71B0F792DD2373DD349692B7D439</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Step Execution/AccessingComponentSettings.cs">
+        <Hash>455CA7419EABCBAF4177342FEF2BA5BBF1CB4C77</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Step Execution/DeferTaskStep.cs">
+        <Hash>1AAD12FA577683C7091A34F860AB314FAFE8B2A9</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Step Execution/LogMessages.cs">
+        <Hash>769879BF3EA59BDE951C6239B438240AD86FF76C</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Step Execution/OfferBreakExample.cs">
+        <Hash>BBF351CE275FF4A8A7B1C4D41D151054E70B85E4</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Step Execution/SetVerdict.cs">
+        <Hash>996F246FDFCE4DBAC61C60B9C4CD032ECDCBA8D8</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Step Settings/EnabledCheckBoxes.cs">
+        <Hash>0B0714C09E44A1CE3583AC046904D6102311965C</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Step Settings/ListOfObjects.cs">
+        <Hash>E6E4DB54500D1729F7E25F206EAF9FADDA2C0398</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Step Settings/ReadOnlyListExample.cs">
+        <Hash>B6C76978A64949D4699B6DFE0375640206330586</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/TestSteps/Step Settings/RuleValidation.cs">
+        <Hash>F8E70EDAAA11A812FA796F126EAA4F14EC164182</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment.Gui/PluginDevelopment.Gui.csproj">
+        <Hash>4BAD34000E9F9D52C9587D04826643993CFB92A3</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment.Gui/Properties/AssemblyInfo.cs">
+        <Hash>C1A3DCA689160446229D017B19301DB0641821CC</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment.Gui/Properties/launchSettings.json">
+        <Hash>FE7840F7B6452DB5AEDB8BD7CEADEBD9BA6070E4</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment.Gui/GUI/CustomControlProvider.cs">
+        <Hash>EDACC359FC696CC7E98570E49F66BC33F4E56D89</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment.Gui/GUI/DockablePanel.cs">
+        <Hash>7CAFAC296C8C066F8CDD9309B0E6ED6E483ACF25</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment.Gui/GUI/ResultXYChartExample.cs">
+        <Hash>66473E10F047049339FE3BE46C6482DAF4174DE6</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment.Gui/GUI/ToolsMenu.cs">
+        <Hash>D28278E5A067CFD0EAD239F235AEF9031F8A0C92</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/PluginDevelopment/GUI/SomeInstrument.png">
+        <Hash>5F8321CAC54FE8C2488AAFE75A61C48011E06E2D</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/TestPlanExecution/BuildTestPlan.Api/BuildTestPlan.Api.csproj">
+        <Hash>078D10B4E0D1A688656851699AF57F3193170102</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/TestPlanExecution/BuildTestPlan.Api/Program.cs">
+        <Hash>2EF47CB6F9AEF344763BC0FC4C8B3A1B9CCEFAF8</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/TestPlanExecution/BuildTestPlan.Api/Properties/AssemblyInfo.cs">
+        <Hash>F0F8E5F1E4F0CD9851C296EBA44BFE5F3CD5F9B2</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/TestPlanExecution/RunTestPlan.Api/Program.cs">
+        <Hash>82CC43CFEA04B45BB7B0DC1FECA73E10A30C2592</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/TestPlanExecution/RunTestPlan.Api/RunTestPlan.Api.csproj">
+        <Hash>351DAFDBE8826180F516691A2DDE6D824E3729C7</Hash>
+      </File>
+      <File Path="Packages/SDK/Examples/TestPlanExecution/RunTestPlan.Api/Properties/AssemblyInfo.cs">
+        <Hash>A066180C1D4F091BBB075D052CCD07A51AA081A9</Hash>
+      </File>
+      <File Path="Dependencies/Microsoft.Build.Utilities.Core.15.1.0.0/Microsoft.Build.Utilities.Core.dll">
+        <Hash>1CFC661F0F185811B29D35FB1ED189A53B02D935</Hash>
+      </File>
+      <File Path="Dependencies/Microsoft.Build.Framework.15.1.0.0/Microsoft.Build.Framework.dll">
+        <Hash>A917ADA5D5438EAC7ACBC70F94FB06652BC42C92</Hash>
+      </File>
+      <File Path="Dependencies/Microsoft.Build.15.1.0.0/Microsoft.Build.dll">
+        <Hash>368CE37932474E48F369DA25EB7CDBED075130BF</Hash>
+      </File>
+      <File Path="Dependencies/System.IO.Compression.4.2.0.0/System.IO.Compression.dll">
+        <Hash>609F31B98831327677E89E08BFF7D7322BA0F4A4</Hash>
+      </File>
+      <File Path="Dependencies/System.Threading.Tasks.Dataflow.4.5.24.0/System.Threading.Tasks.Dataflow.dll">
+        <Hash>3503B68DF7E21F4883C2141C0CF5BDB18603CE2B</Hash>
+      </File>
+      <File Path="Dependencies/System.Threading.Tasks.4.0.11.0/System.Threading.Tasks.dll">
+        <Hash>F720109A38846E358BDE7C47D9C946A79D2B6B1C</Hash>
+      </File>
+      <File Path="Dependencies/System.Diagnostics.Tracing.4.2.0.0/System.Diagnostics.Tracing.dll">
+        <Hash>87ED79D195D8D93AE1155AF08857F751A7ECA245</Hash>
+      </File>
+      <File Path="Dependencies/System.Collections.Concurrent.4.0.11.0/System.Collections.Concurrent.dll">
+        <Hash>311F52B31611E6DC5FD4C0159BFA452C22980CA7</Hash>
+      </File>
+      <File Path="Dependencies/System.Dynamic.Runtime.4.0.11.0/System.Dynamic.Runtime.dll">
+        <Hash>A994C87352486D433A06943C01329DD721AB343F</Hash>
+      </File>
+      <File Path="Dependencies/System.Threading.4.0.11.0/System.Threading.dll">
+        <Hash>DDDA49572D112944EC9AB62B31959AA93A386618</Hash>
+      </File>
+      <File Path="Dependencies/System.Resources.ResourceManager.4.0.1.0/System.Resources.ResourceManager.dll">
+        <Hash>BF83A7E98418BDE907DEAE8C0C0F3FB0F6C9DB1A</Hash>
+      </File>
+      <File Path="Dependencies/System.Globalization.4.0.11.0/System.Globalization.dll">
+        <Hash>846711D4161A3950FACDEF97037898A71F4EFDA1</Hash>
+      </File>
+      <File Path="Dependencies/System.Diagnostics.Debug.4.0.11.0/System.Diagnostics.Debug.dll">
+        <Hash>EB8C010A35B461402C1C33133F1B61C78BE8425A</Hash>
+      </File>
+      <File Path="Dependencies/System.Diagnostics.Tools.4.0.1.0/System.Diagnostics.Tools.dll">
+        <Hash>51E466218025126C5E524AFD2086F4AB0BF3660A</Hash>
+      </File>
+      <File Path="Dependencies/System.Reflection.4.1.2.0/System.Reflection.dll">
+        <Hash>3CA31DE7F0F0784559E5A73EBD0EFB42C34D18FC</Hash>
+      </File>
+    </Files>
+  </Package>
+  <Package InfoLink="http://www.keysight.com/find/TAP" Date="09/05/2022 13:11:31" Name="WPF Controls" Version="9.18.4+d4f8248d" Architecture="AnyCPU" OS="Windows" xmlns="http://opentap.io/schemas/package">
+    <Hash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</Hash>
+    <Description>This package contains a number of common WPF GUI components and settings used by the different plugins and tools (e.g. Editor, Results Viewer and Timing Analyzer).
+    <Status>Released</Status><Organisation>Keysight Technologies</Organisation></Description>
+    <Dependencies>
+      <PackageDependency Package="OpenTAP" Version="^9.18.5+0328e9b4" />
+      <PackageDependency Package="Keysight Licensing" Version="^1.2.2+b06a51aa" />
+    </Dependencies>
+    <Location>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\WPF Controls.9.18.4+d4f8248d.TapPackage</Location>
+    <PackageSource type="OpenTap.Package.FileRepositoryPackageDefSource">
+      <RepositoryUrl>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache</RepositoryUrl>
+      <PackageFilePath>C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\WPF Controls.9.18.4+d4f8248d.TapPackage</PackageFilePath>
+    </PackageSource>
+    <Owner>Keysight Technologies, Inc.</Owner>
+    <Files>
+      <File Path="Packages/WPF Controls/Keysight.OpenTap.Wpf.dll">
+        <Plugins>
+          <Plugin Type="OpenTap.KeysightVisaDeviceDiscovery" BaseType="Device Discovery">
+            <Name>KeysightVisaDeviceDiscovery</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.ThreadBreakAnnotator" BaseType="IAnnotator">
+            <Name>ThreadBreakAnnotator</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.CheckForUpdatesCliAction" BaseType="ICliAction">
+            <Name>check-for-updates</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description>Enables or disables checking for updates.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.AvailableValuesControlProvider" BaseType="Control Provider">
+            <Name>AvailableValuesControlProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.BoolControlProvider" BaseType="Control Provider">
+            <Name>BoolControlProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.FilePathControlProvider" BaseType="Control Provider">
+            <Name>FilePathControlProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.MethodControlProvider" BaseType="Control Provider">
+            <Name>MethodControlProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.MultiSelectProvider" BaseType="Control Provider">
+            <Name>MultiSelectProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.CollectionControlProvider" BaseType="Control Provider">
+            <Name>CollectionControlProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.PictureControlProvider" BaseType="Control Provider">
+            <Name>PictureControlProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.SimpleControlProvider" BaseType="Control Provider">
+            <Name>SimpleControlProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.GuiControlsSettings" BaseType="Component Settings">
+            <Name>GUI Controls</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description />
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.GuiMenuModelFactory" BaseType="IMenuModelFactory">
+            <Name>GuiMenuModelFactory</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.EditorSettings" BaseType="Component Settings">
+            <Name>Editor</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Editor Settings</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.NotifyingResultListener" BaseType="Result Listener">
+            <Name>Notifying Result Listener</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description>Windows specific notifying result listener. It is capable of playing sounds and blinking the application main window.</Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.ControlProviders.EnabledControlProvider" BaseType="Control Provider">
+            <Name>EnabledControlProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>false</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.ControlProviders.PasswordControlProvider" BaseType="Control Provider">
+            <Name>PasswordControlProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+          <Plugin Type="Keysight.OpenTap.Wpf.ControlProviders.VerdictControlProvider" BaseType="Control Provider">
+            <Name>VerdictControlProvider</Name>
+            <Order>-10000</Order>
+            <Browsable>true</Browsable>
+            <Description></Description>
+            <Collapsed>false</Collapsed>
+            <Groups />
+          </Plugin>
+        </Plugins>
+        <IgnoreDependency>Keysight.Ftl.Licensing.Api</IgnoreDependency>
+        <Hash>D2C140EC54F66222E2CC6CB321BDE85B36012F92</Hash>
+      </File>
+      <File Path="Dependencies/Keysight.Ccl.Wsl.4.0.1.9/Keysight.Ccl.Wsl.dll">
+        <Hash>D964F9679CFA293EB4515109A786AF11C298CD18</Hash>
+      </File>
+      <File Path="Dependencies/EnvDTE.8.0.0.0/EnvDTE.dll">
+        <Hash>EF5B076D64CA90F1D834FA8D8464970960810120</Hash>
+      </File>
+      <File Path="Dependencies/MahApps.Metro.1.3.0.0/MahApps.Metro.dll">
+        <Hash>01C30F77D3F8F2983483AECC548D06CC1EA9B1CE</Hash>
+      </File>
+      <File Path="Dependencies/System.Windows.Interactivity.4.5.0.0/System.Windows.Interactivity.dll">
+        <Hash>CE6C4C18CF638F980905B9CB6710EE1FA73BB397</Hash>
+      </File>
+      <File Path="Dependencies/Microsoft.Expression.Interactions.4.5.0.0/Microsoft.Expression.Interactions.dll">
+        <Hash>AACE8D26358D9829F0E6632BDDF183534ACFEC0D</Hash>
+      </File>
+      <File Path="Dependencies/stdole.7.0.3300.0/stdole.dll">
+        <Hash>239EC8AFAC9EA8D92A1D1076A3A5D57073DEA29A</Hash>
+      </File>
+    </Files>
+  </Package>
+</ArrayOfPackages>

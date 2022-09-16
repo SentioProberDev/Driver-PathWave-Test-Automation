@@ -1,0 +1,11 @@
+D:\MPI Project\Test\MyOpenTap\MyPluginChuck\bin\Debug\MyPluginChuck.dll
+D:\MPI Project\Test\MyOpenTap\MyPluginChuck\bin\Debug\MyPluginChuck.pdb
+D:\MPI Project\Test\MyOpenTap\MyPluginChuck\bin\Debug\OpenTap.dll
+D:\MPI Project\Test\MyOpenTap\MyPluginChuck\bin\Debug\MyOpenTapShare.dll
+D:\MPI Project\Test\MyOpenTap\MyPluginChuck\bin\Debug\MyOpenTapShare.pdb
+D:\MPI Project\Test\MyOpenTap\MyPluginChuck\obj\Debug\MyPluginChuck.csproj.AssemblyReference.cache
+D:\MPI Project\Test\MyOpenTap\MyPluginChuck\obj\Debug\MyPluginChuck.GeneratedMSBuildEditorConfig.editorconfig
+D:\MPI Project\Test\MyOpenTap\MyPluginChuck\obj\Debug\MyPluginChuck.csproj.CoreCompileInputs.cache
+D:\MPI Project\Test\MyOpenTap\MyPluginChuck\obj\Debug\MyPluginChuck.csproj.CopyComplete
+D:\MPI Project\Test\MyOpenTap\MyPluginChuck\obj\Debug\MyPluginChuck.dll
+D:\MPI Project\Test\MyOpenTap\MyPluginChuck\obj\Debug\MyPluginChuck.pdb

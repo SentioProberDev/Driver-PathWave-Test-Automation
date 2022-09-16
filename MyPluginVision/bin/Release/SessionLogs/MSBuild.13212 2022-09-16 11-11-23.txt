@@ -1,0 +1,119 @@
+2022-09-16 11:11:52.702474 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyPluginVision\bin\Release\SessionLogs\MSBuild.13212 2022-09-16 11-11-23.txt'. [62.4 ms]
+2022-09-16 11:11:52.747368 ; Session        ; Debug       ; Running 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe /nologo /nodemode:1 /nodeReuse:true /low:false' in 'D:\MPI Project\Test\MyOpenTap\MyPluginVision'.
+2022-09-16 11:11:52.821802 ; AssemblyFinder ; Debug       ; Found 5/30 assembly files. [12.9 ms]
+2022-09-16 11:11:52.847651 ; Session        ; Debug       ; Microsoft Windows 10.0.19044 X64
+2022-09-16 11:11:52.847651 ; Session        ; Debug       ; .NET Framework 4.8.4515.0
+2022-09-16 11:11:52.858487 ; Session        ; Debug       ; OpenTAP Engine 9.18.5+0328e9b4 X86
+2022-09-16 11:11:52.915514 ; Resolver       ; Debug       ; Found match for System.Reflection.Metadata, Version=1.4.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a in C:\Users\Jacky.Kuo\.nuget\packages\opentap\9.18.5\build\payload\Dependencies\System.Reflection.Metadata.1.4.3.0\System.Reflection.Metadata.dll
+2022-09-16 11:11:53.111879 ; Searcher       ; Debug       ; Ordered 5 assemblies according to references. [286 ms]
+2022-09-16 11:11:53.231811 ; PluginManager  ; Debug       ; Found 3 plugin assemblies containing 156 plugin types. [407 ms]
+2022-09-16 11:11:53.232552 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.dll from C:\Users\Jacky.Kuo\.nuget\packages\opentap\9.18.5\build\payload\OpenTap.dll
+2022-09-16 11:11:53.232552 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.Package.dll from C:\Users\Jacky.Kuo\.nuget\packages\opentap\9.18.5\build\payload\OpenTap.Package.dll
+2022-09-16 11:11:53.232552 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.Plugins.BasicSteps.dll from C:\Users\Jacky.Kuo\.nuget\packages\opentap\9.18.5\build\payload\Packages\OpenTAP\OpenTap.Plugins.BasicSteps.dll
+2022-09-16 11:11:53.232552 ; PluginManager  ; Debug       ; Searched 5 Assemblies. [408 ms]
+2022-09-16 11:11:53.273608 ; AssemblyData   ; Debug       ; Loaded OpenTap.Package. [793 us]
+2022-09-16 11:11:53.274821 ; AssemblyData   ; Debug       ; Loaded OpenTap. [498 us]
+2022-09-16 11:11:53.299007 ; AssemblyData   ; Debug       ; Loaded OpenTap.Plugins.BasicSteps. [24.5 ms]
+2022-09-16 11:11:53.413389 ; AssemblyData   ; Debug       ; Loaded mscorlib. [900 ns]
+2022-09-16 11:11:53.714436 ; Settings       ; Debug       ; No settings file exists for AuthenticationSettings. A new instance with default values has been created. [553 us]
+2022-09-16 11:11:56.228361 ; Settings       ; Debug       ; No settings file exists for PackageManagerSettings. A new instance with default values has been created. [1.55 ms]
+2022-09-16 11:11:58.599819 ; OpenTAP        ; Information ; Modifying installation in bin\Release\:
+2022-09-16 11:11:58.599819 ; OpenTAP        ; Information ; - Skipping CSV version 9.11.0+98498e58 (AnyCPU-Windows,Linux) - Already installed.
+2022-09-16 11:11:58.599819 ; OpenTAP        ; Information ; - Skipping Keysight Licensing version 1.1.1+7a2a1fe3 (x64-Windows) - Already installed.
+2022-09-16 11:11:58.599819 ; OpenTAP        ; Information ; - Skipping OpenTAP version 9.18.5+0328e9b4 (x64-Windows) - Already installed.
+2022-09-16 11:11:58.599819 ; OpenTAP        ; Information ; - Skipping OSIntegration version 1.4.2+15f32a31 (AnyCPU-Windows) - Already installed.
+2022-09-16 11:11:58.599819 ; OpenTAP        ; Information ; - Skipping PathWave License Manager version 2.5.0 (x64-Windows) - Already installed.
+2022-09-16 11:11:58.599819 ; OpenTAP        ; Information ; - Skipping SDK version 9.17.4+ea67c63a (AnyCPU-Windows,Linux,MacOS) - Already installed.
+2022-09-16 11:11:58.599819 ; OpenTAP        ; Information ; - Skipping SQLite and PostgreSQL version 9.4.2+3009aace (AnyCPU-Windows) - Already installed.
+2022-09-16 11:11:58.599819 ; OpenTAP        ; Information ; - Skipping Visual Studio SDK CE version 1.2.6+ef0ad804 (AnyCPU-Windows) - Already installed.
+2022-09-16 11:11:58.600319 ; OpenTAP        ; Information ; - Installing Developer's System CE version 9.17.4+5e508f08
+2022-09-16 11:11:58.600319 ; OpenTAP        ; Information ; - Installing Editor CE version 9.17.4+5e508f08
+2022-09-16 11:11:58.600319 ; OpenTAP        ; Information ; - Installing Results Viewer CE version 9.17.4+5e508f08
+2022-09-16 11:11:58.600319 ; OpenTAP        ; Information ; - Installing WPF Controls version 9.17.4+5e508f08
+2022-09-16 11:11:58.604215 ; OpenTAP        ; Information ; Package WPF Controls exists in cache: C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\WPF Controls.9.17.4+5e508f08.TapPackage
+2022-09-16 11:11:58.604716 ; OpenTAP        ; Information ; Package Editor CE exists in cache: C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Editor CE.9.17.4+5e508f08.x64.TapPackage
+2022-09-16 11:11:58.604716 ; OpenTAP        ; Information ; Package Results Viewer CE exists in cache: C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Results Viewer CE.9.17.4+5e508f08.x64.TapPackage
+2022-09-16 11:11:58.605274 ; OpenTAP        ; Information ; Package Developer's System CE exists in cache: C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Developer's System CE.9.17.4+5e508f08.TapPackage
+2022-09-16 11:11:58.682214 ; Installer      ; Information ; Installing C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\WPF Controls.9.17.4+5e508f08.TapPackage
+2022-09-16 11:11:58.986760 ; package        ; Debug       ; Decompressed bin/Release/Packages/WPF Controls/Keysight.OpenTap.Wpf.dll [286 ms]
+2022-09-16 11:11:59.332457 ; package        ; Debug       ; Decompressed bin/Release/Dependencies/Keysight.Ccl.Wsl.4.0.1.9/Keysight.Ccl.Wsl.dll [341 ms]
+2022-09-16 11:11:59.398560 ; package        ; Debug       ; Decompressed bin/Release/Dependencies/EnvDTE.8.0.0.0/EnvDTE.dll [66.3 ms]
+2022-09-16 11:11:59.520877 ; package        ; Debug       ; Decompressed bin/Release/Dependencies/MahApps.Metro.1.3.0.0/MahApps.Metro.dll [121 ms]
+2022-09-16 11:11:59.557639 ; package        ; Debug       ; Decompressed bin/Release/Dependencies/System.Windows.Interactivity.4.5.0.0/System.Windows.Interactivity.dll [36.8 ms]
+2022-09-16 11:11:59.597554 ; package        ; Debug       ; Decompressed bin/Release/Dependencies/Microsoft.Expression.Interactions.4.5.0.0/Microsoft.Expression.Interactions.dll [39.7 ms]
+2022-09-16 11:11:59.632399 ; package        ; Debug       ; Decompressed bin/Release/Dependencies/stdole.7.0.3300.0/stdole.dll [34.4 ms]
+2022-09-16 11:11:59.650238 ; package        ; Debug       ; Decompressed bin/Release/Packages/WPF Controls/package.xml [18.0 ms]
+2022-09-16 11:11:59.660944 ; Package        ; Debug       ; Found no custom actions to run at 'install' stage.
+2022-09-16 11:11:59.661474 ; Installer      ; Information ; Installed WPF Controls version 9.17.4+5e508f08 [979 ms]
+2022-09-16 11:11:59.661973 ; Installer      ; Information ; Installing C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Editor CE.9.17.4+5e508f08.x64.TapPackage
+2022-09-16 11:11:59.867552 ; package        ; Debug       ; Decompressed bin/Release/EditorHelp.chm [192 ms]
+2022-09-16 11:12:00.111907 ; package        ; Debug       ; Decompressed bin/Release/Editor.exe [244 ms]
+2022-09-16 11:12:00.281574 ; package        ; Debug       ; Decompressed bin/Release/PackageManager.exe [169 ms]
+2022-09-16 11:12:00.385109 ; package        ; Debug       ; Decompressed bin/Release/Packages/Editor CE/Keysight.OpenTap.CommunityEditionPopup.exe [103 ms]
+2022-09-16 11:12:00.411949 ; package        ; Debug       ; Decompressed bin/Release/Packages/Editor CE/EULA.rtf [26.8 ms]
+2022-09-16 11:12:00.511216 ; package        ; Debug       ; Decompressed bin/Release/Dependencies/AvalonDock.4.60.0.0/AvalonDock.dll [98.8 ms]
+2022-09-16 11:12:00.527563 ; package        ; Debug       ; Decompressed bin/Release/Packages/Editor CE/package.xml [16.2 ms]
+2022-09-16 11:12:00.527563 ; Plugin         ; Information ; Starting install step 'tap.exe communityeditionpopup'
+2022-09-16 11:12:02.368998 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyPluginVision\bin\Release\SessionLogs\tap 2022-09-16 11-12-00.txt'. [10.4 ms]
+2022-09-16 11:12:02.368998 ; Session        ; Debug       ; Running '"bin\Release\tap.exe" communityeditionpopup --verbose ' in 'D:\MPI Project\Test\MyOpenTap\MyPluginVision\bin\Release'.
+2022-09-16 11:12:02.368998 ; Session        ; Debug       ; Microsoft Windows 10.0.19044 X64
+2022-09-16 11:12:02.368998 ; Session        ; Debug       ; .NET Framework 4.8.4515.0
+2022-09-16 11:12:02.368998 ; Session        ; Debug       ; OpenTAP Engine 9.18.5+0328e9b4 X64
+2022-09-16 11:12:02.368998 ; AssemblyFinder ; Debug       ; Found 22/76 assembly files. [74.4 ms]
+2022-09-16 11:12:02.368998 ; Resolver       ; Debug       ; Found match for System.Reflection.Metadata, Version=1.4.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a in D:\MPI Project\Test\MyOpenTap\MyPluginVision\bin\Release\Dependencies\System.Reflection.Metadata.1.4.3.0\System.Reflection.Metadata.dll
+2022-09-16 11:12:02.368998 ; Resolver       ; Debug       ; Found match for System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a in D:\MPI Project\Test\MyOpenTap\MyPluginVision\bin\Release\Dependencies\System.Collections.Immutable.1.2.3.0\System.Collections.Immutable.dll
+2022-09-16 11:12:02.368998 ; Searcher       ; Debug       ; Ordered 20 assemblies according to references. [392 ms]
+2022-09-16 11:12:02.479078 ; AssemblyData   ; Debug       ; Loaded OpenTap. [536 us]
+2022-09-16 11:12:02.479078 ; AssemblyData   ; Debug       ; Loaded Keysight.OpenTap.Wpf. [14.2 ms]
+2022-09-16 11:12:02.586486 ; Settings       ; Debug       ; No settings file exists for EngineSettings. A new instance with default values has been created. [11.9 ms]
+2022-09-16 11:12:02.694277 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyPluginVision\bin\Release\SessionLogs\SessionLog 2022-09-16 11-12-00.txt'. [34.8 ms]
+2022-09-16 11:12:02.694277 ; AssemblyData   ; Debug       ; Loaded Keysight.OpenTap.CommunityEditionPopup. [20.5 ms]
+2022-09-16 11:12:02.798674 ; AssemblyData   ; Debug       ; Loaded OpenTap.Plugins.BasicSteps. [34.7 ms]
+2022-09-16 11:12:02.874731 ; CLI            ; Debug       ; Executing CLI action: communityeditionpopup
+2022-09-16 11:12:02.875268 ; CLI            ; Debug       ; CLI action returned exit code: 0 [2.73 ms]
+2022-09-16 11:12:02.915107 ; Plugin         ; Information ; Succesfully ran install step  'tap.exe communityeditionpopup'.  [2.38 s]
+2022-09-16 11:12:02.915654 ; Package        ; Debug       ; Found no custom actions to run at 'install' stage.
+2022-09-16 11:12:02.915654 ; Installer      ; Information ; Installed Editor CE version 9.17.4+5e508f08 [3.25 s]
+2022-09-16 11:12:02.915654 ; Installer      ; Information ; Installing C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Results Viewer CE.9.17.4+5e508f08.x64.TapPackage
+2022-09-16 11:12:03.130134 ; package        ; Debug       ; Decompressed bin/Release/ResultsViewer.exe [198 ms]
+2022-09-16 11:12:03.361973 ; package        ; Debug       ; Decompressed bin/Release/RunExplorer.exe [231 ms]
+2022-09-16 11:12:03.416803 ; package        ; Debug       ; Decompressed bin/Release/ResultsViewerHelp.chm [54.8 ms]
+2022-09-16 11:12:03.462839 ; package        ; Debug       ; Decompressed bin/Release/RunExplorerHelp.chm [45.7 ms]
+2022-09-16 11:12:03.549491 ; package        ; Debug       ; Decompressed bin/Release/Packages/Editor CE/Keysight.OpenTap.CommunityEditionPopup.exe [86.6 ms]
+2022-09-16 11:12:03.566978 ; package        ; Debug       ; Decompressed bin/Release/Packages/Editor CE/EULA.rtf [17.3 ms]
+2022-09-16 11:12:03.659545 ; package        ; Debug       ; Decompressed bin/Release/Dependencies/OxyPlot.1.0.0.0/OxyPlot.dll [92.8 ms]
+2022-09-16 11:12:03.710621 ; package        ; Debug       ; Decompressed bin/Release/Dependencies/OxyPlot.Wpf.1.0.0.0/OxyPlot.Wpf.dll [50.7 ms]
+2022-09-16 11:12:03.776919 ; package        ; Debug       ; Decompressed bin/Release/Dependencies/DocX.1.0.0.22/DocX.dll [66.5 ms]
+2022-09-16 11:12:03.845613 ; package        ; Debug       ; Decompressed bin/Release/Dependencies/ReactiveUI.6.5.0.0/ReactiveUI.dll [68.5 ms]
+2022-09-16 11:12:03.867492 ; package        ; Debug       ; Decompressed bin/Release/Dependencies/System.Reactive.Interfaces.2.2.5.0/System.Reactive.Interfaces.dll [21.8 ms]
+2022-09-16 11:12:03.917339 ; package        ; Debug       ; Decompressed bin/Release/Dependencies/System.Reactive.Core.2.2.5.0/System.Reactive.Core.dll [49.5 ms]
+2022-09-16 11:12:04.017320 ; package        ; Debug       ; Decompressed bin/Release/Dependencies/System.Reactive.Linq.2.2.5.0/System.Reactive.Linq.dll [99.8 ms]
+2022-09-16 11:12:04.049048 ; package        ; Debug       ; Decompressed bin/Release/Dependencies/Splat.1.6.2.0/Splat.dll [31.7 ms]
+2022-09-16 11:12:04.082435 ; package        ; Debug       ; Decompressed bin/Release/Dependencies/System.Reactive.Windows.Threading.2.2.5.0/System.Reactive.Windows.Threading.dll [33.5 ms]
+2022-09-16 11:12:04.112620 ; package        ; Debug       ; Decompressed bin/Release/Dependencies/System.Reactive.PlatformServices.2.2.5.0/System.Reactive.PlatformServices.dll [30.1 ms]
+2022-09-16 11:12:04.141315 ; package        ; Debug       ; Decompressed bin/Release/Packages/Results Viewer CE/package.xml [28.3 ms]
+2022-09-16 11:12:04.141315 ; Plugin         ; Information ; Starting install step 'tap.exe communityeditionpopup'
+2022-09-16 11:12:05.892243 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyPluginVision\bin\Release\SessionLogs\tap 2022-09-16 11-12-04.txt'. [13.9 ms]
+2022-09-16 11:12:05.892243 ; Session        ; Debug       ; Running '"bin\Release\tap.exe" communityeditionpopup --verbose ' in 'D:\MPI Project\Test\MyOpenTap\MyPluginVision\bin\Release'.
+2022-09-16 11:12:05.892243 ; Session        ; Debug       ; Microsoft Windows 10.0.19044 X64
+2022-09-16 11:12:05.892243 ; Session        ; Debug       ; .NET Framework 4.8.4515.0
+2022-09-16 11:12:05.892243 ; Session        ; Debug       ; OpenTAP Engine 9.18.5+0328e9b4 X64
+2022-09-16 11:12:05.892243 ; AssemblyFinder ; Debug       ; Found 24/88 assembly files. [62.5 ms]
+2022-09-16 11:12:05.892243 ; Resolver       ; Debug       ; Found match for System.Reflection.Metadata, Version=1.4.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a in D:\MPI Project\Test\MyOpenTap\MyPluginVision\bin\Release\Dependencies\System.Reflection.Metadata.1.4.3.0\System.Reflection.Metadata.dll
+2022-09-16 11:12:05.892243 ; Resolver       ; Debug       ; Found match for System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a in D:\MPI Project\Test\MyOpenTap\MyPluginVision\bin\Release\Dependencies\System.Collections.Immutable.1.2.3.0\System.Collections.Immutable.dll
+2022-09-16 11:12:05.892243 ; Searcher       ; Debug       ; Ordered 22 assemblies according to references. [412 ms]
+2022-09-16 11:12:06.075887 ; AssemblyData   ; Debug       ; Loaded OpenTap. [1.85 ms]
+2022-09-16 11:12:06.075887 ; AssemblyData   ; Debug       ; Loaded Keysight.OpenTap.Wpf. [11.4 ms]
+2022-09-16 11:12:06.189190 ; Settings       ; Debug       ; No settings file exists for EngineSettings. A new instance with default values has been created. [14.8 ms]
+2022-09-16 11:12:06.295154 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyPluginVision\bin\Release\SessionLogs\SessionLog 2022-09-16 11-12-04.txt'. [19.5 ms]
+2022-09-16 11:12:06.402585 ; AssemblyData   ; Debug       ; Loaded Keysight.OpenTap.CommunityEditionPopup. [14.8 ms]
+2022-09-16 11:12:06.402585 ; AssemblyData   ; Debug       ; Loaded OpenTap.Plugins.BasicSteps. [7.75 ms]
+2022-09-16 11:12:06.453032 ; CLI            ; Debug       ; Executing CLI action: communityeditionpopup
+2022-09-16 11:12:06.453032 ; CLI            ; Debug       ; CLI action returned exit code: 0 [2.21 ms]
+2022-09-16 11:12:06.483006 ; Plugin         ; Information ; Succesfully ran install step  'tap.exe communityeditionpopup'.  [2.34 s]
+2022-09-16 11:12:06.483006 ; Package        ; Debug       ; Found no custom actions to run at 'install' stage.
+2022-09-16 11:12:06.483006 ; Installer      ; Information ; Installed Results Viewer CE version 9.17.4+5e508f08 [3.56 s]
+2022-09-16 11:12:06.483006 ; Installer      ; Information ; Installing C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Developer's System CE.9.17.4+5e508f08.TapPackage
+2022-09-16 11:12:06.512503 ; package        ; Debug       ; Decompressed bin/Release/Packages/Developer's System CE/package.xml [16.3 ms]
+2022-09-16 11:12:06.512503 ; Package        ; Debug       ; Found no custom actions to run at 'install' stage.
+2022-09-16 11:12:06.512503 ; Installer      ; Information ; Installed Developer's System CE version 9.17.4+5e508f08 [29.7 ms]

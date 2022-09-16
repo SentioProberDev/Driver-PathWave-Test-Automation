@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package Date="09/16/2022 03:25:49" Name="MyPluginVision" Version="0.1.0-alpha" Architecture="AnyCPU" OS="Windows,Linux" xmlns="http://opentap.io/schemas/package">
+  <Hash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</Hash>
+  <Description>This is my OpenTAP plugin package.</Description>
+  <Dependencies>
+    <PackageDependency Package="OpenTAP" Version="^9.18.5+0328e9b4" />
+  </Dependencies>
+  <Files>
+    <File Path="Packages/MyPluginVision/MyPluginVision.dll">
+      <Plugins>
+        <Plugin Type="MyPluginVision.AutoFocus" BaseType="Test Step">
+          <Name>AutoFocus</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Insert a description here</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>MyVisionPlugin</String>
+          </Groups>
+        </Plugin>
+        <Plugin Type="MyPluginVision.ScopeFollow" BaseType="Test Step">
+          <Name>Scope Follow</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Insert description here</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>MyVisionPlugin</String>
+          </Groups>
+        </Plugin>
+      </Plugins>
+      <Hash>19F662A5A730C31C89025F3D01F4EB5FA9B8F50A</Hash>
+    </File>
+    <File Path="Dependencies/MyOpenTapShare.0.1.0.0/MyOpenTapShare.dll">
+      <Hash>979590E06DDFE4BD7684A482E22B3050F7F12E29</Hash>
+    </File>
+  </Files>
+</Package>

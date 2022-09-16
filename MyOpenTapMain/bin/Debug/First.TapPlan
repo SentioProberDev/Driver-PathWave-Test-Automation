@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestPlan type="OpenTap.TestPlan" Locked="false">
+  <Steps>
+    <TestStep type="MyPluginGen.GetIDN" Version="0.1.0-Development" Id="f3ab195c-50ab-4ca7-92ea-fb9139ea91a5">
+      <Inst Source="OpenTap.InstrumentSettings">MyINST</Inst>
+      <Enabled>true</Enabled>
+      <Name Metadata="Step Name">GetIDN</Name>
+      <ChildTestSteps />
+      <BreakConditions>Inherit</BreakConditions>
+    </TestStep>
+    <TestStep type="MyPluginChuck.ChuckMoveSeparation" Version="0.1.0-Development" Id="cf3f5b6a-8574-451a-9e2f-6671a9bbd2dd">
+      <Inst Source="OpenTap.InstrumentSettings">MyINST</Inst>
+      <Enabled>true</Enabled>
+      <Name Metadata="Step Name">ChuckMoveSeparation</Name>
+      <ChildTestSteps>
+        <TestStep type="MyPluginChuck.ChuckMoveXY" Version="0.1.0-Development" Id="b7960163-0c4c-4115-9f75-c37ca1c6fb89">
+          <Inst Source="OpenTap.InstrumentSettings">MyINST</Inst>
+          <X>15000</X>
+          <Y>-15000</Y>
+          <Enabled>true</Enabled>
+          <Name Metadata="Step Name">ChuckMoveXY</Name>
+          <ChildTestSteps />
+          <BreakConditions>Inherit</BreakConditions>
+        </TestStep>
+        <TestStep type="MyPluginVision.ScopeFollow" Version="0.1.0-Development" Id="00d525cc-c63f-4362-9df5-411ee642dd7a">
+          <Inst Source="OpenTap.InstrumentSettings">MyINST</Inst>
+          <isOn>false</isOn>
+          <Enabled>true</Enabled>
+          <Name Metadata="Step Name">Scope Follow</Name>
+          <ChildTestSteps />
+          <BreakConditions>Inherit</BreakConditions>
+        </TestStep>
+        <TestStep type="MyPluginVision.AutoFocus" Version="0.1.0-Development" Id="525df2de-36d7-4871-bd07-4d60bfea342a">
+          <Inst Source="OpenTap.InstrumentSettings">MyINST</Inst>
+          <Enabled>true</Enabled>
+          <Name Metadata="Step Name">AutoFocus</Name>
+          <ChildTestSteps />
+          <BreakConditions>Inherit</BreakConditions>
+        </TestStep>
+      </ChildTestSteps>
+      <BreakConditions>Inherit</BreakConditions>
+    </TestStep>
+    <TestStep type="MyPluginChuck.ChuckMoveContact" Version="0.1.0-Development" Id="3019ac23-402c-4f27-b151-84ffc39b5e31">
+      <Inst Source="OpenTap.InstrumentSettings">MyINST</Inst>
+      <Enabled>true</Enabled>
+      <Name Metadata="Step Name">ChuckMoveContact</Name>
+      <ChildTestSteps />
+      <BreakConditions>Inherit</BreakConditions>
+    </TestStep>
+    <TestStep type="MyPluginGen.Step" Version="0.1.0-Development" Id="2380064a-1f79-4140-946b-046496aab47d">
+      <MaxLimit>15</MaxLimit>
+      <MinLimit>5</MinLimit>
+      <Enabled>true</Enabled>
+      <Name Metadata="Step Name">Check in range</Name>
+      <ChildTestSteps />
+      <BreakConditions>Inherit</BreakConditions>
+    </TestStep>
+  </Steps>
+  <BreakConditions>Inherit</BreakConditions>
+  <OpenTap.Description />
+  <Package.Dependencies>
+    <Package Name="OpenTAP" Version="^9.18.5+0328e9b4" />
+  </Package.Dependencies>
+</TestPlan>

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    Copyright Keysight Technologies 2012-2019
+    This Source Code Form is subject to the terms of the Mozilla Public
+    License, v. 2.0. If a copy of the MPL was not distributed with this
+    file, You can obtain one at http://mozilla.org/MPL/2.0/. 
+  -->
+<xs:schema id="PackageSchema"
+    targetNamespace="http://opentap.io/schemas/package"
+    elementFormDefault="qualified"
+    xmlns="http://opentap.io/schemas/package"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+  <xs:complexType name="FileType">
+    <xs:sequence>
+      <xs:any minOccurs="0" maxOccurs="unbounded" namespace="##any" processContents="skip" />
+    </xs:sequence>
+    
+    <xs:attribute name="Path" type="xs:string" use="required"/>
+    <xs:attribute name="LicenseRequired" type="xs:string"/>
+    <xs:attribute name="SourcePath" type="xs:string"/>
+    <xs:attribute name="Condition" type="xs:string"/>
+  </xs:complexType>
+  
+  <xs:element name="Package">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Variables" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Description" minOccurs="0" maxOccurs="1">
+          <xs:complexType mixed="true">
+            <xs:sequence>
+              <xs:element name="Status" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="Organisation" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="Contacts" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="Prerequisites" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="Hardware" type="xs:string" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="Links" minOccurs="0" maxOccurs="1"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+        <xs:element name="Dependencies" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Package" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="Name" type="xs:string" use="required"/>
+                  <xs:attribute name="Version" type="xs:string" />
+                  <xs:attribute name="Condition" type="xs:string"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="PackageDependency" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="Package" type="xs:string" use="required"/>
+                  <xs:attribute name="Version" type="xs:string" />
+                  <xs:attribute name="Condition" type="xs:string"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="Condition" type="xs:string"/>
+          </xs:complexType>
+        </xs:element>
+        
+        <xs:element name="Repository" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:attribute name="Url" type="xs:string" use="required"/>
+            <xs:attribute name="Condition" type="xs:string"/>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="Files" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="File" minOccurs="0" maxOccurs="unbounded" type="FileType" />
+            </xs:sequence>
+            <xs:attribute name="Condition" type="xs:string"/>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="PackageActionExtensions" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ActionStep" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="Condition" type="xs:string"/>
+                  <xs:attribute name="ExeFile" type="xs:string" use="required"/>
+                  <xs:attribute name="ExpectedExitCodes" type="xs:string" use="optional"/>
+                  <xs:attribute name="Arguments" type="xs:string" use="optional"/>
+                  <xs:attribute name="ActionName" type="xs:string" use="required"/>
+                  <xs:attribute name="UseShellExecute" type="xs:boolean" use="optional" default="false"/>
+                  <xs:attribute name="CreateNoWindow" type="xs:boolean" use="optional" default="false"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="Condition" type="xs:string"/>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="Extensions" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:any maxOccurs="unbounded" processContents="skip"/>
+            </xs:sequence>
+            <xs:anyAttribute processContents="skip"/>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="Owner" type="xs:string" minOccurs="0"/>
+        <xs:element name="SourceUrl" type="xs:string" minOccurs="0"/>
+        <xs:element name="SourceLicense" type="xs:string" minOccurs="0"/>
+        
+      </xs:choice>
+      <xs:attribute name="Name" type="xs:string" use ="required"/>
+      <xs:attribute name="Version" type="xs:string"/>
+      <xs:attribute name="InfoLink" type="xs:string"/>
+      <xs:attribute name="LicenseRequired" type="xs:string"/>
+      <xs:attribute name="Date" type="xs:string"/>
+      <xs:attribute name="OS" type="xs:string"/>
+      <xs:attribute name="Architecture" use="optional" default="AnyCPU" type="xs:string"/>
+      <xs:attribute name="FileType" type="xs:string" default="TapPackage"/>
+      <xs:attribute name="Class" type="xs:string" default="package"/>
+      <xs:attribute name="Group" type="xs:string"/>
+      <xs:attribute name="Tags" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

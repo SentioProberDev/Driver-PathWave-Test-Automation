@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package Date="09/16/2022 03:25:38" Name="MyOpenTapShare" Version="0.1.0-alpha" Architecture="AnyCPU" OS="Windows,Linux" xmlns="http://opentap.io/schemas/package">
+  <Hash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</Hash>
+  <Description>This is my OpenTAP plugin package.</Description>
+  <Dependencies>
+    <PackageDependency Package="OpenTAP" Version="^9.18.5+0328e9b4" />
+  </Dependencies>
+  <Files>
+    <File Path="Packages/MyOpenTapShare/MyOpenTapShare.dll">
+      <Plugins>
+        <Plugin Type="MyOpenTapShare.MyDut1" BaseType="Dut">
+          <Name>MyDut1</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Add a description here</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>MyOpenTapShare</String>
+          </Groups>
+        </Plugin>
+        <Plugin Type="MyOpenTapShare.MyInstrument1" BaseType="Instrument">
+          <Name>MyInstrument1</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Insert a description here</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>MyOpenTapShare</String>
+          </Groups>
+        </Plugin>
+        <Plugin Type="MyOpenTapShare.MyResultListener" BaseType="Result Listener">
+          <Name>MyResultListener</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Insert a description here</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>MyOpenTapShare</String>
+          </Groups>
+        </Plugin>
+        <Plugin Type="MyOpenTapShare.MySettings1" BaseType="Component Settings">
+          <Name>MySettings</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Add a description here</Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+      </Plugins>
+      <Hash>8C7A47DA7426604295E6A8D85281BA8E06FAE122</Hash>
+    </File>
+  </Files>
+</Package>

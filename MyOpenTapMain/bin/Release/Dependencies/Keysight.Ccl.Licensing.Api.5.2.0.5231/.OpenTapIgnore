@@ -1,0 +1,2 @@
+// avoid loading Keysight.Ccl.Licensing.Api version 5.2.0.531.
+// 5.2.3.19 or newer should be used.

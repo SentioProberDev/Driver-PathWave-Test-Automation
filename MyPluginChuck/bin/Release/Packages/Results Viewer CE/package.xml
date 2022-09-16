@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package InfoLink="http://www.keysight.com/find/TAP" Date="04/29/2022 11:55:47" Name="Results Viewer CE" Version="9.17.4+5e508f08" Architecture="x64" OS="Windows" xmlns="http://opentap.io/schemas/package">
+  <Hash>9318E7B620C122B95D09177D1CFE7A15D7733941</Hash>
+  <Description>The Results Viewer brings the power of relational databases to result visualization, empowering your test plan development with a consistent way of viewing data across multiple stages of your engineering process. Each time a test plan is executed the results can be stored in a database (SQLite, PostgreSQL,.. ) which can be graphed and visualized using the Results Viewer. Also provided is the test plan Run Explorer to help manage test plan data, recall old test plans, merge and compare test log timings and more. Update required to use after 5/21 2020.
+    <Status>Released</Status><Organisation>Keysight Technologies</Organisation></Description>
+  <Dependencies>
+    <PackageDependency Package="OSIntegration" Version="^1" />
+    <PackageDependency Package="CSV" Version="^9.11.0+98498e58" />
+    <PackageDependency Package="Keysight Licensing" Version="^1.1.1+7a2a1fe3" />
+    <PackageDependency Package="OpenTAP" Version="^9.17.4+ea67c63a" />
+    <PackageDependency Package="WPF Controls" Version="^9.17.4+5e508f08" />
+  </Dependencies>
+  <Owner>Keysight Technologies, Inc.</Owner>
+  <Files>
+    <File Path="ResultsViewer.exe">
+      <Plugins>
+        <Plugin Type="Keysight.OpenTap.ResultsViewer.ColumnChart" BaseType="Results Viewer Plugin">
+          <Name>Column</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description />
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.ResultsViewer.DatagridPlot" BaseType="Results Viewer Plugin">
+          <Name>Data Table</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description />
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.ResultsViewer.DatagridFullPlot" BaseType="Results Viewer Plugin">
+          <Name>Data Table (Full)</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description />
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.ResultsViewer.HistogramChart" BaseType="Results Viewer Plugin">
+          <Name>Histogram</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description />
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.ResultsViewer.LineChart" BaseType="Results Viewer Plugin">
+          <Name>Line</Name>
+          <Order>-10000</Order>
+          <Browsable>false</Browsable>
+          <Description />
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.ResultsViewer.ScatterPlot" BaseType="Results Viewer Plugin">
+          <Name>XY Scatter</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description />
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.ResultsViewer.XYLineChart" BaseType="Results Viewer Plugin">
+          <Name>XY Line</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description />
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.ResultsViewer.ResultColumnControlProvider" BaseType="Control Provider">
+          <Name>ResultColumnControlProvider</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description></Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.ResultsViewer.SplitModifier" BaseType="Result Modifier">
+          <Name>Split</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description />
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.ResultsViewer.TakeEveryNthModifier" BaseType="Result Modifier">
+          <Name>Take Every</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Take only every nth of the data points.</Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.ResultsViewer.FilterModifier" BaseType="Result Modifier">
+          <Name>Filter</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description />
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.ResultsViewer.ResultTypeModifier" BaseType="Result Modifier">
+          <Name>Result Name</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description />
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.ResultsViewer.OrderSeriesModifier" BaseType="Result Modifier">
+          <Name>Order Series</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description />
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.ResultsViewer.OrderPointsModifier" BaseType="Result Modifier">
+          <Name>Order Points</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description />
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.ResultsViewer.TagFilterModifier" BaseType="Result Modifier">
+          <Name>Tag Filter</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description />
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.ResultsViewer.ResultFilterValueControlProvider" BaseType="Control Provider">
+          <Name>ResultFilterValueControlProvider</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description></Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.ResultsViewer.ViewerSettings" BaseType="Component Settings">
+          <Name>Results Viewer</Name>
+          <Order>-10000</Order>
+          <Browsable>false</Browsable>
+          <Description>Results Viewer Settings</Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.ResultsViewer.ResultViewerCliAction" BaseType="ICliAction">
+          <Name>resultsviewer</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Starts the Results Viewer GUI</Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+      </Plugins>
+      <Hash>2114DA1B402D3B572C685E441E0A9CF967DBDE66</Hash>
+    </File>
+    <File Path="RunExplorer.exe">
+      <Plugins>
+        <Plugin Type="Keysight.OpenTap.RunExplorer.RunExplorerSettings" BaseType="Component Settings">
+          <Name>Run Explorer</Name>
+          <Order>-10000</Order>
+          <Browsable>false</Browsable>
+          <Description />
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.RunExplorer.RunExplorerCliAction" BaseType="ICliAction">
+          <Name>runexplorer</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Starts the Run Explorer GUI</Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+      </Plugins>
+      <StartMenuEntry Group="Keysight Test Automation" Name="Keysight Run Explorer" Args=""></StartMenuEntry>
+      <FileAssociation Verb="Open" Extension=".TapResults" Description="TAP Result Database" Args=""></FileAssociation>
+      <Hash>E56124A764C0B563C82A83FBAF5C714ED08EF78A</Hash>
+    </File>
+    <File Path="ResultsViewerHelp.chm">
+      <Hash>30F7AB9C03622B046642A6FE09BEE4AF0F2B8B8A</Hash>
+    </File>
+    <File Path="RunExplorerHelp.chm">
+      <Hash>EB9CE59A3343FFA902E7F59136635C64DD54D343</Hash>
+    </File>
+    <File Path="Packages/Editor CE/Keysight.OpenTap.CommunityEditionPopup.exe">
+      <Plugins>
+        <Plugin Type="Keysight.OpenTap.CommunityEditionPopup.GuiAction" BaseType="ICliAction">
+          <Name>communityeditionpopup</Name>
+          <Order>-10000</Order>
+          <Browsable>false</Browsable>
+          <Description>Starts the community EULA popup, if it has not already been accepted.</Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+      </Plugins>
+      <Hash>739D069228C8CCB099B62DECBA85A87B6078350B</Hash>
+    </File>
+    <File Path="Packages/Editor CE/EULA.rtf">
+      <Hash>A52B3B2F315B570A45287667500DA2A496664D56</Hash>
+    </File>
+    <File Path="Dependencies/OxyPlot.1.0.0.0/OxyPlot.dll">
+      <Hash>02602B4CA886A5F0A2D220E7BBC5AA7AE17FBDC0</Hash>
+    </File>
+    <File Path="Dependencies/OxyPlot.Wpf.1.0.0.0/OxyPlot.Wpf.dll">
+      <Hash>7B442E30194D87E8DB77F6BEAAD4583853C1617D</Hash>
+    </File>
+    <File Path="Dependencies/DocX.1.0.0.22/DocX.dll">
+      <Hash>73BE47D086F2E2EDBEF9938AE7FC235B407E1974</Hash>
+    </File>
+    <File Path="Dependencies/ReactiveUI.6.5.0.0/ReactiveUI.dll">
+      <Hash>1F9D374BEB7EDA08BFF50C2845F3F879CFCE732B</Hash>
+    </File>
+    <File Path="Dependencies/System.Reactive.Interfaces.2.2.5.0/System.Reactive.Interfaces.dll">
+      <Hash>BB7C4D3930358FA574136248CC1DA6C9BCF5F192</Hash>
+    </File>
+    <File Path="Dependencies/System.Reactive.Core.2.2.5.0/System.Reactive.Core.dll">
+      <Hash>C5EA57F70835E22CBAF08AC5262716DE3DE16F2B</Hash>
+    </File>
+    <File Path="Dependencies/System.Reactive.Linq.2.2.5.0/System.Reactive.Linq.dll">
+      <Hash>3123573B2291A0F01BADB10B149F741BCB9EB0F7</Hash>
+    </File>
+    <File Path="Dependencies/Splat.1.6.2.0/Splat.dll">
+      <Hash>EB254B470DF9172AA07F13E7280BCED746D95E22</Hash>
+    </File>
+    <File Path="Dependencies/System.Reactive.Windows.Threading.2.2.5.0/System.Reactive.Windows.Threading.dll">
+      <Hash>E079E329A9703DD5B2402678F91B53E15F1A46F6</Hash>
+    </File>
+    <File Path="Dependencies/System.Reactive.PlatformServices.2.2.5.0/System.Reactive.PlatformServices.dll">
+      <Hash>DA45CC120B5BD844612D5126EBFE7B36133323DC</Hash>
+    </File>
+  </Files>
+  <PackageActionExtensions>
+    <ActionStep ExeFile="tap.exe" ExpectedExitCodes="0" Arguments="communityeditionpopup" ActionName="install"></ActionStep>
+  </PackageActionExtensions>
+</Package>

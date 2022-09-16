@@ -1,0 +1,297 @@
+﻿2022-09-15 17:37:09.695163 ; Resolver       ; Debug       ; Found match for Keysight.OpenTap.Licensing, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null in D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Packages\Keysight Licensing\Keysight.OpenTap.Licensing.dll
+2022-09-15 17:37:09.750555 ; Settings       ; Debug       ; No settings file exists for AuthenticationSettings. A new instance with default values has been created. [2.21 ms]
+2022-09-15 17:37:05.573638 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\SessionLogs\editor 2022-09-15 17-37-02.txt'. [13.4 ms]
+2022-09-15 17:37:05.613465 ; Session        ; Debug       ; Running '"D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\editor.exe" ' in 'D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug'.
+2022-09-15 17:37:05.760962 ; Session        ; Debug       ; Microsoft Windows 10.0.19044 X64
+2022-09-15 17:37:05.760962 ; Session        ; Debug       ; .NET Framework 4.8.4515.0
+2022-09-15 17:37:05.928821 ; Session        ; Debug       ; OpenTAP Engine 9.18.5+0328e9b4 X64
+2022-09-15 17:37:06.172121 ; AssemblyFinder ; Debug       ; Found 29/93 assembly files. [67.0 ms]
+2022-09-15 17:37:06.229248 ; Resolver       ; Debug       ; Found match for Keysight.OpenTap.Wpf, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null in D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Packages\WPF Controls\Keysight.OpenTap.Wpf.dll
+2022-09-15 17:37:06.247763 ; Resolver       ; Debug       ; Found match for System.Reflection.Metadata, Version=1.4.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a in D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Dependencies\System.Reflection.Metadata.1.4.3.0\System.Reflection.Metadata.dll
+2022-09-15 17:37:06.376899 ; Resolver       ; Debug       ; Found match for System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a in D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Dependencies\System.Collections.Immutable.1.2.3.0\System.Collections.Immutable.dll
+2022-09-15 17:37:06.992681 ; Searcher       ; Debug       ; Ordered 27 assemblies according to references. [800 ms]
+2022-09-15 17:37:07.222608 ; PluginManager  ; Debug       ; Found 21 plugin assemblies containing 274 plugin types. [1.03 s]
+2022-09-15 17:37:07.223604 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.dll
+2022-09-15 17:37:07.223604 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.Package.dll
+2022-09-15 17:37:07.223604 ; PluginManager  ; Debug       ; Found version 1.1.0            of Keysight.OpenTap.Licensing.dll
+2022-09-15 17:37:07.223604 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.Plugins.BasicSteps.dll
+2022-09-15 17:37:07.223604 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of Keysight.OpenTap.Wpf.dll
+2022-09-15 17:37:07.223604 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of PackageManager.exe
+2022-09-15 17:37:07.223604 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of Editor.exe
+2022-09-15 17:37:07.223604 ; PluginManager  ; Debug       ; Found version 0.1.0-Development of MyOpenTapShare.dll
+2022-09-15 17:37:07.223604 ; PluginManager  ; Debug       ; Found version 0.1.0-Development of MyPluginChuck.dll
+2022-09-15 17:37:07.223604 ; PluginManager  ; Debug       ; Found version 0.1.0-Development of MyPluginGen.dll
+2022-09-15 17:37:07.223604 ; PluginManager  ; Debug       ; Found version 0.1.0-Development of MyPluginVision.dll
+2022-09-15 17:37:07.223604 ; PluginManager  ; Debug       ; Found version 9.11.0+98498e58  of Csv.dll
+2022-09-15 17:37:07.223604 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of ResultsViewer.exe
+2022-09-15 17:37:07.223604 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of RunExplorer.exe
+2022-09-15 17:37:07.223604 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of Keysight.OpenTap.CommunityEditionPopup.exe
+2022-09-15 17:37:07.223604 ; PluginManager  ; Debug       ; Found version 1.0.0            of OpenTap.OSIntegration.Windows.dll
+2022-09-15 17:37:07.223604 ; PluginManager  ; Debug       ; Found version 9.17.4+ea67c63a  of OpenTap.Sdk.New.dll
+2022-09-15 17:37:07.223604 ; PluginManager  ; Debug       ; Found version 9.4.2+3009aace   of Keysight.OpenTap.Plugins.ResultListener.SqlDatabase.dll
+2022-09-15 17:37:07.223604 ; PluginManager  ; Debug       ; Found version 9.4.2+3009aace   of Keysight.OpenTap.Plugins.ResultListener.PostgreSQL.dll
+2022-09-15 17:37:07.223604 ; PluginManager  ; Debug       ; Found version 9.4.2+3009aace   of Keysight.OpenTap.Plugins.ResultListener.SQLite.dll
+2022-09-15 17:37:07.223604 ; PluginManager  ; Debug       ; Found version 1.2.6+ef0ad804   of OpenTap.VSSdk.Installer.dll
+2022-09-15 17:37:07.224117 ; PluginManager  ; Debug       ; Searched 29 Assemblies. [1.03 s]
+2022-09-15 17:37:07.464518 ; AssemblyData   ; Debug       ; Loaded OpenTap. [908 us]
+2022-09-15 17:37:07.487736 ; AssemblyData   ; Debug       ; Loaded Keysight.OpenTap.Wpf. [1.42 ms]
+2022-09-15 17:37:07.515433 ; AssemblyData   ; Debug       ; Loaded OpenTap.Plugins.BasicSteps. [51.6 ms]
+2022-09-15 17:37:07.529916 ; AssemblyData   ; Debug       ; Loaded OpenTap.Package. [66.0 ms]
+2022-09-15 17:37:07.637196 ; AssemblyData   ; Debug       ; Loaded OpenTap.OSIntegration.Windows. [39.8 ms]
+2022-09-15 17:37:07.834019 ; AssemblyData   ; Debug       ; Loaded mscorlib. [1.10 us]
+2022-09-15 17:37:08.274617 ; Settings       ; Debug       ; EditorSettings loaded from D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Editor.xml [1.18 s]
+2022-09-15 17:37:08.293718 ; Resolver       ; Debug       ; Found match for Keysight.Ccl.Wsl, Version=4.0.1.9, Culture=neutral, PublicKeyToken=55333af07c70062e in D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Dependencies\Keysight.Ccl.Wsl.4.0.1.9\Keysight.Ccl.Wsl.dll
+2022-09-15 17:37:08.345001 ; Resolver       ; Debug       ; Found match for MahApps.Metro, Version=1.3.0.0, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f in D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Dependencies\MahApps.Metro.1.3.0.0\MahApps.Metro.dll
+2022-09-15 17:37:08.787710 ; GUI            ; Debug       ; Loaded Light Theme. [20.3 ms]
+2022-09-15 17:37:08.967836 ; Resolver       ; Debug       ; Found match for AvalonDock, Version=4.60.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4 in D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Dependencies\AvalonDock.4.60.0.0\AvalonDock.dll
+2022-09-15 17:37:09.571999 ; Settings       ; Debug       ; GuiControlsSettings loaded from D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\GUI Controls.xml [352 ms]
+2022-09-15 17:37:09.578053 ; Main           ; Debug       ; Window initial dimensions: 1549px, 837px.
+2022-09-15 17:37:09.670373 ; Settings       ; Debug       ; EngineSettings loaded from D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Engine.xml [80.4 ms]
+2022-09-15 17:37:09.673582 ; Settings       ; Debug       ; No settings file exists for PackageManagerSettings. A new instance with default values has been created. [2.78 ms]
+2022-09-15 17:37:09.810580 ; Session        ; Debug       ; Session log loaded as 'SessionLogs\SessionLog 2022-09-15 17-37-09.txt'. [55.6 ms]
+2022-09-15 17:37:11.046750 ; Main           ; Debug       ; GUI initialized. [1.46 s]
+2022-09-15 17:37:11.047247 ; Main           ; Debug       ; Docking manager initialized. [105 us]
+2022-09-15 17:37:11.064882 ; OpenTAP        ; Information ; OpenTAP version '9.18.5+0328e9b4' 64-bit initialized 09/15/2022 [8.17 s]
+2022-09-15 17:37:11.248413 ; AssemblyData   ; Debug       ; Loaded PackageManager. [495 us]
+2022-09-15 17:37:11.248413 ; AssemblyData   ; Debug       ; Loaded Editor. [47.1 us]
+2022-09-15 17:37:11.493365 ; AssemblyData   ; Debug       ; Loaded MyOpenTapShare. [244 ms]
+2022-09-15 17:37:11.562852 ; AssemblyData   ; Debug       ; Loaded ResultsViewer. [69.3 ms]
+2022-09-15 17:37:11.617785 ; AssemblyData   ; Debug       ; Loaded RunExplorer. [54.2 ms]
+2022-09-15 17:37:11.631364 ; Settings       ; Debug       ; ConnectionSettings loaded from D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Bench\Default\Connections.xml [12.2 ms]
+2022-09-15 17:37:11.663607 ; Settings       ; Debug       ; DutSettings loaded from D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Bench\Default\DUTs.xml [31.9 ms]
+2022-09-15 17:37:12.358521 ; Resolver       ; Debug       ; Found match for Keysight.Kal.Licensing.Api, Version=4.0.0.0, Culture=neutral, PublicKeyToken=55333af07c70062e in D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Dependencies\Keysight.Kal.Licensing.Api.4.0.0\Keysight.Kal.Licensing.Api.dll
+2022-09-15 17:37:12.442089 ; Settings       ; Debug       ; InstrumentSettings loaded from D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Bench\Default\Instruments.xml [778 ms]
+2022-09-15 17:37:12.448796 ; Settings       ; Debug       ; MySettings1 loaded from D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\MySettings.xml [5.09 ms]
+2022-09-15 17:37:12.469539 ; Settings       ; Debug       ; ResultSettings loaded from D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Results.xml [20.7 ms]
+2022-09-15 17:37:12.470039 ; KAL            ; Debug       ; KAL signature verified. [54.8 ms]
+2022-09-15 17:37:12.568283 ; KAL            ; Debug       ; Initialized [155 ms]
+2022-09-15 17:37:12.574623 ; KAL Process    ; Debug       ; Initialized [162 ms]
+2022-09-15 17:37:12.957862 ; Main           ; Warning     ; Recovery test plan detected.
+2022-09-15 17:37:13.014178 ; AssemblyData   ; Debug       ; Loaded MyPluginVision. [48.9 ms]
+2022-09-15 17:37:14.481253 ; Main           ; Information ; Latest version of 'Keysight Licensing' is 1.2, your version is 1.1. Please consider updating. [3.40 s]
+2022-09-15 17:37:14.481253 ; Main           ; Information ; Latest version of 'WPF Controls' is 9.18, your version is 9.17. Please consider updating. [3.40 s]
+2022-09-15 17:37:14.481253 ; Main           ; Information ; Latest version of 'SDK' is 9.18, your version is 9.17. Please consider updating. [3.40 s]
+2022-09-15 17:37:14.481253 ; Main           ; Information ; Latest version of 'Visual Studio SDK CE' is 1.4, your version is 1.2. Please consider updating. [3.40 s]
+2022-09-15 17:37:14.481253 ; Main           ; Debug       ; Update check complete. [3.40 s]
+2022-09-15 17:37:16.264554 ; Settings       ; Debug       ; PanelSettings loaded from D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\GUI Panels.xml [5.21 ms]
+2022-09-15 17:37:17.623301 ; Main           ; Debug       ; Application startup finished. [14.7 s]
+2022-09-15 17:37:25.193359 ; AssemblyData   ; Debug       ; Loaded MyPluginGen. [58.8 ms]
+2022-09-15 17:37:25.241400 ; AssemblyData   ; Debug       ; Loaded MyPluginChuck. [43.2 ms]
+2022-09-15 17:37:25.712978 ; Main           ; Debug       ; Loaded Test plan D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\First.TapPlan [601 ms]
+2022-09-15 17:37:40.529919 ; TestPlan       ; Information ; -----------------------------------------------------------------
+2022-09-15 17:37:40.567177 ; TestPlan       ; Information ; Starting TestPlan 'First' on 09/15/2022 17:37:40, 6 of 6 TestSteps enabled.
+2022-09-15 17:37:40.685949 ; TestPlan       ; Debug       ; Saved Test Plan XML [18.4 ms]
+2022-09-15 17:37:40.699517 ; Settings       ; Debug       ; No settings file exists for TestPlanRunPackageParameterMonitor. A new instance with default values has been created. [185 us]
+2022-09-15 17:37:40.829010 ; MyINST         ; Debug       ; Connecting to 'TCPIP0::127.0.0.1::35555::SOCKET'
+2022-09-15 17:37:40.882935 ; MyINST         ; Debug       ; SCPI >> *IDN? [12.2 ms]
+2022-09-15 17:37:40.882935 ; MyINST         ; Debug       ; SCPI << MPI Corporation,Sentio - Probe System Software Suite,,3.7.0.950,08/08/2022
+2022-09-15 17:37:40.882935 ; MyINST         ; Information ; Now connected to: MPI Corporation,Sentio - Probe System Software Suite,,3.7.0.950,08/08/2022
+2022-09-15 17:37:40.886190 ; MyINST         ; Debug       ; SCPI >> *CLS [497 us]
+2022-09-15 17:37:40.888639 ; MyINST         ; Information ; Resource "MyINST (TCPIP0::127.0.0.1::35555::SOCKET)" opened. [64.2 ms]
+2022-09-15 17:37:40.891638 ; MyRes          ; Information ; Resource "MyRes" opened. [510 us]
+2022-09-15 17:37:40.999083 ; TestPlan       ; Debug       ; PrePlanRun Methods completed [10.8 ms]
+2022-09-15 17:37:41.021600 ; TestPlan       ; Information ; "GetIDN" started.
+2022-09-15 17:37:41.048012 ; MyINST         ; Debug       ; SCPI >> *IDN? [3.36 ms]
+2022-09-15 17:37:41.048012 ; MyINST         ; Debug       ; SCPI << MPI Corporation,Sentio - Probe System Software Suite,,3.7.0.950,08/08/2022
+2022-09-15 17:37:41.048706 ; TestStep       ; Information ; MPI Corporation,Sentio - Probe System Software Suite,,3.7.0.950,08/08/2022
+2022-09-15 17:37:41.060930 ; TestPlan       ; Information ; "GetIDN" completed. [40.5 ms]
+2022-09-15 17:37:41.062984 ; TestPlan       ; Information ; "ChuckMoveSeparation" started.
+2022-09-15 17:37:41.063484 ; TestStep       ; Information ; Go To Separation
+2022-09-15 17:37:41.097022 ; MyINST         ; Debug       ; SCPI >> get_chuck_xy [34.0 ms]
+2022-09-15 17:37:41.097022 ; MyINST         ; Debug       ; SCPI << 00,10000.0,-10000.0
+2022-09-15 17:37:41.097521 ; MyRes          ; Information ; Test Done...00,10000.0,-10000.0
+2022-09-15 17:37:41.463920 ; MyINST         ; Debug       ; SCPI >> move_chuck_separation [400 ms]
+2022-09-15 17:37:41.463920 ; MyINST         ; Debug       ; SCPI << ,0,0,3750.0
+2022-09-15 17:37:41.463920 ; TestStep       ; Information ; ,0,0,3750.0
+2022-09-15 17:37:41.464919 ; TestPlan       ; Information ; "ChuckMoveSeparation \ ChuckMoveXY" started.
+2022-09-15 17:37:41.466061 ; TestStep       ; Information ; Go To XY
+2022-09-15 17:37:41.746190 ; MyINST         ; Debug       ; SCPI >> move_chuck_xy Zero,10000,-10000 [280 ms]
+2022-09-15 17:37:41.746687 ; MyINST         ; Debug       ; SCPI << 0,0,10000.0,-10000.0
+2022-09-15 17:37:41.746687 ; TestStep       ; Information ; 0,0,10000.0,-10000.0
+2022-09-15 17:37:41.747086 ; TestPlan       ; Information ; "ChuckMoveSeparation \ ChuckMoveXY" completed. [282 ms]
+2022-09-15 17:37:41.747086 ; TestPlan       ; Information ; "ChuckMoveSeparation \ AutoFocus" started.
+2022-09-15 17:37:41.748087 ; TestStep       ; Information ; Auto Focus
+2022-09-15 17:37:41.748383 ; MyINST         ; Debug       ; SCPI >> get_chuck_xy [1.39 ms]
+2022-09-15 17:37:41.748383 ; MyINST         ; Debug       ; SCPI << 0,0,10000.0,-10000.0
+2022-09-15 17:37:41.748383 ; MyRes          ; Information ; Test Done...0,0,10000.0,-10000.0
+2022-09-15 17:37:41.748917 ; MyINST         ; Debug       ; SCPI >> vis:auto_focus [1.11 ms]
+2022-09-15 17:37:41.748917 ; TestStep       ; Information ; AutoFocus done
+2022-09-15 17:37:41.748917 ; TestPlan       ; Information ; "ChuckMoveSeparation \ AutoFocus" completed. [1.74 ms]
+2022-09-15 17:37:41.753680 ; TestPlan       ; Information ; "ChuckMoveSeparation" completed. [690 ms]
+2022-09-15 17:37:41.754181 ; TestPlan       ; Information ; "ChuckMoveContact" started.
+2022-09-15 17:37:41.755230 ; TestStep       ; Information ; Go To Contact
+2022-09-15 17:37:43.752733 ; MyINST         ; Error       ; Not responding (query 'get_chuck_xy' timed out)
+2022-09-15 17:37:52.091777 ; TestPlan       ; Error       ; Error at Step Run Completed for MyRes
+2022-09-15 17:37:52.091777 ; MyINST         ; Error       ; Not responding (query 'move_chuck_contact' timed out)
+2022-09-15 17:37:53.356121 ; TestPlan       ; Debug       ; TimeoutException: Not responding
+2022-09-15 17:37:53.357764 ; TestPlan       ; Error       ; Error running "ChuckMoveContact": Not responding.
+2022-09-15 17:37:53.357764 ; TestPlan       ; Debug       ; TimeoutException: Not responding
+2022-09-15 17:37:53.387750 ; TestPlan       ; Debug       ;     at OpenTap.ScpiInstrument.ScpiQuery(String query, Boolean isSilent)
+2022-09-15 17:37:53.387750 ; TestPlan       ; Debug       ;     at MyOpenTapShare.MyResultListener.OnTestStepRunCompleted(TestStepRun stepRun) in D:\MPI Project\Test\MyOpenTap\MyOpenTapShare\MyResultListener.cs:line 44
+2022-09-15 17:37:53.387750 ; TestPlan       ; Debug       ;     at OpenTap.TestPlanRun.<>c__DisplayClass55_0.<AddTestStepRunCompleted>b__0(IResultListener listener)
+2022-09-15 17:37:53.389344 ; TestPlan       ; Debug       ;     at OpenTap.ScpiInstrument.ScpiQuery(String query, Boolean isSilent)
+2022-09-15 17:37:53.389344 ; TestPlan       ; Debug       ; Exception caught at:
+2022-09-15 17:37:53.389344 ; TestPlan       ; Debug       ;     at MyPluginChuck.ChuckMoveContact.Run() in D:\MPI Project\Test\MyOpenTap\MyPluginChuck\ChuckMoveContact.cs:line 39
+2022-09-15 17:37:53.389344 ; TestPlan       ; Debug       ;     at OpenTap.TestStepExtensions.DoRun(ITestStep Step, TestPlanRun planRun, TestRun parentRun, IEnumerable`1 attachedParameters)
+2022-09-15 17:37:53.397944 ; TestPlan       ; Debug       ; Exception caught at:
+2022-09-15 17:37:53.437076 ; TestPlan       ; Debug       ;     at Void WorkerFunction()
+2022-09-15 17:37:53.437076 ; TestPlan       ; Debug       ;     at Void Process()
+2022-09-15 17:37:53.437076 ; TestPlan       ; Debug       ;     at Void processQueue()
+2022-09-15 17:37:53.437076 ; TestPlan       ; Debug       ;     at Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+2022-09-15 17:37:53.437076 ; TestPlan       ; Debug       ;     ...
+2022-09-15 17:37:53.438788 ; TestPlan       ; Warning     ; Removing faulty ResultListener 'MyRes'
+2022-09-15 17:37:53.439076 ; MyINST         ; Debug       ; SCPI >> get_chuck_xy [265 us]
+2022-09-15 17:37:53.439076 ; MyINST         ; Debug       ; SCPI << 0,0,0.2,scope
+2022-09-15 17:37:53.439076 ; MyRes          ; Information ; Test Done...0,0,0.2,scope
+2022-09-15 17:37:53.441584 ; TestPlan       ; Debug       ;     at failState execTestPlan(OpenTap.TestPlanRun, System.Collections.Generic.IList`1[OpenTap.ITestStep])
+2022-09-15 17:37:53.441584 ; TestPlan       ; Debug       ;     at OpenTap.TestPlanRun DoExecute(System.Collections.Generic.IEnumerable`1[OpenTap.IResultListener], System.Collections.Generic.IEnumerable`1[OpenTap.ResultParameter], System.Collections.Generic.HashSet`1[OpenTap.ITestStep])
+2022-09-15 17:37:53.441584 ; TestPlan       ; Debug       ;     at OpenTap.TestPlanRun executeInContext(System.Collections.Generic.IEnumerable`1[OpenTap.IResultListener], System.Collections.Generic.IEnumerable`1[OpenTap.ResultParameter], System.Collections.Generic.HashSet`1[OpenTap.ITestStep])
+2022-09-15 17:37:53.441584 ; TestPlan       ; Debug       ;     at Void g()
+2022-09-15 17:37:53.441584 ; TestPlan       ; Debug       ;     ...
+2022-09-15 17:37:53.441584 ; TestPlan       ; Information ; "ChuckMoveContact" completed with verdict 'Error'. [11.6 s]
+2022-09-15 17:37:53.444065 ; TestStep       ; Debug       ; Break issued from 'ChuckMoveContact' due to verdict Error. See Break Conditions settings.
+2022-09-15 17:37:53.444065 ; TestPlan       ; Debug       ; Test step runs finished. [12.4 s]
+2022-09-15 17:37:53.492095 ; Summary        ; Information ; -------- Summary of test plan started 09/15/2022 17:37:40 --------
+2022-09-15 17:37:53.495096 ; Summary        ; Information ;  GetIDN                                             40.5 ms         
+2022-09-15 17:37:53.495096 ; Summary        ; Information ;  ChuckMoveSeparation                                 690 ms         
+2022-09-15 17:37:53.495096 ; Summary        ; Information ;    ChuckMoveXY                                       282 ms         
+2022-09-15 17:37:53.495096 ; Summary        ; Information ;    AutoFocus                                        1.74 ms         
+2022-09-15 17:37:53.495096 ; Summary        ; Information ;  ChuckMoveContact                                   11.6 s   Error  
+2022-09-15 17:37:53.496096 ; Summary        ; Information ; ------------------------------------------------------------------
+2022-09-15 17:37:53.496096 ; Summary        ; Information ; -------- Test plan completed with verdict Error in 12.8 s --------
+2022-09-15 17:37:53.523351 ; MyRes          ; Information ; Resource "MyRes" closed. [1.30 ms]
+2022-09-15 17:37:53.527351 ; MyINST         ; Information ; Resource "MyINST (TCPIP0::127.0.0.1::35555::SOCKET)" closed. [3.89 ms]
+2022-09-15 17:38:25.758726 ; TestPlan       ; Information ; -----------------------------------------------------------------
+2022-09-15 17:38:25.760170 ; TestPlan       ; Information ; Starting TestPlan 'First' on 09/15/2022 17:38:25, 2 of 6 TestSteps enabled.
+2022-09-15 17:38:25.765457 ; MyINST         ; Debug       ; Connecting to 'TCPIP0::127.0.0.1::35555::SOCKET'
+2022-09-15 17:38:25.766494 ; TestPlan       ; Debug       ; Saved Test Plan XML [5.88 ms]
+2022-09-15 17:38:25.790276 ; MyINST         ; Debug       ; SCPI >> *IDN? [4.74 ms]
+2022-09-15 17:38:25.790276 ; MyINST         ; Debug       ; SCPI << MPI Corporation,Sentio - Probe System Software Suite,,3.7.0.950,08/08/2022
+2022-09-15 17:38:25.790276 ; MyINST         ; Information ; Now connected to: MPI Corporation,Sentio - Probe System Software Suite,,3.7.0.950,08/08/2022
+2022-09-15 17:38:25.790776 ; MyINST         ; Debug       ; SCPI >> *CLS [399 us]
+2022-09-15 17:38:25.791777 ; MyINST         ; Information ; Resource "MyINST (TCPIP0::127.0.0.1::35555::SOCKET)" opened. [26.8 ms]
+2022-09-15 17:38:25.792643 ; MyRes          ; Information ; Resource "MyRes" opened. [404 us]
+2022-09-15 17:38:25.837222 ; TestPlan       ; Debug       ; PrePlanRun Methods completed [5.90 us]
+2022-09-15 17:38:25.837222 ; TestPlan       ; Information ; "ChuckMoveSeparation" started.
+2022-09-15 17:38:25.837222 ; TestStep       ; Information ; Go To Separation
+2022-09-15 17:38:26.240894 ; MyINST         ; Debug       ; SCPI >> move_chuck_separation [403 ms]
+2022-09-15 17:38:26.240894 ; MyINST         ; Debug       ; SCPI << 0,0,3750.0
+2022-09-15 17:38:26.240894 ; TestStep       ; Information ; 0,0,3750.0
+2022-09-15 17:38:26.240894 ; TestPlan       ; Information ; "ChuckMoveSeparation \ AutoFocus" started.
+2022-09-15 17:38:26.240894 ; TestStep       ; Information ; Auto Focus
+2022-09-15 17:38:26.240894 ; MyINST         ; Debug       ; SCPI >> vis:auto_focus [159 us]
+2022-09-15 17:38:26.240894 ; TestStep       ; Information ; AutoFocus done
+2022-09-15 17:38:26.240894 ; TestPlan       ; Information ; "ChuckMoveSeparation \ AutoFocus" completed. [313 us]
+2022-09-15 17:38:26.240894 ; TestPlan       ; Information ; "ChuckMoveSeparation" completed. [404 ms]
+2022-09-15 17:38:26.240894 ; TestPlan       ; Debug       ; Test step runs finished. [404 ms]
+2022-09-15 17:38:26.241709 ; Summary        ; Information ; ------ Summary of test plan started 09/15/2022 17:38:25 ------
+2022-09-15 17:38:26.241709 ; Summary        ; Information ;  ChuckMoveSeparation                                 404 ms         
+2022-09-15 17:38:26.241709 ; Summary        ; Information ;    AutoFocus                                         313 us         
+2022-09-15 17:38:26.241709 ; Summary        ; Information ; --------------------------------------------------------------
+2022-09-15 17:38:26.241709 ; Summary        ; Information ; --------- Test plan completed successfully in 479 ms ---------
+2022-09-15 17:38:28.243563 ; MyINST         ; Error       ; Not responding (query 'get_chuck_xy' timed out)
+2022-09-15 17:38:28.264666 ; TestPlan       ; Information ; Waiting for result propagation for MyRes
+2022-09-15 17:38:40.882994 ; TestPlan       ; Error       ; Error at Step Run Completed for MyRes
+2022-09-15 17:38:40.882994 ; TestPlan       ; Debug       ; TimeoutException: Not responding
+2022-09-15 17:38:40.883494 ; TestPlan       ; Debug       ;     at OpenTap.ScpiInstrument.ScpiQuery(String query, Boolean isSilent)
+2022-09-15 17:38:40.883494 ; TestPlan       ; Debug       ;     at MyOpenTapShare.MyResultListener.OnTestStepRunCompleted(TestStepRun stepRun) in D:\MPI Project\Test\MyOpenTap\MyOpenTapShare\MyResultListener.cs:line 44
+2022-09-15 17:38:40.883494 ; TestPlan       ; Debug       ;     at OpenTap.TestPlanRun.<>c__DisplayClass55_0.<AddTestStepRunCompleted>b__0(IResultListener listener)
+2022-09-15 17:38:40.883494 ; TestPlan       ; Debug       ; Exception caught at:
+2022-09-15 17:38:40.883494 ; TestPlan       ; Debug       ;     at Void WorkerFunction()
+2022-09-15 17:38:40.883494 ; TestPlan       ; Debug       ;     at Void Process()
+2022-09-15 17:38:40.883494 ; TestPlan       ; Debug       ;     at Void processQueue()
+2022-09-15 17:38:40.883494 ; TestPlan       ; Debug       ;     at Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+2022-09-15 17:38:40.883494 ; TestPlan       ; Debug       ;     ...
+2022-09-15 17:38:40.883494 ; TestPlan       ; Warning     ; Removing faulty ResultListener 'MyRes'
+2022-09-15 17:38:40.883996 ; MyINST         ; Debug       ; SCPI >> get_chuck_xy [170 us]
+2022-09-15 17:38:40.883996 ; MyINST         ; Debug       ; SCPI << 0,0,0.0,scope
+2022-09-15 17:38:40.883996 ; MyRes          ; Information ; Test Done...0,0,0.0,scope
+2022-09-15 17:38:40.890130 ; TestPlan       ; Error       ; Error while finishing TestPlan.
+2022-09-15 17:38:40.890130 ; TestPlan       ; Debug       ; InvalidOperationException: Collection was modified; enumeration operation may not execute.
+2022-09-15 17:38:40.890130 ; TestPlan       ; Debug       ;     at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+2022-09-15 17:38:40.890130 ; TestPlan       ; Debug       ;     at System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+2022-09-15 17:38:40.890130 ; TestPlan       ; Debug       ;     at OpenTap.TestPlanRun.AddTestPlanCompleted(HybridStream logStream, Boolean openCompleted)
+2022-09-15 17:38:40.890130 ; TestPlan       ; Debug       ;     at OpenTap.TestPlan.finishTestPlanRun(TestPlanRun run, Stopwatch testPlanTimer, failState runWentOk, TraceListener Logger, HybridStream logStream)
+2022-09-15 17:38:40.890130 ; TestPlan       ; Debug       ;     at OpenTap.TestPlan.DoExecute(IEnumerable`1 resultListeners, IEnumerable`1 metaDataParameters, HashSet`1 stepsOverride)
+2022-09-15 17:38:40.890499 ; TestPlan       ; Debug       ; Exception caught at:
+2022-09-15 17:38:40.890499 ; TestPlan       ; Debug       ;     at OpenTap.TestPlanRun executeInContext(System.Collections.Generic.IEnumerable`1[OpenTap.IResultListener], System.Collections.Generic.IEnumerable`1[OpenTap.ResultParameter], System.Collections.Generic.HashSet`1[OpenTap.ITestStep])
+2022-09-15 17:38:40.890499 ; TestPlan       ; Debug       ;     at Void g()
+2022-09-15 17:38:40.890499 ; TestPlan       ; Debug       ;     at Void Process()
+2022-09-15 17:38:40.890499 ; TestPlan       ; Debug       ;     at Void processQueue()
+2022-09-15 17:38:40.890499 ; TestPlan       ; Debug       ;     ...
+2022-09-15 17:38:48.857500 ; Settings       ; Debug       ; Saved GuiControlsSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\GUI Controls.xml [29.3 ms]
+2022-09-15 17:38:48.883180 ; Settings       ; Debug       ; Saved PanelSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\GUI Panels.xml [12.0 ms]
+2022-09-15 17:38:48.889184 ; Settings       ; Debug       ; Saved EditorSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Editor.xml [6.03 ms]
+2022-09-15 17:39:05.114686 ; TestPlan       ; Information ; -----------------------------------------------------------------
+2022-09-15 17:39:05.114686 ; TestPlan       ; Information ; Starting TestPlan 'First' on 09/15/2022 17:39:05, 3 of 6 TestSteps enabled.
+2022-09-15 17:39:05.116432 ; MyINST         ; Debug       ; Connecting to 'TCPIP0::127.0.0.1::35555::SOCKET'
+2022-09-15 17:39:17.659231 ; TestPlan       ; Debug       ; Saved Test Plan XML [12.5 s]
+2022-09-15 17:39:17.664504 ; TestPlan       ; Error       ; Error in OnTestPlanRunStart for 'MyRes': 'Error while opening resource "MyINST (TCPIP0::127.0.0.1::35555::SOCKET)"'
+2022-09-15 17:39:17.664504 ; TestPlan       ; Debug       ; ExceptionCustomStackTrace: Error while opening resource "MyINST (TCPIP0::127.0.0.1::35555::SOCKET)"
+2022-09-15 17:39:17.664504 ; TestPlan       ; Debug       ;   Inner IOException: Cannot connect to instrument on address 'TCPIP0::127.0.0.1::35555::SOCKET'.
+2022-09-15 17:39:17.664504 ; TestPlan       ; Debug       ;     at OpenTap.ScpiInstrument.Open()
+2022-09-15 17:39:17.664504 ; TestPlan       ; Debug       ;     at MyOpenTapShare.MyInstrument1.Open() in D:\MPI Project\Test\MyOpenTap\MyOpenTapShare\MyInstrument1.cs:line 42
+2022-09-15 17:39:17.664504 ; TestPlan       ; Debug       ;     at System.Threading.Tasks.Task.Execute()
+2022-09-15 17:39:17.664504 ; TestPlan       ; Debug       ;     --- End of stack trace from previous location where exception was thrown ---
+2022-09-15 17:39:17.664504 ; TestPlan       ; Debug       ;     at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+2022-09-15 17:39:17.664504 ; TestPlan       ; Debug       ;     at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+2022-09-15 17:39:17.664504 ; TestPlan       ; Debug       ;     at OpenTap.ResourceTaskManager.<OpenResource>d__10.MoveNext()
+2022-09-15 17:39:17.664504 ; TestPlan       ; Debug       ;   Inner Exception: IO is already open
+2022-09-15 17:39:17.664504 ; TestPlan       ; Debug       ;     at OpenTap.ScpiIO.Open(String visaAddress, Boolean exclusiveLock)
+2022-09-15 17:39:17.664504 ; TestPlan       ; Debug       ;     at OpenTap.ScpiInstrument.Open()
+2022-09-15 17:39:17.665004 ; TestPlan       ; Debug       ; Exception caught at:
+2022-09-15 17:39:17.665004 ; TestPlan       ; Debug       ;     at Void <ScheduleInResultProcessingThread>b__0(T)
+2022-09-15 17:39:17.665004 ; TestPlan       ; Debug       ;     at Void WorkerFunction()
+2022-09-15 17:39:17.665004 ; TestPlan       ; Debug       ;     at Void Process()
+2022-09-15 17:39:17.665004 ; TestPlan       ; Debug       ;     at Void processQueue()
+2022-09-15 17:39:17.665004 ; TestPlan       ; Debug       ;     ...
+2022-09-15 17:39:17.690028 ; TestPlan       ; Error       ; Failed to open resource (One or more errors occurred.)
+2022-09-15 17:39:17.690028 ; TestPlan       ; Debug       ; AggregateException: One or more errors occurred.
+2022-09-15 17:39:17.690665 ; TestPlan       ; Debug       ;     at System.Threading.Tasks.Task.WaitAll(Task[] tasks, Int32 millisecondsTimeout, CancellationToken cancellationToken)
+2022-09-15 17:39:17.690665 ; TestPlan       ; Debug       ;     at OpenTap.ResourceTaskManager.WaitUntilResourcesOpened(CancellationToken cancellationToken, IResource[] targets)
+2022-09-15 17:39:17.690665 ; TestPlan       ; Debug       ;     --- End of stack trace from previous location where exception was thrown ---
+2022-09-15 17:39:17.690665 ; TestPlan       ; Debug       ;     at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+2022-09-15 17:39:17.690665 ; TestPlan       ; Debug       ;     at OpenTap.ExceptionExtensions.RethrowInner(Exception ex)
+2022-09-15 17:39:17.690665 ; TestPlan       ; Debug       ;     at OpenTap.ResourceTaskManager.WaitUntilResourcesOpened(CancellationToken cancellationToken, IResource[] targets)
+2022-09-15 17:39:17.690665 ; TestPlan       ; Debug       ;     at OpenTap.ResourceTaskManager.WaitUntilAllResourcesOpened(CancellationToken cancellationToken)
+2022-09-15 17:39:17.690665 ; TestPlan       ; Debug       ;     at OpenTap.TestPlan.finishTestPlanRun(TestPlanRun run, Stopwatch testPlanTimer, failState runWentOk, TraceListener Logger, HybridStream logStream)
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;   Inner ExceptionCustomStackTrace: Error while opening resource "MyINST (TCPIP0::127.0.0.1::35555::SOCKET)"
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;   Inner IOException: Cannot connect to instrument on address 'TCPIP0::127.0.0.1::35555::SOCKET'.
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;     at OpenTap.ScpiInstrument.Open()
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;     at MyOpenTapShare.MyInstrument1.Open() in D:\MPI Project\Test\MyOpenTap\MyOpenTapShare\MyInstrument1.cs:line 42
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;     at System.Threading.Tasks.Task.Execute()
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;     --- End of stack trace from previous location where exception was thrown ---
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;     at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;     at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;     at OpenTap.ResourceTaskManager.<OpenResource>d__10.MoveNext()
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;   Inner Exception: IO is already open
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;     at OpenTap.ScpiIO.Open(String visaAddress, Boolean exclusiveLock)
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;     at OpenTap.ScpiInstrument.Open()
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;   Inner ExceptionCustomStackTrace: Error while opening resource "MyINST (TCPIP0::127.0.0.1::35555::SOCKET)"
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;   Inner IOException: Cannot connect to instrument on address 'TCPIP0::127.0.0.1::35555::SOCKET'.
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;     at OpenTap.ScpiInstrument.Open()
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;     at MyOpenTapShare.MyInstrument1.Open() in D:\MPI Project\Test\MyOpenTap\MyOpenTapShare\MyInstrument1.cs:line 42
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;     at System.Threading.Tasks.Task.Execute()
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;     --- End of stack trace from previous location where exception was thrown ---
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;     at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;     at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;     at OpenTap.ResourceTaskManager.<OpenResource>d__10.MoveNext()
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;   Inner Exception: IO is already open
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;     at OpenTap.ScpiIO.Open(String visaAddress, Boolean exclusiveLock)
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;     at OpenTap.ScpiInstrument.Open()
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ; Exception caught at:
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;     at OpenTap.TestPlanRun DoExecute(System.Collections.Generic.IEnumerable`1[OpenTap.IResultListener], System.Collections.Generic.IEnumerable`1[OpenTap.ResultParameter], System.Collections.Generic.HashSet`1[OpenTap.ITestStep])
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;     at OpenTap.TestPlanRun executeInContext(System.Collections.Generic.IEnumerable`1[OpenTap.IResultListener], System.Collections.Generic.IEnumerable`1[OpenTap.ResultParameter], System.Collections.Generic.HashSet`1[OpenTap.ITestStep])
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;     at Void g()
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;     at Void Process()
+2022-09-15 17:39:17.692135 ; TestPlan       ; Debug       ;     ...
+2022-09-15 17:39:17.692135 ; Summary        ; Information ; ------ Summary of test plan started 09/15/2022 17:39:05 ------
+2022-09-15 17:39:17.692135 ; Summary        ; Information ; --------------------------------------------------------------
+2022-09-15 17:39:17.692135 ; Summary        ; Information ; ------ Test plan completed with verdict Error in 12.6 s ------
+2022-09-15 17:39:17.694511 ; MyRes          ; Warning     ; Run Completed was not called for 'MyRes' as it failed to open.
+2022-09-15 17:39:17.705520 ; MyRes          ; Information ; Resource "MyRes" closed. [749 us]
+2022-09-15 17:39:17.710286 ; MyINST         ; Information ; Resource "MyINST (TCPIP0::127.0.0.1::35555::SOCKET)" closed. [4.61 ms]
+2022-09-15 17:39:28.331582 ; Main           ; Information ; Saved test plan to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\First.TapPlan [11.0 ms]
+2022-09-15 17:39:29.797631 ; Settings       ; Debug       ; Saved GuiControlsSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\GUI Controls.xml [13.9 ms]
+2022-09-15 17:39:29.804272 ; Settings       ; Debug       ; Saved PanelSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\GUI Panels.xml [5.08 ms]
+2022-09-15 17:39:29.814149 ; Settings       ; Debug       ; Saved EditorSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Editor.xml [10.1 ms]

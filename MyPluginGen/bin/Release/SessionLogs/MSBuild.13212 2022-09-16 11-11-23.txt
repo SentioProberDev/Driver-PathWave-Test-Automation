@@ -1,0 +1,25 @@
+﻿2022-09-16 11:12:07.493903 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyPluginGen\bin\Release\SessionLogs\MSBuild.13212 2022-09-16 11-11-23.txt'. [18.2 ms]
+2022-09-16 11:12:07.502833 ; Session        ; Debug       ; Running 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe /nologo /nodemode:1 /nodeReuse:true /low:false' in 'D:\MPI Project\Test\MyOpenTap\MyPluginGen'.
+2022-09-16 11:12:12.544646 ; OpenTAP        ; Information ; Modifying installation in bin\Release\:
+2022-09-16 11:12:12.544646 ; OpenTAP        ; Information ; - Skipping OpenTAP version 9.18.5+0328e9b4 (x64-Windows) - Already installed.
+2022-09-16 11:12:12.544646 ; OpenTAP        ; Information ; - Skipping PathWave License Manager version 2.5.0 (x64-Windows) - Already installed.
+2022-09-16 11:12:12.544646 ; OpenTAP        ; Information ; - Installing CSV version 9.11.0+98498e58
+2022-09-16 11:12:12.544646 ; OpenTAP        ; Information ; - Installing Developer's System CE version 9.17.4+5e508f08
+2022-09-16 11:12:12.544646 ; OpenTAP        ; Information ; - Installing Editor CE version 9.17.4+5e508f08
+2022-09-16 11:12:12.544646 ; OpenTAP        ; Information ; - Installing Keysight Licensing version 1.1.1+7a2a1fe3
+2022-09-16 11:12:12.544646 ; OpenTAP        ; Information ; - Installing OSIntegration version 1.4.2+15f32a31
+2022-09-16 11:12:12.544646 ; OpenTAP        ; Information ; - Installing Results Viewer CE version 9.17.4+5e508f08
+2022-09-16 11:12:12.544646 ; OpenTAP        ; Information ; - Installing SDK version 9.17.4+ea67c63a
+2022-09-16 11:12:12.544646 ; OpenTAP        ; Information ; - Installing SQLite and PostgreSQL version 9.4.2+3009aace
+2022-09-16 11:12:12.544646 ; OpenTAP        ; Information ; - Installing Visual Studio SDK CE version 1.2.6+ef0ad804
+2022-09-16 11:12:12.544646 ; OpenTAP        ; Information ; - Installing WPF Controls version 9.17.4+5e508f08
+2022-09-16 11:12:12.544646 ; OpenTAP        ; Information ; Package CSV exists in cache: C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\CSV.9.11.0+98498e58.Windows,Linux.TapPackage
+2022-09-16 11:12:12.545603 ; OpenTAP        ; Information ; Package Keysight Licensing exists in cache: C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Keysight Licensing.1.1.1+7a2a1fe3.x64.TapPackage
+2022-09-16 11:12:12.545603 ; OpenTAP        ; Information ; Package OSIntegration exists in cache: C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\OSIntegration.1.4.2+15f32a31.TapPackage
+2022-09-16 11:12:12.545603 ; OpenTAP        ; Information ; Package SDK exists in cache: C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\SDK.9.17.4+ea67c63a.Windows,Linux,MacOS.TapPackage
+2022-09-16 11:12:12.546103 ; OpenTAP        ; Information ; Package SQLite and PostgreSQL exists in cache: C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\SQLite and PostgreSQL.9.4.2+3009aace.TapPackage
+2022-09-16 11:12:12.546103 ; OpenTAP        ; Information ; Package Visual Studio SDK CE exists in cache: C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Visual Studio SDK CE.1.2.6+ef0ad804.TapPackage
+2022-09-16 11:12:12.546103 ; OpenTAP        ; Information ; Package WPF Controls exists in cache: C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\WPF Controls.9.17.4+5e508f08.TapPackage
+2022-09-16 11:12:12.546103 ; OpenTAP        ; Information ; Package Editor CE exists in cache: C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Editor CE.9.17.4+5e508f08.x64.TapPackage
+2022-09-16 11:12:12.546614 ; OpenTAP        ; Information ; Package Results Viewer CE exists in cache: C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Results Viewer CE.9.17.4+5e508f08.x64.TapPackage
+2022-09-16 11:12:12.546614 ; OpenTAP        ; Information ; Package Developer's System CE exists in cache: C:\Users\Jacky.Kuo\AppData\Local\OpenTap\PackageCache\Developer's System CE.9.17.4+5e508f08.TapPackage

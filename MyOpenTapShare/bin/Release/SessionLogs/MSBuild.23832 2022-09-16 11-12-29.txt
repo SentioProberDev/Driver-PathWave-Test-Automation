@@ -1,0 +1,19 @@
+2022-09-16 11:12:37.963140 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyOpenTapShare\bin\Release\SessionLogs\MSBuild.23832 2022-09-16 11-12-29.txt'. [11.6 ms]
+2022-09-16 11:12:37.991269 ; Session        ; Debug       ; Running 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe /nologo /nodemode:1 /nodeReuse:true /low:false' in 'D:\MPI Project\Test\MyOpenTap\MyOpenTapShare'.
+2022-09-16 11:12:38.057815 ; Session        ; Debug       ; Microsoft Windows 10.0.19044 X64
+2022-09-16 11:12:38.057815 ; Session        ; Debug       ; .NET Framework 4.8.4515.0
+2022-09-16 11:12:38.064263 ; Session        ; Debug       ; OpenTAP Engine 9.18.5+0328e9b4 X86
+2022-09-16 11:12:38.102275 ; AssemblyFinder ; Debug       ; Found 5/30 assembly files. [39.6 ms]
+2022-09-16 11:12:38.163383 ; Resolver       ; Debug       ; Found match for System.Reflection.Metadata, Version=1.4.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a in C:\Users\Jacky.Kuo\.nuget\packages\opentap\9.18.5\build\payload\Dependencies\System.Reflection.Metadata.1.4.3.0\System.Reflection.Metadata.dll
+2022-09-16 11:12:38.293151 ; Searcher       ; Debug       ; Ordered 5 assemblies according to references. [182 ms]
+2022-09-16 11:12:38.356684 ; PluginManager  ; Debug       ; Found 3 plugin assemblies containing 156 plugin types. [247 ms]
+2022-09-16 11:12:38.357770 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.dll from C:\Users\Jacky.Kuo\.nuget\packages\opentap\9.18.5\build\payload\OpenTap.dll
+2022-09-16 11:12:38.357770 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.Package.dll from C:\Users\Jacky.Kuo\.nuget\packages\opentap\9.18.5\build\payload\OpenTap.Package.dll
+2022-09-16 11:12:38.357770 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.Plugins.BasicSteps.dll from C:\Users\Jacky.Kuo\.nuget\packages\opentap\9.18.5\build\payload\Packages\OpenTAP\OpenTap.Plugins.BasicSteps.dll
+2022-09-16 11:12:38.357770 ; PluginManager  ; Debug       ; Searched 5 Assemblies. [248 ms]
+2022-09-16 11:12:38.387792 ; AssemblyData   ; Debug       ; Loaded OpenTap. [1.68 ms]
+2022-09-16 11:12:38.389073 ; AssemblyData   ; Debug       ; Loaded OpenTap.Package. [287 us]
+2022-09-16 11:12:38.395592 ; AssemblyData   ; Debug       ; Loaded OpenTap.Plugins.BasicSteps. [8.37 ms]
+2022-09-16 11:12:38.492207 ; AssemblyData   ; Debug       ; Loaded mscorlib. [800 ns]
+2022-09-16 11:12:38.750921 ; Settings       ; Debug       ; No settings file exists for AuthenticationSettings. A new instance with default values has been created. [568 us]
+2022-09-16 11:12:40.078280 ; OpenTAP        ; Information ; Target installation is already up to date.

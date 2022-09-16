@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package InfoLink="http://www.keysight.com/find/TAP" Date="10/13/2021 12:38:14" LicenseRequired="" Name="CSV" Version="9.11.0+98498e58" Architecture="AnyCPU" OS="Windows,Linux" xmlns="http://opentap.io/schemas/package">
+  <Hash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</Hash>
+  <Description>This plugin package contains a result listener that allows for results to be output in a CSV format. CSV is a common data exchange format that is widely supported by consumer, business, and scientific applications. It is basically plain text saved in a tabular format and the settings let you configure which separator to use: comma, semicolon or tabular.
+  <Status>Released</Status><Organisation>Keysight Technologies</Organisation></Description>
+  <Dependencies>
+    <PackageDependency Package="OpenTAP" Version="^9.16.0-rc.1+2b4975a7" />
+  </Dependencies>
+  <Owner>Keysight Technologies, Inc.</Owner>
+  <Files>
+    <File Path="Packages/CSV/Csv.dll">
+      <Plugins>
+        <Plugin Type="Keysight.OpenTap.Plugins.Csv.CsvResultListener" BaseType="Result Listener">
+          <Name>CSV</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Save results to one or more CSV files. Allows splitting the file(s) based on a maximum file size.</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>Text</String>
+          </Groups>
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Plugins.Csv.ExternalTestPlanParameterCsvFileHandler" BaseType="External Parameter Import | External Parameter Export">
+          <Name>Comma Separated Values</Name>
+          <Order>-10001</Order>
+          <Browsable>true</Browsable>
+          <Description />
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Plugins.Csv.SweepValueCsvFileHandler" BaseType="Table Export | Table Import">
+          <Name>Comma Separated Values</Name>
+          <Order>-10001</Order>
+          <Browsable>true</Browsable>
+          <Description />
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+      </Plugins>
+      <Hash>444631C481A72FFFF1A0C0DF541990363733DEA4</Hash>
+    </File>
+  </Files>
+</Package>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InstrumentSettings type="OpenTap.InstrumentSettings">
+  <MyInstrument1 type="MyOpenTapShare.MyInstrument1" Source="">
+    <SomeProperty />
+    <VisaAddress>TCPIP0::127.0.0.1::35555::SOCKET</VisaAddress>
+    <IoTimeout>2000</IoTimeout>
+    <FinegrainedLock>false</FinegrainedLock>
+    <Lock>false</Lock>
+    <LockRetries>5</LockRetries>
+    <LockHoldoff>0.1</LockHoldoff>
+    <QueryErrorAfterCommand>false</QueryErrorAfterCommand>
+    <SendClearOnConnect>true</SendClearOnConnect>
+    <VerboseLoggingEnabled>true</VerboseLoggingEnabled>
+    <Name>MyINST</Name>
+  </MyInstrument1>
+  <Package.Dependencies>
+    <Package Name="OpenTAP" Version="^9.18.5+0328e9b4" />
+  </Package.Dependencies>
+</InstrumentSettings>

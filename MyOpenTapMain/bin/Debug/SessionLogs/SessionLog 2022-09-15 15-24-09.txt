@@ -1,0 +1,175 @@
+﻿2022-09-15 15:24:06.687026 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\SessionLogs\editor 2022-09-15 15-24-04.txt'. [17.5 ms]
+2022-09-15 15:24:06.759694 ; Session        ; Debug       ; Running '"D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\editor.exe" ' in 'D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug'.
+2022-09-15 15:24:06.987128 ; Session        ; Debug       ; Microsoft Windows 10.0.19044 X64
+2022-09-15 15:24:06.987128 ; Session        ; Debug       ; .NET Framework 4.8.4515.0
+2022-09-15 15:24:07.045063 ; Session        ; Debug       ; OpenTAP Engine 9.18.5+0328e9b4 X64
+2022-09-15 15:24:07.058964 ; AssemblyFinder ; Debug       ; Found 28/92 assembly files. [29.5 ms]
+2022-09-15 15:24:07.127806 ; Resolver       ; Debug       ; Found match for System.Reflection.Metadata, Version=1.4.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a in D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Dependencies\System.Reflection.Metadata.1.4.3.0\System.Reflection.Metadata.dll
+2022-09-15 15:24:07.154224 ; Resolver       ; Debug       ; Found match for Keysight.OpenTap.Wpf, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null in D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Packages\WPF Controls\Keysight.OpenTap.Wpf.dll
+2022-09-15 15:24:07.204323 ; Resolver       ; Debug       ; Found match for System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a in D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Dependencies\System.Collections.Immutable.1.2.3.0\System.Collections.Immutable.dll
+2022-09-15 15:24:07.752682 ; Searcher       ; Debug       ; Ordered 26 assemblies according to references. [688 ms]
+2022-09-15 15:24:07.824546 ; PluginManager  ; Debug       ; Found 20 plugin assemblies containing 273 plugin types. [762 ms]
+2022-09-15 15:24:07.825563 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.dll
+2022-09-15 15:24:07.825602 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.Package.dll
+2022-09-15 15:24:07.825602 ; PluginManager  ; Debug       ; Found version 1.1.0            of Keysight.OpenTap.Licensing.dll
+2022-09-15 15:24:07.825602 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.Plugins.BasicSteps.dll
+2022-09-15 15:24:07.825602 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of Keysight.OpenTap.Wpf.dll
+2022-09-15 15:24:07.825602 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of PackageManager.exe
+2022-09-15 15:24:07.825602 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of Editor.exe
+2022-09-15 15:24:07.825602 ; PluginManager  ; Debug       ; Found version 0.1.0-Development of MyOpenTapShare.dll
+2022-09-15 15:24:07.825602 ; PluginManager  ; Debug       ; Found version 0.1.0-Development of MyPluginChuck.dll
+2022-09-15 15:24:07.825602 ; PluginManager  ; Debug       ; Found version 0.1.0-Development of MyPluginGen.dll
+2022-09-15 15:24:07.825602 ; PluginManager  ; Debug       ; Found version 9.11.0+98498e58  of Csv.dll
+2022-09-15 15:24:07.825602 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of ResultsViewer.exe
+2022-09-15 15:24:07.825602 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of RunExplorer.exe
+2022-09-15 15:24:07.825602 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of Keysight.OpenTap.CommunityEditionPopup.exe
+2022-09-15 15:24:07.825602 ; PluginManager  ; Debug       ; Found version 1.0.0            of OpenTap.OSIntegration.Windows.dll
+2022-09-15 15:24:07.825602 ; PluginManager  ; Debug       ; Found version 9.17.4+ea67c63a  of OpenTap.Sdk.New.dll
+2022-09-15 15:24:07.825602 ; PluginManager  ; Debug       ; Found version 9.4.2+3009aace   of Keysight.OpenTap.Plugins.ResultListener.SqlDatabase.dll
+2022-09-15 15:24:07.825602 ; PluginManager  ; Debug       ; Found version 9.4.2+3009aace   of Keysight.OpenTap.Plugins.ResultListener.PostgreSQL.dll
+2022-09-15 15:24:07.825602 ; PluginManager  ; Debug       ; Found version 9.4.2+3009aace   of Keysight.OpenTap.Plugins.ResultListener.SQLite.dll
+2022-09-15 15:24:07.825602 ; PluginManager  ; Debug       ; Found version 1.2.6+ef0ad804   of OpenTap.VSSdk.Installer.dll
+2022-09-15 15:24:07.825602 ; PluginManager  ; Debug       ; Searched 28 Assemblies. [763 ms]
+2022-09-15 15:24:07.927359 ; AssemblyData   ; Debug       ; Loaded OpenTap. [369 us]
+2022-09-15 15:24:07.935014 ; AssemblyData   ; Debug       ; Loaded Keysight.OpenTap.Wpf. [762 us]
+2022-09-15 15:24:07.951902 ; AssemblyData   ; Debug       ; Loaded OpenTap.Plugins.BasicSteps. [23.9 ms]
+2022-09-15 15:24:07.963775 ; AssemblyData   ; Debug       ; Loaded OpenTap.Package. [34.3 ms]
+2022-09-15 15:24:08.029186 ; AssemblyData   ; Debug       ; Loaded OpenTap.OSIntegration.Windows. [14.6 ms]
+2022-09-15 15:24:08.160822 ; AssemblyData   ; Debug       ; Loaded mscorlib. [600 ns]
+2022-09-15 15:24:08.328769 ; Settings       ; Debug       ; EditorSettings loaded from D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Editor.xml [713 ms]
+2022-09-15 15:24:08.354687 ; Resolver       ; Debug       ; Found match for Keysight.Ccl.Wsl, Version=4.0.1.9, Culture=neutral, PublicKeyToken=55333af07c70062e in D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Dependencies\Keysight.Ccl.Wsl.4.0.1.9\Keysight.Ccl.Wsl.dll
+2022-09-15 15:24:08.391817 ; Resolver       ; Debug       ; Found match for MahApps.Metro, Version=1.3.0.0, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f in D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Dependencies\MahApps.Metro.1.3.0.0\MahApps.Metro.dll
+2022-09-15 15:24:08.651471 ; GUI            ; Debug       ; Loaded Light Theme. [10.4 ms]
+2022-09-15 15:24:08.805987 ; Resolver       ; Debug       ; Found match for AvalonDock, Version=4.60.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4 in D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Dependencies\AvalonDock.4.60.0.0\AvalonDock.dll
+2022-09-15 15:24:09.036873 ; Settings       ; Debug       ; GuiControlsSettings loaded from D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\GUI Controls.xml [152 ms]
+2022-09-15 15:24:09.036873 ; Main           ; Debug       ; Window initial dimensions: 1024px, 768px.
+2022-09-15 15:24:09.046462 ; Settings       ; Debug       ; No settings file exists for EngineSettings. A new instance with default values has been created. [6.50 ms]
+2022-09-15 15:24:09.073638 ; Settings       ; Debug       ; No settings file exists for PackageManagerSettings. A new instance with default values has been created. [1.40 ms]
+2022-09-15 15:24:09.078949 ; Resolver       ; Debug       ; Found match for Keysight.OpenTap.Licensing, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null in D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Packages\Keysight Licensing\Keysight.OpenTap.Licensing.dll
+2022-09-15 15:24:09.079942 ; Session        ; Debug       ; Session log loaded as 'SessionLogs\SessionLog 2022-09-15 15-24-09.txt'. [12.8 ms]
+2022-09-15 15:24:09.114726 ; Settings       ; Debug       ; No settings file exists for AuthenticationSettings. A new instance with default values has been created. [393 us]
+2022-09-15 15:24:09.509146 ; Main           ; Debug       ; GUI initialized. [471 ms]
+2022-09-15 15:24:09.509146 ; Main           ; Debug       ; Docking manager initialized. [62.3 us]
+2022-09-15 15:24:09.512094 ; OpenTAP        ; Information ; OpenTAP version '9.18.5+0328e9b4' 64-bit initialized 09/15/2022 [4.60 s]
+2022-09-15 15:24:09.544898 ; AssemblyData   ; Debug       ; Loaded PackageManager. [298 us]
+2022-09-15 15:24:09.544898 ; AssemblyData   ; Debug       ; Loaded Editor. [14.7 us]
+2022-09-15 15:24:09.591350 ; AssemblyData   ; Debug       ; Loaded MyOpenTapShare. [46.0 ms]
+2022-09-15 15:24:09.604842 ; AssemblyData   ; Debug       ; Loaded ResultsViewer. [13.1 ms]
+2022-09-15 15:24:09.618584 ; AssemblyData   ; Debug       ; Loaded RunExplorer. [13.4 ms]
+2022-09-15 15:24:09.620627 ; Settings       ; Debug       ; No settings file exists for ConnectionSettings. A new instance with default values has been created. [1.29 ms]
+2022-09-15 15:24:09.620627 ; Settings       ; Debug       ; No settings file exists for DutSettings. A new instance with default values has been created. [181 us]
+2022-09-15 15:24:09.620627 ; Settings       ; Debug       ; No settings file exists for InstrumentSettings. A new instance with default values has been created. [211 us]
+2022-09-15 15:24:09.621627 ; Settings       ; Debug       ; No settings file exists for MySettings1. A new instance with default values has been created. [166 us]
+2022-09-15 15:24:09.621627 ; Settings       ; Debug       ; No settings file exists for ResultSettings. A new instance with default values has been created. [193 us]
+2022-09-15 15:24:10.564403 ; Resolver       ; Debug       ; Found match for Keysight.Kal.Licensing.Api, Version=4.0.0.0, Culture=neutral, PublicKeyToken=55333af07c70062e in D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Dependencies\Keysight.Kal.Licensing.Api.4.0.0\Keysight.Kal.Licensing.Api.dll
+2022-09-15 15:24:10.650968 ; KAL            ; Debug       ; KAL signature verified. [67.8 ms]
+2022-09-15 15:24:10.700330 ; KAL            ; Debug       ; Initialized [118 ms]
+2022-09-15 15:24:10.702191 ; KAL Process    ; Debug       ; Initialized [121 ms]
+2022-09-15 15:24:10.909269 ; Settings       ; Debug       ; PanelSettings loaded from D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\GUI Panels.xml [6.42 ms]
+2022-09-15 15:24:11.716407 ; Main           ; Debug       ; Application startup finished. [6.80 s]
+2022-09-15 15:24:12.868444 ; Settings       ; Debug       ; Saved GuiControlsSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\GUI Controls.xml [14.2 ms]
+2022-09-15 15:24:12.883946 ; Settings       ; Debug       ; Saved PanelSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\GUI Panels.xml [5.45 ms]
+2022-09-15 15:24:12.891267 ; Settings       ; Debug       ; Saved EditorSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Editor.xml [7.27 ms]
+2022-09-15 15:24:12.938464 ; Main           ; Information ; Latest version of 'Keysight Licensing' is 1.2, your version is 1.1. Please consider updating. [3.42 s]
+2022-09-15 15:24:12.938464 ; Main           ; Information ; Latest version of 'Visual Studio SDK CE' is 1.4, your version is 1.2. Please consider updating. [3.42 s]
+2022-09-15 15:24:12.938464 ; Main           ; Information ; Latest version of 'WPF Controls' is 9.18, your version is 9.17. Please consider updating. [3.42 s]
+2022-09-15 15:24:12.938464 ; Main           ; Information ; Latest version of 'SDK' is 9.18, your version is 9.17. Please consider updating. [3.42 s]
+2022-09-15 15:24:12.938464 ; Main           ; Debug       ; Update check complete. [3.42 s]
+2022-09-15 15:24:33.754328 ; Settings       ; Debug       ; Saved ConnectionSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Bench\Default\Connections.xml [4.72 ms]
+2022-09-15 15:24:33.762574 ; Settings       ; Debug       ; Saved DutSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Bench\Default\DUTs.xml [7.71 ms]
+2022-09-15 15:24:33.767416 ; Settings       ; Debug       ; Saved EditorSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Editor.xml [5.04 ms]
+2022-09-15 15:24:33.788465 ; Settings       ; Debug       ; Saved EngineSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Engine.xml [21.1 ms]
+2022-09-15 15:24:33.798827 ; Settings       ; Debug       ; Saved InstrumentSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Bench\Default\Instruments.xml [10.2 ms]
+2022-09-15 15:24:33.805184 ; Settings       ; Debug       ; Saved MySettings1 to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\MySettings.xml [6.14 ms]
+2022-09-15 15:24:33.811596 ; Settings       ; Debug       ; Saved ResultSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Results.xml [6.31 ms]
+2022-09-15 15:24:33.849708 ; Main           ; Debug       ; Reloaded test plan. [29.0 ms]
+2022-09-15 15:24:38.248100 ; Settings       ; Debug       ; Saved GuiControlsSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\GUI Controls.xml [5.94 ms]
+2022-09-15 15:24:38.253349 ; Settings       ; Debug       ; Saved PanelSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\GUI Panels.xml [4.83 ms]
+2022-09-15 15:24:38.259968 ; Settings       ; Debug       ; Saved EditorSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Editor.xml [6.53 ms]
+2022-09-15 15:24:46.944869 ; Settings       ; Debug       ; Saved ConnectionSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Bench\Default\Connections.xml [3.66 ms]
+2022-09-15 15:24:46.948725 ; Settings       ; Debug       ; Saved DutSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Bench\Default\DUTs.xml [3.31 ms]
+2022-09-15 15:24:46.954160 ; Settings       ; Debug       ; Saved EditorSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Editor.xml [5.21 ms]
+2022-09-15 15:24:46.958160 ; Settings       ; Debug       ; Saved EngineSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Engine.xml [3.99 ms]
+2022-09-15 15:24:46.961536 ; Settings       ; Debug       ; Saved InstrumentSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Bench\Default\Instruments.xml [3.53 ms]
+2022-09-15 15:24:46.964593 ; Settings       ; Debug       ; Saved MySettings1 to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\MySettings.xml [2.83 ms]
+2022-09-15 15:24:46.967388 ; Settings       ; Debug       ; Saved ResultSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Results.xml [2.62 ms]
+2022-09-15 15:24:46.971910 ; Main           ; Debug       ; Reloaded test plan. [930 us]
+2022-09-15 15:24:49.013631 ; Settings       ; Debug       ; Saved GuiControlsSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\GUI Controls.xml [5.67 ms]
+2022-09-15 15:24:49.018345 ; Settings       ; Debug       ; Saved PanelSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\GUI Panels.xml [4.38 ms]
+2022-09-15 15:24:49.024284 ; Settings       ; Debug       ; Saved EditorSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Editor.xml [6.36 ms]
+2022-09-15 15:24:51.111315 ; AssemblyData   ; Debug       ; Loaded Csv. [14.5 ms]
+2022-09-15 15:24:51.123174 ; AssemblyData   ; Debug       ; Loaded Keysight.OpenTap.Plugins.ResultListener.PostgreSQL. [11.6 ms]
+2022-09-15 15:24:51.347153 ; AssemblyData   ; Debug       ; Loaded Keysight.OpenTap.Plugins.ResultListener.SQLite. [9.73 ms]
+2022-09-15 15:24:58.925776 ; Settings       ; Debug       ; Saved ConnectionSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Bench\Default\Connections.xml [4.06 ms]
+2022-09-15 15:24:58.928776 ; Settings       ; Debug       ; Saved DutSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Bench\Default\DUTs.xml [3.32 ms]
+2022-09-15 15:24:58.932801 ; Settings       ; Debug       ; Saved EditorSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Editor.xml [3.52 ms]
+2022-09-15 15:24:58.938489 ; Settings       ; Debug       ; Saved EngineSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Engine.xml [5.30 ms]
+2022-09-15 15:24:58.941649 ; Settings       ; Debug       ; Saved InstrumentSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Bench\Default\Instruments.xml [3.69 ms]
+2022-09-15 15:24:58.944659 ; Settings       ; Debug       ; Saved MySettings1 to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\MySettings.xml [2.67 ms]
+2022-09-15 15:24:58.948687 ; Settings       ; Debug       ; Saved ResultSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Results.xml [3.80 ms]
+2022-09-15 15:24:58.953699 ; Main           ; Debug       ; Reloaded test plan. [1.05 ms]
+2022-09-15 15:25:01.847911 ; AssemblyData   ; Debug       ; Loaded MyPluginChuck. [19.7 ms]
+2022-09-15 15:25:01.866965 ; AssemblyData   ; Debug       ; Loaded MyPluginGen. [18.3 ms]
+2022-09-15 15:27:54.572968 ; Main           ; Information ; Saved test plan to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\First.TapPlan [16.3 ms]
+2022-09-15 15:28:16.200368 ; Settings       ; Debug       ; Saved GuiControlsSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\GUI Controls.xml [17.0 ms]
+2022-09-15 15:28:16.211880 ; Settings       ; Debug       ; Saved PanelSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\GUI Panels.xml [9.76 ms]
+2022-09-15 15:28:16.219024 ; Settings       ; Debug       ; Saved EditorSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Editor.xml [7.46 ms]
+2022-09-15 15:28:26.402189 ; TestPlan       ; Information ; -----------------------------------------------------------------
+2022-09-15 15:28:26.423957 ; TestPlan       ; Information ; Starting TestPlan 'First' on 09/15/2022 15:28:26, 4 of 4 TestSteps enabled.
+2022-09-15 15:28:26.465146 ; TestPlan       ; Debug       ; Saved Test Plan XML [2.70 ms]
+2022-09-15 15:28:26.483880 ; Settings       ; Debug       ; No settings file exists for TestPlanRunPackageParameterMonitor. A new instance with default values has been created. [133 us]
+2022-09-15 15:28:26.576498 ; MyINST         ; Debug       ; Connecting to 'TCPIP0::127.0.0.1::35555::SOCKET'
+2022-09-15 15:28:26.606707 ; MyINST         ; Debug       ; SCPI >> *IDN? [9.94 ms]
+2022-09-15 15:28:26.606707 ; MyINST         ; Debug       ; SCPI << MPI Corporation,Sentio - Probe System Software Suite,,3.7.0.950,08/08/2022
+2022-09-15 15:28:26.606707 ; MyINST         ; Information ; Now connected to: MPI Corporation,Sentio - Probe System Software Suite,,3.7.0.950,08/08/2022
+2022-09-15 15:28:26.608250 ; MyINST         ; Debug       ; SCPI >> *CLS [224 us]
+2022-09-15 15:28:26.608750 ; MyINST         ; Information ; Resource "MyINST (TCPIP0::127.0.0.1::35555::SOCKET)" opened. [39.6 ms]
+2022-09-15 15:28:26.618496 ; MyRes          ; Information ; Resource "MyRes" opened. [6.87 ms]
+2022-09-15 15:28:26.668524 ; TestPlan       ; Debug       ; PrePlanRun Methods completed [5.01 ms]
+2022-09-15 15:28:26.684653 ; TestPlan       ; Information ; "ChuckMoveSeparation" started.
+2022-09-15 15:28:26.688938 ; TestStep       ; Information ; Go To Separation
+2022-09-15 15:28:26.838501 ; MyINST         ; Debug       ; SCPI >> move_chuck_separation [149 ms]
+2022-09-15 15:28:26.838501 ; MyINST         ; Debug       ; SCPI << 4,0,Contact height not set
+2022-09-15 15:28:26.838501 ; TestStep       ; Information ; 4,0,Contact height not set
+2022-09-15 15:28:26.842417 ; TestPlan       ; Information ; "ChuckMoveSeparation \ ChuckMoveXY" started.
+2022-09-15 15:28:26.842982 ; TestStep       ; Information ; Go To XY
+2022-09-15 15:28:26.887424 ; MyINST         ; Debug       ; SCPI >> move_chuck_xy Zero,10000,-10000 [45.0 ms]
+2022-09-15 15:28:26.887424 ; MyINST         ; Debug       ; SCPI << 0,0,10000.0,-10000.0
+2022-09-15 15:28:26.887424 ; TestStep       ; Information ; 0,0,10000.0,-10000.0
+2022-09-15 15:28:26.895970 ; TestPlan       ; Information ; "ChuckMoveSeparation \ ChuckMoveXY" completed. [50.5 ms]
+2022-09-15 15:28:26.899965 ; TestPlan       ; Information ; "ChuckMoveSeparation" completed. [216 ms]
+2022-09-15 15:28:26.899965 ; TestPlan       ; Information ; "ChuckMoveContact" started.
+2022-09-15 15:28:26.899965 ; MyINST         ; Debug       ; SCPI >> get_chuck_xy [2.26 ms]
+2022-09-15 15:28:26.899965 ; TestStep       ; Information ; Go To Contact
+2022-09-15 15:28:26.899965 ; MyINST         ; Debug       ; SCPI << 0,0,10000.0,-10000.0
+2022-09-15 15:28:26.899965 ; MyRes          ; Information ; Test Done...0,0,10000.0,-10000.0
+2022-09-15 15:28:26.902028 ; MyINST         ; Debug       ; SCPI >> move_chuck_contact [1.46 ms]
+2022-09-15 15:28:26.902028 ; MyINST         ; Debug       ; SCPI << 40,Contact height not set
+2022-09-15 15:28:26.902028 ; TestStep       ; Information ; 40,Contact height not set
+2022-09-15 15:28:26.902028 ; TestPlan       ; Information ; "ChuckMoveContact" completed. [1.91 ms]
+2022-09-15 15:28:26.902028 ; TestPlan       ; Information ; "Check in range" started.
+2022-09-15 15:28:26.903027 ; TestPlan       ; Information ; "Check in range" completed with verdict 'Pass'. [529 us]
+2022-09-15 15:28:26.903027 ; TestPlan       ; Debug       ; Test step runs finished. [233 ms]
+2022-09-15 15:28:26.904909 ; MyINST         ; Debug       ; SCPI >> get_chuck_xy [4.22 ms]
+2022-09-15 15:28:26.904909 ; MyINST         ; Debug       ; SCPI << ,0,0,10000.0,-10000.0
+2022-09-15 15:28:26.904909 ; MyRes          ; Information ; Test Done...,0,0,10000.0,-10000.0
+2022-09-15 15:28:26.904909 ; MyINST         ; Debug       ; SCPI >> get_chuck_xy [540 us]
+2022-09-15 15:28:26.904909 ; MyINST         ; Debug       ; SCPI << 0,0,10000.0,-10000.0
+2022-09-15 15:28:26.904909 ; MyRes          ; Information ; Test Done...0,0,10000.0,-10000.0
+2022-09-15 15:28:26.905927 ; MyINST         ; Debug       ; SCPI >> get_chuck_xy [395 us]
+2022-09-15 15:28:26.905927 ; MyINST         ; Debug       ; SCPI << 0,0,10000.0,-10000.0
+2022-09-15 15:28:26.905927 ; MyRes          ; Information ; Test Done...0,0,10000.0,-10000.0
+2022-09-15 15:28:26.927863 ; Summary        ; Information ; -------- Summary of test plan started 09/15/2022 15:28:26 --------
+2022-09-15 15:28:26.931903 ; Summary        ; Information ;  ChuckMoveSeparation                                 216 ms         
+2022-09-15 15:28:26.931903 ; Summary        ; Information ;    ChuckMoveXY                                      50.5 ms         
+2022-09-15 15:28:26.931903 ; Summary        ; Information ;  ChuckMoveContact                                   1.91 ms         
+2022-09-15 15:28:26.931903 ; Summary        ; Information ;  Check in range                                      529 us  Pass   
+2022-09-15 15:28:26.932872 ; Summary        ; Information ; ------------------------------------------------------------------
+2022-09-15 15:28:26.933485 ; Summary        ; Information ; ----------- Test plan completed successfully in 422 ms -----------
+2022-09-15 15:28:26.949187 ; MyRes          ; Debug       ; OnTestPlanRunCompleted for MyRes. [87.6 us]
+2022-09-15 15:28:26.961695 ; MyRes          ; Information ; Resource "MyRes" closed. [172 us]
+2022-09-15 15:28:26.966909 ; MyINST         ; Information ; Resource "MyINST (TCPIP0::127.0.0.1::35555::SOCKET)" closed. [4.32 ms]
+2022-09-15 15:29:44.838125 ; Main           ; Information ; Saved test plan to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\First.TapPlan [11.2 ms]
+2022-09-15 15:29:44.935314 ; Settings       ; Debug       ; Saved GuiControlsSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\GUI Controls.xml [16.2 ms]
+2022-09-15 15:29:44.945474 ; Settings       ; Debug       ; Saved PanelSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\GUI Panels.xml [9.80 ms]
+2022-09-15 15:29:44.953319 ; Settings       ; Debug       ; Saved EditorSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Editor.xml [7.06 ms]

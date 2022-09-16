@@ -1,0 +1,80 @@
+﻿2022-09-15 17:25:59.402058 ; Settings       ; Debug       ; GuiControlsSettings loaded from D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\GUI Controls.xml [159 ms]
+2022-09-15 17:25:59.402905 ; Main           ; Debug       ; Window initial dimensions: 1549px, 837px.
+2022-09-15 17:25:59.453380 ; Resolver       ; Debug       ; Found match for Keysight.OpenTap.Licensing, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null in D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Packages\Keysight Licensing\Keysight.OpenTap.Licensing.dll
+2022-09-15 17:25:59.454462 ; Settings       ; Debug       ; EngineSettings loaded from D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Engine.xml [49.6 ms]
+2022-09-15 17:25:59.455461 ; Settings       ; Debug       ; No settings file exists for PackageManagerSettings. A new instance with default values has been created. [1.04 ms]
+2022-09-15 17:25:59.500023 ; Settings       ; Debug       ; No settings file exists for AuthenticationSettings. A new instance with default values has been created. [466 us]
+2022-09-15 17:25:56.720577 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\SessionLogs\editor 2022-09-15 17-25-54.txt'. [5.70 ms]
+2022-09-15 17:25:56.790207 ; Session        ; Debug       ; Running '"D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\editor.exe" ' in 'D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug'.
+2022-09-15 17:25:56.993755 ; Session        ; Debug       ; Microsoft Windows 10.0.19044 X64
+2022-09-15 17:25:56.993755 ; Session        ; Debug       ; .NET Framework 4.8.4515.0
+2022-09-15 17:25:57.011584 ; Session        ; Debug       ; OpenTAP Engine 9.18.5+0328e9b4 X64
+2022-09-15 17:25:57.016934 ; AssemblyFinder ; Debug       ; Found 28/92 assembly files. [22.0 ms]
+2022-09-15 17:25:57.142411 ; Resolver       ; Debug       ; Found match for System.Reflection.Metadata, Version=1.4.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a in D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Dependencies\System.Reflection.Metadata.1.4.3.0\System.Reflection.Metadata.dll
+2022-09-15 17:25:57.153543 ; Resolver       ; Debug       ; Found match for Keysight.OpenTap.Wpf, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null in D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Packages\WPF Controls\Keysight.OpenTap.Wpf.dll
+2022-09-15 17:25:57.245675 ; Resolver       ; Debug       ; Found match for System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a in D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Dependencies\System.Collections.Immutable.1.2.3.0\System.Collections.Immutable.dll
+2022-09-15 17:25:57.923070 ; Searcher       ; Debug       ; Ordered 26 assemblies according to references. [901 ms]
+2022-09-15 17:25:58.009576 ; PluginManager  ; Debug       ; Found 20 plugin assemblies containing 273 plugin types. [988 ms]
+2022-09-15 17:25:58.010069 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.dll
+2022-09-15 17:25:58.010069 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.Package.dll
+2022-09-15 17:25:58.010069 ; PluginManager  ; Debug       ; Found version 1.1.0            of Keysight.OpenTap.Licensing.dll
+2022-09-15 17:25:58.010069 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.Plugins.BasicSteps.dll
+2022-09-15 17:25:58.010069 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of Keysight.OpenTap.Wpf.dll
+2022-09-15 17:25:58.010069 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of PackageManager.exe
+2022-09-15 17:25:58.010069 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of Editor.exe
+2022-09-15 17:25:58.010069 ; PluginManager  ; Debug       ; Found version 0.1.0-Development of MyOpenTapShare.dll
+2022-09-15 17:25:58.010069 ; PluginManager  ; Debug       ; Found version 0.1.0-Development of MyPluginChuck.dll
+2022-09-15 17:25:58.010069 ; PluginManager  ; Debug       ; Found version 0.1.0-Development of MyPluginGen.dll
+2022-09-15 17:25:58.010069 ; PluginManager  ; Debug       ; Found version 9.11.0+98498e58  of Csv.dll
+2022-09-15 17:25:58.010069 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of ResultsViewer.exe
+2022-09-15 17:25:58.010069 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of RunExplorer.exe
+2022-09-15 17:25:58.010069 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of Keysight.OpenTap.CommunityEditionPopup.exe
+2022-09-15 17:25:58.010069 ; PluginManager  ; Debug       ; Found version 1.0.0            of OpenTap.OSIntegration.Windows.dll
+2022-09-15 17:25:58.010069 ; PluginManager  ; Debug       ; Found version 9.17.4+ea67c63a  of OpenTap.Sdk.New.dll
+2022-09-15 17:25:58.010069 ; PluginManager  ; Debug       ; Found version 9.4.2+3009aace   of Keysight.OpenTap.Plugins.ResultListener.SqlDatabase.dll
+2022-09-15 17:25:58.010069 ; PluginManager  ; Debug       ; Found version 9.4.2+3009aace   of Keysight.OpenTap.Plugins.ResultListener.PostgreSQL.dll
+2022-09-15 17:25:58.010069 ; PluginManager  ; Debug       ; Found version 9.4.2+3009aace   of Keysight.OpenTap.Plugins.ResultListener.SQLite.dll
+2022-09-15 17:25:58.010069 ; PluginManager  ; Debug       ; Found version 1.2.6+ef0ad804   of OpenTap.VSSdk.Installer.dll
+2022-09-15 17:25:58.010069 ; PluginManager  ; Debug       ; Searched 28 Assemblies. [989 ms]
+2022-09-15 17:25:58.119870 ; AssemblyData   ; Debug       ; Loaded OpenTap. [432 us]
+2022-09-15 17:25:58.130006 ; AssemblyData   ; Debug       ; Loaded Keysight.OpenTap.Wpf. [553 us]
+2022-09-15 17:25:58.167257 ; AssemblyData   ; Debug       ; Loaded OpenTap.Package. [39.6 ms]
+2022-09-15 17:25:58.167257 ; AssemblyData   ; Debug       ; Loaded OpenTap.Plugins.BasicSteps. [46.4 ms]
+2022-09-15 17:25:58.268776 ; AssemblyData   ; Debug       ; Loaded OpenTap.OSIntegration.Windows. [11.8 ms]
+2022-09-15 17:25:58.394519 ; AssemblyData   ; Debug       ; Loaded mscorlib. [600 ns]
+2022-09-15 17:25:58.554290 ; Settings       ; Debug       ; EditorSettings loaded from D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Editor.xml [899 ms]
+2022-09-15 17:25:58.627068 ; Resolver       ; Debug       ; Found match for Keysight.Ccl.Wsl, Version=4.0.1.9, Culture=neutral, PublicKeyToken=55333af07c70062e in D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Dependencies\Keysight.Ccl.Wsl.4.0.1.9\Keysight.Ccl.Wsl.dll
+2022-09-15 17:25:58.709731 ; Resolver       ; Debug       ; Found match for MahApps.Metro, Version=1.3.0.0, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f in D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Dependencies\MahApps.Metro.1.3.0.0\MahApps.Metro.dll
+2022-09-15 17:25:58.965093 ; GUI            ; Debug       ; Loaded Light Theme. [13.1 ms]
+2022-09-15 17:25:59.158109 ; Resolver       ; Debug       ; Found match for AvalonDock, Version=4.60.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4 in D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Dependencies\AvalonDock.4.60.0.0\AvalonDock.dll
+2022-09-15 17:25:59.514998 ; Session        ; Debug       ; Session log loaded as 'SessionLogs\SessionLog 2022-09-15 17-25-59.txt'. [12.7 ms]
+2022-09-15 17:25:59.995319 ; Main           ; Debug       ; GUI initialized. [591 ms]
+2022-09-15 17:25:59.995319 ; Main           ; Debug       ; Docking manager initialized. [64.8 us]
+2022-09-15 17:26:00.001890 ; OpenTAP        ; Information ; OpenTAP version '9.18.5+0328e9b4' 64-bit initialized 09/15/2022 [5.71 s]
+2022-09-15 17:26:00.050235 ; AssemblyData   ; Debug       ; Loaded PackageManager. [280 us]
+2022-09-15 17:26:00.050235 ; AssemblyData   ; Debug       ; Loaded Editor. [17.6 us]
+2022-09-15 17:26:00.273112 ; AssemblyData   ; Debug       ; Loaded MyOpenTapShare. [222 ms]
+2022-09-15 17:26:00.293479 ; AssemblyData   ; Debug       ; Loaded ResultsViewer. [19.0 ms]
+2022-09-15 17:26:00.311687 ; AssemblyData   ; Debug       ; Loaded RunExplorer. [17.6 ms]
+2022-09-15 17:26:00.323547 ; Settings       ; Debug       ; ConnectionSettings loaded from D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Bench\Default\Connections.xml [5.28 ms]
+2022-09-15 17:26:00.332189 ; Settings       ; Debug       ; DutSettings loaded from D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Bench\Default\DUTs.xml [8.79 ms]
+2022-09-15 17:26:00.915450 ; Settings       ; Debug       ; InstrumentSettings loaded from D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Bench\Default\Instruments.xml [582 ms]
+2022-09-15 17:26:00.919509 ; Settings       ; Debug       ; MySettings1 loaded from D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\MySettings.xml [3.84 ms]
+2022-09-15 17:26:00.923964 ; Settings       ; Debug       ; ResultSettings loaded from D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Results.xml [4.55 ms]
+2022-09-15 17:26:01.096136 ; Resolver       ; Debug       ; Found match for Keysight.Kal.Licensing.Api, Version=4.0.0.0, Culture=neutral, PublicKeyToken=55333af07c70062e in D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Dependencies\Keysight.Kal.Licensing.Api.4.0.0\Keysight.Kal.Licensing.Api.dll
+2022-09-15 17:26:01.179739 ; KAL            ; Debug       ; KAL signature verified. [59.4 ms]
+2022-09-15 17:26:01.261028 ; KAL            ; Debug       ; Initialized [138 ms]
+2022-09-15 17:26:01.264645 ; KAL Process    ; Debug       ; Initialized [145 ms]
+2022-09-15 17:26:03.062249 ; Settings       ; Debug       ; PanelSettings loaded from D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\GUI Panels.xml [6.47 ms]
+2022-09-15 17:26:03.876619 ; Main           ; Information ; Latest version of 'Visual Studio SDK CE' is 1.4, your version is 1.2. Please consider updating. [3.87 s]
+2022-09-15 17:26:03.876619 ; Main           ; Information ; Latest version of 'Keysight Licensing' is 1.2, your version is 1.1. Please consider updating. [3.87 s]
+2022-09-15 17:26:03.876619 ; Main           ; Information ; Latest version of 'SDK' is 9.18, your version is 9.17. Please consider updating. [3.87 s]
+2022-09-15 17:26:03.876619 ; Main           ; Information ; Latest version of 'WPF Controls' is 9.18, your version is 9.17. Please consider updating. [3.87 s]
+2022-09-15 17:26:03.876619 ; Main           ; Debug       ; Update check complete. [3.87 s]
+2022-09-15 17:26:04.010769 ; Main           ; Debug       ; Application startup finished. [9.72 s]
+2022-09-15 17:26:11.503384 ; AssemblyData   ; Debug       ; Loaded MyPluginGen. [43.7 ms]
+2022-09-15 17:26:11.581758 ; AssemblyData   ; Debug       ; Loaded MyPluginChuck. [43.7 ms]
+2022-09-15 17:26:12.137127 ; Main           ; Debug       ; Loaded Test plan D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\First.TapPlan [700 ms]
+2022-09-15 17:26:26.964590 ; Settings       ; Debug       ; Saved GuiControlsSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\GUI Controls.xml [29.1 ms]
+2022-09-15 17:26:27.000214 ; Settings       ; Debug       ; Saved PanelSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\GUI Panels.xml [13.8 ms]
+2022-09-15 17:26:27.009275 ; Settings       ; Debug       ; Saved EditorSettings to D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Editor.xml [8.70 ms]

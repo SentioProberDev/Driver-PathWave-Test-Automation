@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DutSettings type="OpenTap.DutSettings">
+  <MyDut1 type="MyOpenTapShare.MyDut1" Source="">
+    <MyString />
+    <MyDouble>0</MyDouble>
+    <ID Metadata="ID" />
+    <Comment Metadata="Comment" />
+    <Name>MyDUT</Name>
+  </MyDut1>
+  <Package.Dependencies>
+    <Package Name="OpenTAP" Version="^9.18.5+0328e9b4" />
+  </Package.Dependencies>
+</DutSettings>

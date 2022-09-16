@@ -1,0 +1,40 @@
+﻿2022-09-16 11:00:38.001278 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\SessionLogs\tap 2022-09-16 11-00-37.txt'. [10.6 ms]
+2022-09-16 11:00:38.037736 ; Session        ; Debug       ; Running '"C:\Users\Jacky.Kuo\AppData\Local\Temp\i103ihfc.wns\tap.exe" packagemanager --force --target "D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug"' in 'D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug'.
+2022-09-16 11:00:38.114451 ; Session        ; Debug       ; Microsoft Windows 10.0.19044 X64
+2022-09-16 11:00:38.114451 ; Session        ; Debug       ; .NET Framework 4.8.4515.0
+2022-09-16 11:00:38.148242 ; Session        ; Debug       ; OpenTAP Engine 9.18.5+0328e9b4 X64
+2022-09-16 11:00:38.164488 ; AssemblyFinder ; Debug       ; Found 12/49 assembly files. [69.2 ms]
+2022-09-16 11:00:38.247761 ; Resolver       ; Debug       ; Found match for System.Reflection.Metadata, Version=1.4.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a in C:\Users\Jacky.Kuo\AppData\Local\Temp\i103ihfc.wns\Dependencies\System.Reflection.Metadata.1.4.3.0\System.Reflection.Metadata.dll
+2022-09-16 11:00:38.279055 ; Resolver       ; Debug       ; Found match for System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a in C:\Users\Jacky.Kuo\AppData\Local\Temp\i103ihfc.wns\Dependencies\System.Collections.Immutable.1.2.3.0\System.Collections.Immutable.dll
+2022-09-16 11:00:38.430236 ; Searcher       ; Debug       ; Ordered 12 assemblies according to references. [257 ms]
+2022-09-16 11:00:38.521669 ; PluginManager  ; Debug       ; Found 9 plugin assemblies containing 216 plugin types. [351 ms]
+2022-09-16 11:00:38.521669 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.dll
+2022-09-16 11:00:38.521669 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.Package.dll
+2022-09-16 11:00:38.521669 ; PluginManager  ; Debug       ; Found version 1.1.0            of Keysight.OpenTap.Licensing.dll
+2022-09-16 11:00:38.521669 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.Plugins.BasicSteps.dll
+2022-09-16 11:00:38.521669 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of Keysight.OpenTap.Wpf.dll
+2022-09-16 11:00:38.521669 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of PackageManager.exe
+2022-09-16 11:00:38.521669 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of Editor.exe
+2022-09-16 11:00:38.521669 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of Keysight.OpenTap.CommunityEditionPopup.exe
+2022-09-16 11:00:38.521669 ; PluginManager  ; Debug       ; Found version 1.0.0            of OpenTap.OSIntegration.Windows.dll
+2022-09-16 11:00:38.521669 ; PluginManager  ; Debug       ; Searched 12 Assemblies. [353 ms]
+2022-09-16 11:00:38.568952 ; AssemblyData   ; Debug       ; Loaded OpenTap. [1.54 ms]
+2022-09-16 11:00:38.594873 ; AssemblyData   ; Debug       ; Loaded Keysight.OpenTap.Wpf. [12.2 ms]
+2022-09-16 11:00:38.658374 ; AssemblyData   ; Debug       ; Loaded OpenTap.Plugins.BasicSteps. [13.3 ms]
+2022-09-16 11:00:38.661670 ; AssemblyData   ; Debug       ; Loaded OpenTap.Package. [16.8 ms]
+2022-09-16 11:00:38.711719 ; AssemblyData   ; Debug       ; Loaded OpenTap.OSIntegration.Windows. [17.8 ms]
+2022-09-16 11:00:38.808370 ; AssemblyData   ; Debug       ; Loaded mscorlib. [500 ns]
+2022-09-16 11:00:39.026801 ; Settings       ; Debug       ; EngineSettings loaded from D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\Settings\Engine.xml [405 ms]
+2022-09-16 11:00:39.058238 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\SessionLogs\SessionLog 2022-09-16 11-00-37.txt'. [17.1 ms]
+2022-09-16 11:00:39.089279 ; AssemblyData   ; Debug       ; Loaded PackageManager. [15.8 ms]
+2022-09-16 11:00:39.112785 ; CLI            ; Debug       ; Executing CLI action: packagemanager
+2022-09-16 11:00:42.079408 ; CLI            ; Debug       ; Executing CLI action: package \ check-updates
+2022-09-16 11:00:42.089988 ; Settings       ; Debug       ; No settings file exists for PackageManagerSettings. A new instance with default values has been created. [1.79 ms]
+2022-09-16 11:00:42.134811 ; Settings       ; Debug       ; No settings file exists for AuthenticationSettings. A new instance with default values has been created. [2.02 ms]
+2022-09-16 11:00:46.112916 ; UpdateCheck    ; Information ; Updates available for:
+2022-09-16 11:00:46.112916 ; UpdateCheck    ; Information ;  - Keysight Licensing: 1.1.1+7a2a1fe3 -> 1.2.2+b06a51aa
+2022-09-16 11:00:46.112916 ; UpdateCheck    ; Information ;  - Visual Studio SDK CE: 1.2.6+ef0ad804 -> 1.4.0+4b5f3d34
+2022-09-16 11:00:46.112916 ; UpdateCheck    ; Information ;  - WPF Controls: 9.17.4+5e508f08 -> 9.18.4+d4f8248d
+2022-09-16 11:00:46.112916 ; UpdateCheck    ; Information ;  - SDK: 9.17.4+ea67c63a -> 9.18.5+0328e9b4
+2022-09-16 11:00:46.112916 ; CLI            ; Debug       ; CLI action returned exit code: 0 [4.03 s]
+2022-09-16 11:03:33.327375 ; CLI            ; Debug       ; CLI action returned exit code: 0 [174 s]

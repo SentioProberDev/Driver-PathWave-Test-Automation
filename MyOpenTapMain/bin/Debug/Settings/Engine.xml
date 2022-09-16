@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EngineSettings type="OpenTap.EngineSettings">
+  <SessionLogPath>SessionLogs/SessionLog &lt;Date&gt;.txt</SessionLogPath>
+  <PromptForMetaData>false</PromptForMetaData>
+  <AbortTestPlan>Step_Error</AbortTestPlan>
+  <OperatorName Metadata="Name">jacky.kuo</OperatorName>
+  <StationName Metadata="Station">ASN-JACKYKUO</StationName>
+  <ResultLatencyLimit>3</ResultLatencyLimit>
+  <LogTimestamper type="OpenTap.Diagnostic.AccurateStamper"></LogTimestamper>
+  <ResourceManagerType type="OpenTap.ResourceTaskManager">
+    <StaticResources />
+    <EnabledSteps />
+  </ResourceManagerType>
+  <Package.Dependencies>
+    <Package Name="OpenTAP" Version="^9.18.5+0328e9b4" />
+  </Package.Dependencies>
+</EngineSettings>

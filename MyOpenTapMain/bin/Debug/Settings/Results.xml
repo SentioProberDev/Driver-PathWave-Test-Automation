@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResultSettings type="OpenTap.ResultSettings">
+  <MyResultListener type="MyOpenTapShare.MyResultListener" Source="">
+    <Inst Source="OpenTap.InstrumentSettings">MyINST</Inst>
+    <IsEnabled>true</IsEnabled>
+    <Name>MyRes</Name>
+  </MyResultListener>
+  <Package.Dependencies>
+    <Package Name="OpenTAP" Version="^9.18.5+0328e9b4" />
+  </Package.Dependencies>
+</ResultSettings>

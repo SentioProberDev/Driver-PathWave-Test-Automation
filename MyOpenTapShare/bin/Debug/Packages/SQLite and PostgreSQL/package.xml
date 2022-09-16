@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package InfoLink="http://www.keysight.com/find/TAP" Date="11/05/2019 13:12:42" Name="SQLite and PostgreSQL" Version="9.4.2+3009aace" Architecture="AnyCPU" OS="Windows" xmlns="http://opentap.io/schemas/package">
+  <Description>This package contains two result listeners that make it possible to connect to an SQLite or PostgreSQL database. SQLite is a self-contained, high-reliability, embedded SQL database that is represented by a single file (SqliteDatabase.TapResults) in the installation directory. For larger data sets or remote collection and sharing of data, a more standard database like PostgreSQL is recommended. The PostgreSQL plugin lets you specify a connection to a local or remote PostgreSQL database server (PostgreSQL is free and open source).
+
+Note that the Run Explorer and Results Viewer applications leverage the SQLite or PostgreSQL plugins to data mine and visualize the measurement data.
+    <Status>Released</Status><Organisation>Keysight Technologies</Organisation></Description>
+  <Dependencies>
+    <PackageDependency Package="OpenTAP" Version="^9.4.2-rc.3+5ce8e52c" />
+  </Dependencies>
+  <Files>
+    <File Path="Packages/SQLite and PostgreSQL/Keysight.OpenTap.Plugins.ResultListener.SqlDatabase.dll" />
+    <File Path="Packages/SQLite and PostgreSQL/Keysight.OpenTap.Plugins.ResultListener.SQLite.dll">
+      <Plugins>
+        <Plugin Type="Keysight.OpenTap.Plugins.ResultListeners.SQLiteDatabase" BaseType="Result Listener | IResultStore">
+          <Name>SQLite</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Save results in a SQLite database.</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>Database</String>
+          </Groups>
+        </Plugin>
+      </Plugins>
+    </File>
+    <File Path="Packages/SQLite and PostgreSQL/Keysight.OpenTap.Plugins.ResultListener.PostgreSQL.dll">
+      <Plugins>
+        <Plugin Type="Keysight.OpenTap.Plugins.ResultListeners.PostgreSQLDatabase" BaseType="Result Listener | IResultStore">
+          <Name>PostgreSQL</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Save results in a PostgreSQL database.</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>Database</String>
+          </Groups>
+        </Plugin>
+      </Plugins>
+    </File>
+    <File Path="x86/SQLite.Interop.dll" />
+    <File Path="x64/SQLite.Interop.dll" />
+    <File Path="Dependencies/System.Data.SQLite.1.0.109.0/System.Data.SQLite.dll" />
+    <File Path="Dependencies/Npgsql.4.0.4.0/Npgsql.dll" />
+    <File Path="Dependencies/System.Threading.Tasks.Extensions.4.2.0.0/System.Threading.Tasks.Extensions.dll" />
+    <File Path="Dependencies/System.Runtime.CompilerServices.Unsafe.4.0.4.0/System.Runtime.CompilerServices.Unsafe.dll" />
+    <File Path="Dependencies/System.Runtime.4.1.2.0/System.Runtime.dll" />
+  </Files>
+</Package>

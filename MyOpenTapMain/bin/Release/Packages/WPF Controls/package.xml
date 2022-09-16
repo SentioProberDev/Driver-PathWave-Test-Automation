@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package InfoLink="http://www.keysight.com/find/TAP" Date="04/29/2022 11:54:51" Name="WPF Controls" Version="9.17.4+5e508f08" Architecture="AnyCPU" OS="Windows" xmlns="http://opentap.io/schemas/package">
+  <Hash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</Hash>
+  <Description>This package contains a number of common WPF GUI components and settings used by the different plugins and tools (e.g. Editor, Results Viewer and Timing Analyzer).
+    <Status>Released</Status><Organisation>Keysight Technologies</Organisation></Description>
+  <Dependencies>
+    <PackageDependency Package="OpenTAP" Version="^9.17.4+ea67c63a" />
+    <PackageDependency Package="Keysight Licensing" Version="^1.1.1+7a2a1fe3" />
+  </Dependencies>
+  <Owner>Keysight Technologies, Inc.</Owner>
+  <Files>
+    <File Path="Packages/WPF Controls/Keysight.OpenTap.Wpf.dll">
+      <Plugins>
+        <Plugin Type="OpenTap.KeysightVisaDeviceDiscovery" BaseType="Device Discovery">
+          <Name>KeysightVisaDeviceDiscovery</Name>
+          <Order>-10000</Order>
+          <Browsable>false</Browsable>
+          <Description></Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Wpf.ThreadBreakAnnotator" BaseType="IAnnotator">
+          <Name>ThreadBreakAnnotator</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description></Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Wpf.AvailableValuesControlProvider" BaseType="Control Provider">
+          <Name>AvailableValuesControlProvider</Name>
+          <Order>-10000</Order>
+          <Browsable>false</Browsable>
+          <Description></Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Wpf.BoolControlProvider" BaseType="Control Provider">
+          <Name>BoolControlProvider</Name>
+          <Order>-10000</Order>
+          <Browsable>false</Browsable>
+          <Description></Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Wpf.FilePathControlProvider" BaseType="Control Provider">
+          <Name>FilePathControlProvider</Name>
+          <Order>-10000</Order>
+          <Browsable>false</Browsable>
+          <Description></Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Wpf.MethodControlProvider" BaseType="Control Provider">
+          <Name>MethodControlProvider</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description></Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Wpf.MultiSelectProvider" BaseType="Control Provider">
+          <Name>MultiSelectProvider</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description></Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Wpf.CollectionControlProvider" BaseType="Control Provider">
+          <Name>CollectionControlProvider</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description></Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Wpf.PictureControlProvider" BaseType="Control Provider">
+          <Name>PictureControlProvider</Name>
+          <Order>-10000</Order>
+          <Browsable>false</Browsable>
+          <Description></Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Wpf.SimpleControlProvider" BaseType="Control Provider">
+          <Name>SimpleControlProvider</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description></Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Wpf.GuiControlsSettings" BaseType="Component Settings">
+          <Name>GUI Controls</Name>
+          <Order>-10000</Order>
+          <Browsable>false</Browsable>
+          <Description />
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Wpf.GuiMenuModelFactory" BaseType="IMenuModelFactory">
+          <Name>GuiMenuModelFactory</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description></Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Wpf.EditorSettings" BaseType="Component Settings">
+          <Name>Editor</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Editor Settings</Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Wpf.NotifyingResultListener" BaseType="Result Listener">
+          <Name>Notifying Result Listener</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Windows specific notifying result listener. It is capable of playing sounds and blinking the application main window.</Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Wpf.ControlProviders.EnabledControlProvider" BaseType="Control Provider">
+          <Name>EnabledControlProvider</Name>
+          <Order>-10000</Order>
+          <Browsable>false</Browsable>
+          <Description></Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Wpf.ControlProviders.PasswordControlProvider" BaseType="Control Provider">
+          <Name>PasswordControlProvider</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description></Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+        <Plugin Type="Keysight.OpenTap.Wpf.ControlProviders.VerdictControlProvider" BaseType="Control Provider">
+          <Name>VerdictControlProvider</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description></Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+      </Plugins>
+      <IgnoreDependency>Keysight.Ftl.Licensing.Api</IgnoreDependency>
+      <Hash>A62E0C94DC524B787045133622621ED025A6361A</Hash>
+    </File>
+    <File Path="Dependencies/Keysight.Ccl.Wsl.4.0.1.9/Keysight.Ccl.Wsl.dll">
+      <Hash>D964F9679CFA293EB4515109A786AF11C298CD18</Hash>
+    </File>
+    <File Path="Dependencies/EnvDTE.8.0.0.0/EnvDTE.dll">
+      <Hash>EF5B076D64CA90F1D834FA8D8464970960810120</Hash>
+    </File>
+    <File Path="Dependencies/MahApps.Metro.1.3.0.0/MahApps.Metro.dll">
+      <Hash>01C30F77D3F8F2983483AECC548D06CC1EA9B1CE</Hash>
+    </File>
+    <File Path="Dependencies/System.Windows.Interactivity.4.5.0.0/System.Windows.Interactivity.dll">
+      <Hash>CE6C4C18CF638F980905B9CB6710EE1FA73BB397</Hash>
+    </File>
+    <File Path="Dependencies/Microsoft.Expression.Interactions.4.5.0.0/Microsoft.Expression.Interactions.dll">
+      <Hash>AACE8D26358D9829F0E6632BDDF183534ACFEC0D</Hash>
+    </File>
+    <File Path="Dependencies/stdole.7.0.3300.0/stdole.dll">
+      <Hash>239EC8AFAC9EA8D92A1D1076A3A5D57073DEA29A</Hash>
+    </File>
+  </Files>
+</Package>

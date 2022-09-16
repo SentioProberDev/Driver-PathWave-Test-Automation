@@ -1,0 +1,60 @@
+﻿2022-09-16 11:25:48.023237 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyPluginGen\bin\Release\SessionLogs\tap 2022-09-16 11-25-47.txt'. [10.3 ms]
+2022-09-16 11:25:48.052850 ; Session        ; Debug       ; Running '.\tap  package create "D:\MPI Project\Test\MyOpenTap\MyPluginGen\\package.xml" --install' in 'D:\MPI Project\Test\MyOpenTap\MyPluginGen\bin\Release'.
+2022-09-16 11:25:48.092588 ; Session        ; Debug       ; Microsoft Windows 10.0.19044 X64
+2022-09-16 11:25:48.092588 ; Session        ; Debug       ; .NET Framework 4.8.4515.0
+2022-09-16 11:25:48.120673 ; Session        ; Debug       ; OpenTAP Engine 9.18.5+0328e9b4 X64
+2022-09-16 11:25:48.124721 ; AssemblyFinder ; Debug       ; Found 26/90 assembly files. [43.0 ms]
+2022-09-16 11:25:48.196800 ; Resolver       ; Debug       ; Found match for System.Reflection.Metadata, Version=1.4.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a in D:\MPI Project\Test\MyOpenTap\MyPluginGen\bin\Release\Dependencies\System.Reflection.Metadata.1.4.3.0\System.Reflection.Metadata.dll
+2022-09-16 11:25:48.216220 ; Resolver       ; Debug       ; Found match for System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a in D:\MPI Project\Test\MyOpenTap\MyPluginGen\bin\Release\Dependencies\System.Collections.Immutable.1.2.3.0\System.Collections.Immutable.dll
+2022-09-16 11:25:48.358498 ; Searcher       ; Debug       ; Ordered 24 assemblies according to references. [227 ms]
+2022-09-16 11:25:48.456903 ; PluginManager  ; Debug       ; Found 19 plugin assemblies containing 270 plugin types. [328 ms]
+2022-09-16 11:25:48.457403 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.dll
+2022-09-16 11:25:48.457403 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.Package.dll
+2022-09-16 11:25:48.457403 ; PluginManager  ; Debug       ; Found version 1.1.0            of Keysight.OpenTap.Licensing.dll
+2022-09-16 11:25:48.457403 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.Plugins.BasicSteps.dll
+2022-09-16 11:25:48.457403 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of Keysight.OpenTap.Wpf.dll
+2022-09-16 11:25:48.457403 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of PackageManager.exe
+2022-09-16 11:25:48.457403 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of Editor.exe
+2022-09-16 11:25:48.457403 ; PluginManager  ; Debug       ; Found version 0.1.0-Development of MyOpenTapShare.dll
+2022-09-16 11:25:48.457403 ; PluginManager  ; Debug       ; Found version 0.1.0-Development of MyPluginGen.dll
+2022-09-16 11:25:48.457403 ; PluginManager  ; Debug       ; Found version 9.11.0+98498e58  of Csv.dll
+2022-09-16 11:25:48.457403 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of ResultsViewer.exe
+2022-09-16 11:25:48.457403 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of RunExplorer.exe
+2022-09-16 11:25:48.457403 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of Keysight.OpenTap.CommunityEditionPopup.exe
+2022-09-16 11:25:48.457403 ; PluginManager  ; Debug       ; Found version 1.0.0            of OpenTap.OSIntegration.Windows.dll
+2022-09-16 11:25:48.457403 ; PluginManager  ; Debug       ; Found version 9.17.4+ea67c63a  of OpenTap.Sdk.New.dll
+2022-09-16 11:25:48.457403 ; PluginManager  ; Debug       ; Found version 9.4.2+3009aace   of Keysight.OpenTap.Plugins.ResultListener.SqlDatabase.dll
+2022-09-16 11:25:48.457403 ; PluginManager  ; Debug       ; Found version 9.4.2+3009aace   of Keysight.OpenTap.Plugins.ResultListener.PostgreSQL.dll
+2022-09-16 11:25:48.457403 ; PluginManager  ; Debug       ; Found version 9.4.2+3009aace   of Keysight.OpenTap.Plugins.ResultListener.SQLite.dll
+2022-09-16 11:25:48.457403 ; PluginManager  ; Debug       ; Found version 1.2.6+ef0ad804   of OpenTap.VSSdk.Installer.dll
+2022-09-16 11:25:48.457403 ; PluginManager  ; Debug       ; Searched 26 Assemblies. [330 ms]
+2022-09-16 11:25:48.522780 ; AssemblyData   ; Debug       ; Loaded OpenTap. [326 us]
+2022-09-16 11:25:48.539581 ; AssemblyData   ; Debug       ; Loaded Keysight.OpenTap.Wpf. [5.23 ms]
+2022-09-16 11:25:48.584439 ; Settings       ; Debug       ; No settings file exists for EngineSettings. A new instance with default values has been created. [9.33 ms]
+2022-09-16 11:25:48.640093 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyPluginGen\bin\Release\SessionLogs\SessionLog 2022-09-16 11-25-47.txt'. [14.9 ms]
+2022-09-16 11:25:48.671315 ; AssemblyData   ; Debug       ; Loaded OpenTap.Package. [15.8 ms]
+2022-09-16 11:25:48.707823 ; AssemblyData   ; Debug       ; Loaded OpenTap.Plugins.BasicSteps. [11.5 ms]
+2022-09-16 11:25:48.766965 ; AssemblyData   ; Debug       ; Loaded mscorlib. [600 ns]
+2022-09-16 11:25:48.781662 ; CLI            ; Debug       ; Executing CLI action: package \ create
+2022-09-16 11:25:48.819652 ; VariableExpander ; Debug       ; Initialized variable expander:
+2022-09-16 11:25:48.840204 ; Package        ; Debug       ; Package preprocessing completed. [30.6 ms]
+2022-09-16 11:25:48.876518 ; AssemblyData   ; Debug       ; Loaded OpenTap.OSIntegration.Windows. [9.49 ms]
+2022-09-16 11:25:48.960908 ; Resolver       ; Debug       ; Found match for DotNet.Glob, Version=3.0.1.0, Culture=neutral, PublicKeyToken=b68cc888b4f632d1 in D:\MPI Project\Test\MyOpenTap\MyPluginGen\bin\Release\Dependencies\DotNet.Glob.3.0.1.0\DotNet.Glob.dll
+2022-09-16 11:25:49.174531 ; Searcher       ; Debug       ; Ordered 86 assemblies according to references. [125 ms]
+2022-09-16 11:25:49.791845 ; Package        ; Information ; Satisfying assembly reference to OpenTap by adding dependency on package OpenTAP
+2022-09-16 11:25:49.791845 ; Package        ; Information ; Satisfying assembly reference to netstandard by adding dependency on package OpenTAP
+2022-09-16 11:25:49.791845 ; Package        ; Information ; Adding dependency on package 'OpenTAP' version 9.18.5+0328e9b4
+2022-09-16 11:25:49.802859 ; Package        ; Information ; 'MyPluginGen.dll' depends on 'MyOpenTapShare' version '0.1.0.0'. Adding dependency to package, it was not found in any other packages.
+2022-09-16 11:25:49.834125 ; Package        ; Debug       ; Using temporary folder at 'C:\Users\Jacky.Kuo\AppData\Local\Temp\yx4rekm3.5fs'
+2022-09-16 11:25:49.837995 ; Package        ; Debug       ; Updating version info for 'MyPluginGen.dll' [1.46 ms]
+2022-09-16 11:25:49.853746 ; Resolver       ; Debug       ; Found match for Mono.Cecil, Version=0.10.1.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e in D:\MPI Project\Test\MyOpenTap\MyPluginGen\bin\Release\Dependencies\Mono.Cecil.0.10.1.0\Mono.Cecil.dll
+2022-09-16 11:25:50.258591 ; Package        ; Information ; Updated assembly version info using Mono method. [421 ms]
+2022-09-16 11:25:50.272414 ; Package        ; Debug       ; Available custom actions for 'create' stage. (2 actions: OpenTap.Package.IncludePackageDependencies, OpenTap.Package.FileHashPackageAction)
+2022-09-16 11:25:50.276422 ; Package        ; Information ; Package action IncludePackageDependencies completed [3.76 ms]
+2022-09-16 11:25:50.290977 ; Package        ; Information ; Package action FileHashPackageAction completed [14.9 ms]
+2022-09-16 11:25:50.290977 ; Package        ; Information ; Creating OpenTAP package.
+2022-09-16 11:25:50.327468 ; Package        ; Debug       ; Compressed 'C:\Users\Jacky.Kuo\AppData\Local\Temp\yx4rekm3.5fs\Versioned\MyPluginGen.dll' [14.6 ms]
+2022-09-16 11:25:50.331914 ; Package        ; Debug       ; Compressed 'D:\MPI Project\Test\MyOpenTap\MyPluginGen\bin\Release\MyOpenTapShare.dll' [5.28 ms]
+2022-09-16 11:25:50.467573 ; PackageAction  ; Information ; OpenTAP plugin package 'MyPluginGen.0.1.0-alpha.TapPackage' containing 'MyPluginGen' successfully created.
+2022-09-16 11:25:50.474468 ; PackageAction  ; Information ; Installed 'MyPluginGen' (D:\MPI Project\Test\MyOpenTap\MyPluginGen\bin\Release\Packages\MyPluginGen\package.xml)
+2022-09-16 11:25:50.474968 ; CLI            ; Debug       ; CLI action returned exit code: 0 [1.69 s]

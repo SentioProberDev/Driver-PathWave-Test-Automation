@@ -1,0 +1,12 @@
+﻿2022-09-16 11:12:20.879965 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyOpenTapShare\bin\Release\SessionLogs\MSBuild.9848 2022-09-16 11-11-27 (1).txt'. [35.7 ms]
+2022-09-16 11:12:20.898628 ; Session        ; Debug       ; Running 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe /nologo /nodemode:1 /nodeReuse:true /low:false' in 'D:\MPI Project\Test\MyOpenTap\MyOpenTapShare'.
+2022-09-16 11:12:21.824316 ; OpenTAP        ; Information ; Target installation is already up to date.
+2022-09-16 11:12:40.414749 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyPluginChuck\bin\Release\SessionLogs\MSBuild.9848 2022-09-16 11-11-27.txt'. [16.3 ms]
+2022-09-16 11:12:40.428863 ; Session        ; Debug       ; Running 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe /nologo /nodemode:1 /nodeReuse:true /low:false' in 'D:\MPI Project\Test\MyOpenTap\MyPluginChuck'.
+2022-09-16 11:12:41.107465 ; OpenTAP        ; Information ; Target installation is already up to date.
+2022-09-16 11:12:44.625222 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyPluginGen\bin\Release\SessionLogs\MSBuild.9848 2022-09-16 11-11-27.txt'. [52.5 ms]
+2022-09-16 11:12:44.643936 ; Session        ; Debug       ; Running 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe /nologo /nodemode:1 /nodeReuse:true /low:false' in 'D:\MPI Project\Test\MyOpenTap\MyPluginGen'.
+2022-09-16 11:12:45.312107 ; OpenTAP        ; Information ; Target installation is already up to date.
+2022-09-16 11:12:45.416466 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Release\SessionLogs\MSBuild.9848 2022-09-16 11-11-27.txt'. [21.0 ms]
+2022-09-16 11:12:45.438206 ; Session        ; Debug       ; Running 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe /nologo /nodemode:1 /nodeReuse:true /low:false' in 'D:\MPI Project\Test\MyOpenTap\MyOpenTapMain'.
+2022-09-16 11:12:46.076904 ; OpenTAP        ; Information ; Target installation is already up to date.

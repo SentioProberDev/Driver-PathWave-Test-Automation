@@ -1,0 +1,34 @@
+﻿2022-09-16 11:11:47.089394 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyOpenTapShare\bin\Release\SessionLogs\tap 2022-09-16 11-11-46.txt'. [13.9 ms]
+2022-09-16 11:11:47.118994 ; Session        ; Debug       ; Running '"bin\Release\tap.exe" communityeditionpopup --verbose ' in 'D:\MPI Project\Test\MyOpenTap\MyOpenTapShare\bin\Release'.
+2022-09-16 11:11:47.152084 ; Session        ; Debug       ; Microsoft Windows 10.0.19044 X64
+2022-09-16 11:11:47.152084 ; Session        ; Debug       ; .NET Framework 4.8.4515.0
+2022-09-16 11:11:47.162749 ; AssemblyFinder ; Debug       ; Found 22/76 assembly files. [20.6 ms]
+2022-09-16 11:11:47.168818 ; Session        ; Debug       ; OpenTAP Engine 9.18.5+0328e9b4 X64
+2022-09-16 11:11:47.232433 ; Resolver       ; Debug       ; Found match for System.Reflection.Metadata, Version=1.4.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a in D:\MPI Project\Test\MyOpenTap\MyOpenTapShare\bin\Release\Dependencies\System.Reflection.Metadata.1.4.3.0\System.Reflection.Metadata.dll
+2022-09-16 11:11:47.246584 ; Resolver       ; Debug       ; Found match for System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a in D:\MPI Project\Test\MyOpenTap\MyOpenTapShare\bin\Release\Dependencies\System.Collections.Immutable.1.2.3.0\System.Collections.Immutable.dll
+2022-09-16 11:11:47.377923 ; Searcher       ; Debug       ; Ordered 20 assemblies according to references. [210 ms]
+2022-09-16 11:11:47.468539 ; PluginManager  ; Debug       ; Found 15 plugin assemblies containing 240 plugin types. [301 ms]
+2022-09-16 11:11:47.468862 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.dll
+2022-09-16 11:11:47.469262 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.Package.dll
+2022-09-16 11:11:47.469262 ; PluginManager  ; Debug       ; Found version 1.1.0            of Keysight.OpenTap.Licensing.dll
+2022-09-16 11:11:47.469262 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.Plugins.BasicSteps.dll
+2022-09-16 11:11:47.469262 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of Keysight.OpenTap.Wpf.dll
+2022-09-16 11:11:47.469262 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of PackageManager.exe
+2022-09-16 11:11:47.469262 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of Editor.exe
+2022-09-16 11:11:47.469262 ; PluginManager  ; Debug       ; Found version 9.11.0+98498e58  of Csv.dll
+2022-09-16 11:11:47.469262 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of Keysight.OpenTap.CommunityEditionPopup.exe
+2022-09-16 11:11:47.469262 ; PluginManager  ; Debug       ; Found version 1.0.0            of OpenTap.OSIntegration.Windows.dll
+2022-09-16 11:11:47.469262 ; PluginManager  ; Debug       ; Found version 9.17.4+ea67c63a  of OpenTap.Sdk.New.dll
+2022-09-16 11:11:47.469262 ; PluginManager  ; Debug       ; Found version 9.4.2+3009aace   of Keysight.OpenTap.Plugins.ResultListener.SqlDatabase.dll
+2022-09-16 11:11:47.469262 ; PluginManager  ; Debug       ; Found version 9.4.2+3009aace   of Keysight.OpenTap.Plugins.ResultListener.PostgreSQL.dll
+2022-09-16 11:11:47.469262 ; PluginManager  ; Debug       ; Found version 9.4.2+3009aace   of Keysight.OpenTap.Plugins.ResultListener.SQLite.dll
+2022-09-16 11:11:47.469262 ; PluginManager  ; Debug       ; Found version 1.2.6+ef0ad804   of OpenTap.VSSdk.Installer.dll
+2022-09-16 11:11:47.469262 ; PluginManager  ; Debug       ; Searched 22 Assemblies. [303 ms]
+2022-09-16 11:11:47.522209 ; AssemblyData   ; Debug       ; Loaded OpenTap. [380 us]
+2022-09-16 11:11:47.544887 ; AssemblyData   ; Debug       ; Loaded Keysight.OpenTap.Wpf. [13.1 ms]
+2022-09-16 11:11:47.586385 ; Settings       ; Debug       ; No settings file exists for EngineSettings. A new instance with default values has been created. [10.3 ms]
+2022-09-16 11:11:47.645429 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyOpenTapShare\bin\Release\SessionLogs\SessionLog 2022-09-16 11-11-46.txt'. [20.0 ms]
+2022-09-16 11:11:47.666110 ; AssemblyData   ; Debug       ; Loaded Keysight.OpenTap.CommunityEditionPopup. [11.3 ms]
+2022-09-16 11:11:47.698005 ; AssemblyData   ; Debug       ; Loaded OpenTap.Plugins.BasicSteps. [12.6 ms]
+2022-09-16 11:11:47.752196 ; CLI            ; Debug       ; Executing CLI action: communityeditionpopup
+2022-09-16 11:11:47.754196 ; CLI            ; Debug       ; CLI action returned exit code: 0 [1.76 ms]

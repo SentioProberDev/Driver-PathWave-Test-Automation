@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package Date="03/22/2022 09:05:09" Name="Visual Studio SDK CE" Version="1.2.6+ef0ad804" Architecture="AnyCPU" OS="Windows" xmlns="http://opentap.io/schemas/package">
+  <Hash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</Hash>
+  <Description>This Visual Studio SDK includes a OpenTap.IDebugger to help attach the Visual Studio debugger to the OpenTAP process, Visual Studio templates for OpenTAP Plugins and a Visual Studio integration that enables intellisense for package files.
+    <Status>Released</Status><Organisation>Keysight Technologies</Organisation><Prerequisites>Visual Studio 2017 or newer</Prerequisites></Description>
+  <Dependencies>
+    <PackageDependency Package="SDK" Version="Any" />
+    <PackageDependency Package="OpenTAP" Version="^9.17.4+ea67c63a" />
+  </Dependencies>
+  <Owner>Keysight Technologies, Inc.</Owner>
+  <Files>
+    <File Path="Packages/Visual Studio SDK CE/OpenTap.VSSdk.Debugger.dll">
+      <Hash>5D2168E69756C5D842FD238D1E1B392F91E50017</Hash>
+    </File>
+    <File Path="Packages/Visual Studio SDK CE/Install/OpenTap.VSSdk.vsix">
+      <Hash>C3421A7AA1B358C420D09C00D7BEB7E071FCD53A</Hash>
+    </File>
+    <File Path="Packages/Visual Studio SDK CE/Install/OpenTap.VSSdk.Installer.dll">
+      <Plugins>
+        <Plugin Type="OpenTap.VSSdk.Installer.VSSdkInstaller" BaseType="ICliAction">
+          <Name>vs-integration</Name>
+          <Order>-10000</Order>
+          <Browsable>false</Browsable>
+          <Description>Installs OpenTAP Visual Studio integrations (Templates).</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>sdk</String>
+          </Groups>
+        </Plugin>
+      </Plugins>
+      <Hash>812D1322F6DB4623BF3CD47661749F7B8A6A9052</Hash>
+    </File>
+    <File Path="Dependencies/EnvDTE.8.0.0.0/EnvDTE.dll">
+      <Hash>EF5B076D64CA90F1D834FA8D8464970960810120</Hash>
+    </File>
+    <File Path="Dependencies/System.ValueTuple.4.0.2.0/System.ValueTuple.dll">
+      <Hash>0B7A9EC0DFF6D958C9C64B5F592993372D31C5E9</Hash>
+    </File>
+    <File Path="Dependencies/stdole.7.0.3300.0/stdole.dll">
+      <Hash>239EC8AFAC9EA8D92A1D1076A3A5D57073DEA29A</Hash>
+    </File>
+  </Files>
+  <PackageActionExtensions>
+    <ActionStep ExeFile="tap.exe" ExpectedExitCodes="0" Arguments="sdk vs-integration --install" ActionName="install"></ActionStep>
+    <ActionStep ExeFile="tap.exe" ExpectedExitCodes="0" Arguments="sdk vs-integration --uninstall" ActionName="uninstall"></ActionStep>
+  </PackageActionExtensions>
+</Package>

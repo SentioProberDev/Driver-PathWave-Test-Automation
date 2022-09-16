@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package Date="09/16/2022 03:25:48" Name="MyPluginGen" Version="0.1.0-alpha" Architecture="AnyCPU" OS="Windows,Linux" xmlns="http://opentap.io/schemas/package">
+  <Hash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</Hash>
+  <Description>This is my OpenTAP plugin package.</Description>
+  <Dependencies>
+    <PackageDependency Package="OpenTAP" Version="^9.18.5+0328e9b4" />
+  </Dependencies>
+  <Files>
+    <File Path="Packages/MyPluginGen/MyPluginGen.dll">
+      <Plugins>
+        <Plugin Type="MyPluginGen.GetIDN" BaseType="Test Step">
+          <Name>GetIDN</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Insert a description here</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>General</String>
+          </Groups>
+        </Plugin>
+        <Plugin Type="MyPluginGen.Step" BaseType="Test Step">
+          <Name>CheckInRange</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Insert description here</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>Test</String>
+          </Groups>
+        </Plugin>
+      </Plugins>
+      <Hash>C673CEDF27DBD26066261A093177AF0ABB937BA1</Hash>
+    </File>
+    <File Path="Dependencies/MyOpenTapShare.0.1.0.0/MyOpenTapShare.dll">
+      <Hash>979590E06DDFE4BD7684A482E22B3050F7F12E29</Hash>
+    </File>
+  </Files>
+</Package>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package Date="09/16/2022 03:25:55" Name="MyOpenTapMain" Version="0.1.0-alpha" Architecture="AnyCPU" OS="Windows,Linux" xmlns="http://opentap.io/schemas/package">
+  <Hash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</Hash>
+  <Description>This is my OpenTAP plugin package.</Description>
+  <Dependencies>
+    <PackageDependency Package="OpenTAP" Version="^9.18.5+0328e9b4" />
+  </Dependencies>
+  <Files>
+    <File Path="Packages/MyOpenTapMain/MyOpenTapMain.dll">
+      <Hash>2E0C205F4F13A7E297397A61312AD8494092AE6C</Hash>
+    </File>
+    <File Path="Packages/MyOpenTapMain/MyPluginChuck.dll">
+      <Plugins>
+        <Plugin Type="MyPluginChuck.ChuckMoveContact" BaseType="Test Step">
+          <Name>ChuckMoveContact</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Insert a description here</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>MyChuckPlugin</String>
+          </Groups>
+        </Plugin>
+        <Plugin Type="MyPluginChuck.ChuckMoveSeparation" BaseType="Test Step">
+          <Name>ChuckMoveSeparation</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Insert a description here</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>MyChuckPlugin</String>
+          </Groups>
+        </Plugin>
+        <Plugin Type="MyPluginChuck.ChuckMoveXY" BaseType="Test Step">
+          <Name>ChuckMoveXY</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Insert a description here</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>MyChuckPlugin</String>
+          </Groups>
+        </Plugin>
+      </Plugins>
+      <Hash>D2E5FC7BF75BA74CEE6437909C51E5AB6C4DDC90</Hash>
+    </File>
+    <File Path="Packages/MyOpenTapMain/MyPluginGen.dll">
+      <Plugins>
+        <Plugin Type="MyPluginGen.GetIDN" BaseType="Test Step">
+          <Name>GetIDN</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Insert a description here</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>General</String>
+          </Groups>
+        </Plugin>
+        <Plugin Type="MyPluginGen.Step" BaseType="Test Step">
+          <Name>CheckInRange</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Insert description here</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>Test</String>
+          </Groups>
+        </Plugin>
+      </Plugins>
+      <Hash>C673CEDF27DBD26066261A093177AF0ABB937BA1</Hash>
+    </File>
+    <File Path="Packages/MyOpenTapMain/MyOpenTapShare.dll">
+      <Plugins>
+        <Plugin Type="MyOpenTapShare.MyDut1" BaseType="Dut">
+          <Name>MyDut1</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Add a description here</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>MyOpenTapShare</String>
+          </Groups>
+        </Plugin>
+        <Plugin Type="MyOpenTapShare.MyInstrument1" BaseType="Instrument">
+          <Name>MyInstrument1</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Insert a description here</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>MyOpenTapShare</String>
+          </Groups>
+        </Plugin>
+        <Plugin Type="MyOpenTapShare.MyResultListener" BaseType="Result Listener">
+          <Name>MyResultListener</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Insert a description here</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>MyOpenTapShare</String>
+          </Groups>
+        </Plugin>
+        <Plugin Type="MyOpenTapShare.MySettings1" BaseType="Component Settings">
+          <Name>MySettings</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Add a description here</Description>
+          <Collapsed>false</Collapsed>
+          <Groups />
+        </Plugin>
+      </Plugins>
+      <Hash>8C7A47DA7426604295E6A8D85281BA8E06FAE122</Hash>
+    </File>
+    <File Path="Packages/MyOpenTapMain/MyPluginVision.dll">
+      <Plugins>
+        <Plugin Type="MyPluginVision.AutoFocus" BaseType="Test Step">
+          <Name>AutoFocus</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Insert a description here</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>MyVisionPlugin</String>
+          </Groups>
+        </Plugin>
+        <Plugin Type="MyPluginVision.ScopeFollow" BaseType="Test Step">
+          <Name>Scope Follow</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Insert description here</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>MyVisionPlugin</String>
+          </Groups>
+        </Plugin>
+      </Plugins>
+      <Hash>19F662A5A730C31C89025F3D01F4EB5FA9B8F50A</Hash>
+    </File>
+  </Files>
+</Package>

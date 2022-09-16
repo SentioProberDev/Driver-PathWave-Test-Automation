@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package Date="09/16/2022 03:25:43" Name="MyPluginChuck" Version="0.1.0-alpha" Architecture="AnyCPU" OS="Windows,Linux" xmlns="http://opentap.io/schemas/package">
+  <Hash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</Hash>
+  <Description>This is my OpenTAP plugin package.</Description>
+  <Dependencies>
+    <PackageDependency Package="OpenTAP" Version="^9.18.5+0328e9b4" />
+  </Dependencies>
+  <Files>
+    <File Path="Packages/MyPluginChuck/MyPluginChuck.dll">
+      <Plugins>
+        <Plugin Type="MyPluginChuck.ChuckMoveContact" BaseType="Test Step">
+          <Name>ChuckMoveContact</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Insert a description here</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>MyChuckPlugin</String>
+          </Groups>
+        </Plugin>
+        <Plugin Type="MyPluginChuck.ChuckMoveSeparation" BaseType="Test Step">
+          <Name>ChuckMoveSeparation</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Insert a description here</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>MyChuckPlugin</String>
+          </Groups>
+        </Plugin>
+        <Plugin Type="MyPluginChuck.ChuckMoveXY" BaseType="Test Step">
+          <Name>ChuckMoveXY</Name>
+          <Order>-10000</Order>
+          <Browsable>true</Browsable>
+          <Description>Insert a description here</Description>
+          <Collapsed>false</Collapsed>
+          <Groups>
+            <String>MyChuckPlugin</String>
+          </Groups>
+        </Plugin>
+      </Plugins>
+      <Hash>D2E5FC7BF75BA74CEE6437909C51E5AB6C4DDC90</Hash>
+    </File>
+    <File Path="Dependencies/MyOpenTapShare.0.1.0.0/MyOpenTapShare.dll">
+      <Hash>979590E06DDFE4BD7684A482E22B3050F7F12E29</Hash>
+    </File>
+  </Files>
+</Package>

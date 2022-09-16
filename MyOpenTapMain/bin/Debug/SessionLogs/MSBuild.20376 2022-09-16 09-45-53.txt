@@ -1,0 +1,33 @@
+﻿2022-09-16 09:46:03.574043 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\SessionLogs\MSBuild.20376 2022-09-16 09-45-53.txt'. [13.4 ms]
+2022-09-16 09:46:03.578914 ; Session        ; Debug       ; Running 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe /nologo /nodemode:1 /nodeReuse:true /low:false' in 'D:\MPI Project\Test\MyOpenTap\MyOpenTapMain'.
+2022-09-16 09:46:04.266469 ; OpenTAP        ; Information ; Target installation is already up to date.
+2022-09-16 09:49:47.493875 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyPluginVision\bin\Debug\SessionLogs\MSBuild.20376 2022-09-16 09-45-53 (1).txt'. [25.2 ms]
+2022-09-16 09:49:47.504888 ; Session        ; Debug       ; Running 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe /nologo /nodemode:1 /nodeReuse:true /low:false' in 'D:\MPI Project\Test\MyOpenTap\MyPluginVision'.
+2022-09-16 09:49:48.685828 ; OpenTAP        ; Information ; Target installation is already up to date.
+2022-09-16 09:49:49.422654 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\SessionLogs\MSBuild.20376 2022-09-16 09-45-53.txt'. [18.5 ms]
+2022-09-16 09:49:49.432306 ; Session        ; Debug       ; Running 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe /nologo /nodemode:1 /nodeReuse:true /low:false' in 'D:\MPI Project\Test\MyOpenTap\MyOpenTapMain'.
+2022-09-16 09:49:50.045148 ; OpenTAP        ; Information ; Target installation is already up to date.
+2022-09-16 09:52:21.245536 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyPluginVision\bin\Debug\SessionLogs\MSBuild.20376 2022-09-16 09-45-53 (1).txt'. [14.9 ms]
+2022-09-16 09:52:21.258242 ; Session        ; Debug       ; Running 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe /nologo /nodemode:1 /nodeReuse:true /low:false' in 'D:\MPI Project\Test\MyOpenTap\MyPluginVision'.
+2022-09-16 09:52:21.873312 ; OpenTAP        ; Information ; Target installation is already up to date.
+2022-09-16 09:52:22.547094 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\SessionLogs\MSBuild.20376 2022-09-16 09-45-53.txt'. [18.7 ms]
+2022-09-16 09:52:22.557133 ; Session        ; Debug       ; Running 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe /nologo /nodemode:1 /nodeReuse:true /low:false' in 'D:\MPI Project\Test\MyOpenTap\MyOpenTapMain'.
+2022-09-16 09:52:23.163264 ; OpenTAP        ; Information ; Target installation is already up to date.
+2022-09-16 09:53:27.414238 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyPluginVision\bin\Debug\SessionLogs\MSBuild.20376 2022-09-16 09-45-53 (1).txt'. [17.7 ms]
+2022-09-16 09:53:27.420261 ; Session        ; Debug       ; Running 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe /nologo /nodemode:1 /nodeReuse:true /low:false' in 'D:\MPI Project\Test\MyOpenTap\MyPluginVision'.
+2022-09-16 09:53:28.014994 ; OpenTAP        ; Information ; Target installation is already up to date.
+2022-09-16 09:53:28.753334 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\SessionLogs\MSBuild.20376 2022-09-16 09-45-53.txt'. [9.46 ms]
+2022-09-16 09:53:28.756673 ; Session        ; Debug       ; Running 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe /nologo /nodemode:1 /nodeReuse:true /low:false' in 'D:\MPI Project\Test\MyOpenTap\MyOpenTapMain'.
+2022-09-16 09:53:29.349796 ; OpenTAP        ; Information ; Target installation is already up to date.
+2022-09-16 10:06:50.767362 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyPluginVision\bin\Debug\SessionLogs\MSBuild.20376 2022-09-16 09-45-53 (1).txt'. [7.96 ms]
+2022-09-16 10:06:50.770533 ; Session        ; Debug       ; Running 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe /nologo /nodemode:1 /nodeReuse:true /low:false' in 'D:\MPI Project\Test\MyOpenTap\MyPluginVision'.
+2022-09-16 10:06:51.369245 ; OpenTAP        ; Information ; Target installation is already up to date.
+2022-09-16 10:06:52.625186 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\SessionLogs\MSBuild.20376 2022-09-16 09-45-53.txt'. [8.66 ms]
+2022-09-16 10:06:52.628367 ; Session        ; Debug       ; Running 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe /nologo /nodemode:1 /nodeReuse:true /low:false' in 'D:\MPI Project\Test\MyOpenTap\MyOpenTapMain'.
+2022-09-16 10:06:53.216098 ; OpenTAP        ; Information ; Target installation is already up to date.
+2022-09-16 10:15:08.774008 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyPluginVision\bin\Debug\SessionLogs\MSBuild.20376 2022-09-16 09-45-53 (1).txt'. [7.51 ms]
+2022-09-16 10:15:08.777333 ; Session        ; Debug       ; Running 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe /nologo /nodemode:1 /nodeReuse:true /low:false' in 'D:\MPI Project\Test\MyOpenTap\MyPluginVision'.
+2022-09-16 10:15:09.435828 ; OpenTAP        ; Information ; Target installation is already up to date.
+2022-09-16 10:15:10.107126 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyOpenTapMain\bin\Debug\SessionLogs\MSBuild.20376 2022-09-16 09-45-53.txt'. [8.66 ms]
+2022-09-16 10:15:10.109648 ; Session        ; Debug       ; Running 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe /nologo /nodemode:1 /nodeReuse:true /low:false' in 'D:\MPI Project\Test\MyOpenTap\MyOpenTapMain'.
+2022-09-16 10:15:10.709772 ; OpenTAP        ; Information ; Target installation is already up to date.

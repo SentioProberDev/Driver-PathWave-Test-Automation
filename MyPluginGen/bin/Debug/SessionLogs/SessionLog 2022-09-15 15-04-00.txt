@@ -1,0 +1,26 @@
+﻿2022-09-15 15:04:00.561112 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyPluginGen\bin\Debug\SessionLogs\tap 2022-09-15 15-04-00.txt'. [5.19 ms]
+2022-09-15 15:04:00.577356 ; Session        ; Debug       ; Running '"bin\Debug\tap.exe" path register --verbose ' in 'D:\MPI Project\Test\MyOpenTap\MyPluginGen\bin\Debug'.
+2022-09-15 15:04:00.598624 ; Session        ; Debug       ; Microsoft Windows 10.0.19044 X64
+2022-09-15 15:04:00.598624 ; Session        ; Debug       ; .NET Framework 4.8.4515.0
+2022-09-15 15:04:00.600621 ; AssemblyFinder ; Debug       ; Found 9/30 assembly files. [8.15 ms]
+2022-09-15 15:04:00.609624 ; Session        ; Debug       ; OpenTAP Engine 9.17.4+ea67c63a X64
+2022-09-15 15:04:00.634448 ; Resolver       ; Debug       ; Found match for System.Reflection.Metadata, Version=1.4.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a in D:\MPI Project\Test\MyOpenTap\MyPluginGen\bin\Debug\Dependencies\System.Reflection.Metadata.1.4.3.0\System.Reflection.Metadata.dll
+2022-09-15 15:04:00.688244 ; Resolver       ; Debug       ; Found match for System.Collections.Immutable, Version=1.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a in D:\MPI Project\Test\MyOpenTap\MyPluginGen\bin\Debug\Dependencies\System.Collections.Immutable.1.2.3.0\System.Collections.Immutable.dll
+2022-09-15 15:04:00.749012 ; Searcher       ; Debug       ; Ordered 9 assemblies according to references. [144 ms]
+2022-09-15 15:04:00.805797 ; PluginManager  ; Debug       ; Found 6 plugin assemblies containing 174 plugin types. [202 ms]
+2022-09-15 15:04:00.805797 ; PluginManager  ; Debug       ; Found version 9.17.4+ea67c63a  of OpenTap.dll
+2022-09-15 15:04:00.805797 ; PluginManager  ; Debug       ; Found version 9.17.4+ea67c63a  of OpenTap.Package.dll
+2022-09-15 15:04:00.805797 ; PluginManager  ; Debug       ; Found version 9.17.4+ea67c63a  of OpenTap.Plugins.BasicSteps.dll
+2022-09-15 15:04:00.805797 ; PluginManager  ; Debug       ; Found version 9.11.0+98498e58  of Csv.dll
+2022-09-15 15:04:00.805797 ; PluginManager  ; Debug       ; Found version 1.1.1.0          of Keysight.OpenTap.Licensing.dll
+2022-09-15 15:04:00.805797 ; PluginManager  ; Debug       ; Found version 1.0.0            of OpenTap.OSIntegration.Windows.dll
+2022-09-15 15:04:00.805797 ; PluginManager  ; Debug       ; Searched 9 Assemblies. [202 ms]
+2022-09-15 15:04:00.848874 ; PluginManager  ; Debug       ; Loaded OpenTap. [262 us]
+2022-09-15 15:04:00.865268 ; Settings       ; Debug       ; No settings file exists for EngineSettings. A new instance with default values has been created. [4.03 ms]
+2022-09-15 15:04:00.894159 ; Session        ; Debug       ; Session log loaded as 'D:\MPI Project\Test\MyOpenTap\MyPluginGen\bin\Debug\SessionLogs\SessionLog 2022-09-15 15-04-00.txt'. [9.22 ms]
+2022-09-15 15:04:00.906726 ; PluginManager  ; Debug       ; Loaded OpenTap.OSIntegration.Windows. [4.03 ms]
+2022-09-15 15:04:00.925883 ; PluginManager  ; Debug       ; Loaded OpenTap.Plugins.BasicSteps. [4.80 ms]
+2022-09-15 15:04:00.959017 ; PluginManager  ; Debug       ; Loaded mscorlib. [500 ns]
+2022-09-15 15:04:00.962016 ; CLI            ; Debug       ; Executing CLI action: path \ register
+2022-09-15 15:04:00.963023 ; PackageAction  ; Information ; Skipping OS Integration (OPENTAP_DEBUG_INSTALL environment variable is set).
+2022-09-15 15:04:00.963023 ; CLI            ; Debug       ; CLI action returned exit code: 0 [1.24 ms]
