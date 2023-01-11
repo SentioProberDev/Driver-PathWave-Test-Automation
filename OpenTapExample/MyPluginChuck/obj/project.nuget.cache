@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eglEGtAD1MaMuqEqucG7i+hvY/hfZBuEbjNCOSHItihdmAq2izgIu7EzqbV7u3fQEfYjZ2JkABue0DZd7fAE6g==",
+  "success": true,
+  "projectFilePath": "D:\\Program_Project\\Git\\SentioDev\\Examples-OpenTAP\\MyPluginChuck\\MyPluginChuck.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hoca.chen\\.nuget\\packages\\opentap\\9.18.5\\opentap.9.18.5.nupkg.sha512"
+  ],
+  "logs": []
+}

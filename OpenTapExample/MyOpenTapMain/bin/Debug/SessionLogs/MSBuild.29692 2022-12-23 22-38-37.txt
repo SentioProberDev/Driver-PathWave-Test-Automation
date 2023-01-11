@@ -1,0 +1,12 @@
+﻿2022-12-23 22:38:46.003016 ; Session        ; Debug       ; Session log loaded as 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyPluginChuck\bin\Debug\SessionLogs\MSBuild.29692 2022-12-23 22-38-37.txt'. [27.9 ms]
+2022-12-23 22:38:46.013017 ; Session        ; Debug       ; Running '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe" "C:\Users\hoca.chen\AppData\Local\Temp\Netofug.proj"' in 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyPluginChuck'.
+2022-12-23 22:38:46.739016 ; OpenTAP        ; Information ; Target installation is already up to date.
+2022-12-23 22:38:46.855016 ; Session        ; Debug       ; Session log loaded as 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyPluginVision\bin\Debug\SessionLogs\MSBuild.29692 2022-12-23 22-38-37.txt'. [16.7 ms]
+2022-12-23 22:38:46.865015 ; Session        ; Debug       ; Running '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe" "C:\Users\hoca.chen\AppData\Local\Temp\Netofug.proj"' in 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyPluginVision'.
+2022-12-23 22:38:47.587015 ; OpenTAP        ; Information ; Target installation is already up to date.
+2022-12-23 22:38:47.846017 ; Session        ; Debug       ; Session log loaded as 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyPluginGen\bin\Debug\SessionLogs\MSBuild.29692 2022-12-23 22-38-37.txt'. [46.7 ms]
+2022-12-23 22:38:47.860017 ; Session        ; Debug       ; Running '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe" "C:\Users\hoca.chen\AppData\Local\Temp\Netofug.proj"' in 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyPluginGen'.
+2022-12-23 22:38:48.593014 ; OpenTAP        ; Information ; Target installation is already up to date.
+2022-12-23 22:38:48.734017 ; Session        ; Debug       ; Session log loaded as 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\SessionLogs\MSBuild.29692 2022-12-23 22-38-37.txt'. [18.2 ms]
+2022-12-23 22:38:48.743016 ; Session        ; Debug       ; Running '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe" "C:\Users\hoca.chen\AppData\Local\Temp\Netofug.proj"' in 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain'.
+2022-12-23 22:38:49.433096 ; OpenTAP        ; Information ; Target installation is already up to date.

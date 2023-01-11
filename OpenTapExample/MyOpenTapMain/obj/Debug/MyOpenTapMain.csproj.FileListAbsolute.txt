@@ -1,0 +1,16 @@
+D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\MyOpenTapMain.dll
+D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\MyOpenTapMain.pdb
+D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\OpenTap.dll
+D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\MyOpenTapShare.dll
+D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\MyPluginChuck.dll
+D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\MyPluginGen.dll
+D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\MyPluginVision.dll
+D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\MyOpenTapShare.pdb
+D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\MyPluginChuck.pdb
+D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\MyPluginGen.pdb
+D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\MyPluginVision.pdb
+D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\obj\Debug\MyOpenTapMain.csproj.AssemblyReference.cache
+D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\obj\Debug\MyOpenTapMain.csproj.CoreCompileInputs.cache
+D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\obj\Debug\MyOpenTapMain.csproj.CopyComplete
+D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\obj\Debug\MyOpenTapMain.dll
+D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\obj\Debug\MyOpenTapMain.pdb

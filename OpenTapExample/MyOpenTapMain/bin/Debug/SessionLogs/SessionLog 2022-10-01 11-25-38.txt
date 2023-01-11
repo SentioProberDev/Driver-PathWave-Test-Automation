@@ -1,0 +1,85 @@
+﻿2022-10-01 11:25:27.481288 ; Session        ; Debug       ; Session log loaded as 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\SessionLogs\editor 2022-10-01 11-25-23.txt'. [13.5 ms]
+2022-10-01 11:25:27.517290 ; Session        ; Debug       ; Running '"D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\editor.exe" ' in 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug'.
+2022-10-01 11:25:27.693288 ; Session        ; Debug       ; Microsoft Windows 10.0.19043 X64
+2022-10-01 11:25:27.693288 ; Session        ; Debug       ; .NET Framework 4.8.4420.0
+2022-10-01 11:25:27.807289 ; Session        ; Debug       ; OpenTAP Engine 9.18.5+0328e9b4 X64
+2022-10-01 11:25:28.015288 ; AssemblyFinder ; Debug       ; Found 29/93 assembly files. [43.6 ms]
+2022-10-01 11:25:28.164290 ; Resolver       ; Debug       ; Found match for Keysight.OpenTap.Wpf, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null in D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Packages\WPF Controls\Keysight.OpenTap.Wpf.dll
+2022-10-01 11:25:34.354825 ; AssemblyFinder ; Debug       ; Found 29/93 assembly files. [911 ms]
+2022-10-01 11:25:34.486827 ; Resolver       ; Debug       ; Found match for System.Reflection.Metadata, Version=1.4.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a in D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Dependencies\System.Reflection.Metadata.1.4.3.0\System.Reflection.Metadata.dll
+2022-10-01 11:25:34.752826 ; Resolver       ; Debug       ; Found match for System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a in D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Dependencies\System.Collections.Immutable.1.2.3.0\System.Collections.Immutable.dll
+2022-10-01 11:25:35.663826 ; Searcher       ; Debug       ; Ordered 27 assemblies according to references. [1.30 s]
+2022-10-01 11:25:35.794826 ; PluginManager  ; Debug       ; Found 21 plugin assemblies containing 275 plugin types. [1.43 s]
+2022-10-01 11:25:35.796827 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.dll
+2022-10-01 11:25:35.796827 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.Package.dll
+2022-10-01 11:25:35.796827 ; PluginManager  ; Debug       ; Found version 1.1.0            of Keysight.OpenTap.Licensing.dll
+2022-10-01 11:25:35.796827 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.Plugins.BasicSteps.dll
+2022-10-01 11:25:35.796827 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of Keysight.OpenTap.Wpf.dll
+2022-10-01 11:25:35.796827 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of PackageManager.exe
+2022-10-01 11:25:35.796827 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of Editor.exe
+2022-10-01 11:25:35.796827 ; PluginManager  ; Debug       ; Found version 0.1.0-Development of MyOpenTapShare.dll
+2022-10-01 11:25:35.796827 ; PluginManager  ; Debug       ; Found version 0.1.0-Development of MyPluginChuck.dll
+2022-10-01 11:25:35.796827 ; PluginManager  ; Debug       ; Found version 0.1.0-Development of MyPluginGen.dll
+2022-10-01 11:25:35.796827 ; PluginManager  ; Debug       ; Found version 0.1.0-Development of MyPluginVision.dll
+2022-10-01 11:25:35.796827 ; PluginManager  ; Debug       ; Found version 9.11.0+98498e58  of Csv.dll
+2022-10-01 11:25:35.796827 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of ResultsViewer.exe
+2022-10-01 11:25:35.796827 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of RunExplorer.exe
+2022-10-01 11:25:35.796827 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of Keysight.OpenTap.CommunityEditionPopup.exe
+2022-10-01 11:25:35.796827 ; PluginManager  ; Debug       ; Found version 1.0.0            of OpenTap.OSIntegration.Windows.dll
+2022-10-01 11:25:35.796827 ; PluginManager  ; Debug       ; Found version 9.17.4+ea67c63a  of OpenTap.Sdk.New.dll
+2022-10-01 11:25:35.796827 ; PluginManager  ; Debug       ; Found version 9.4.2+3009aace   of Keysight.OpenTap.Plugins.ResultListener.SqlDatabase.dll
+2022-10-01 11:25:35.796827 ; PluginManager  ; Debug       ; Found version 9.4.2+3009aace   of Keysight.OpenTap.Plugins.ResultListener.PostgreSQL.dll
+2022-10-01 11:25:35.796827 ; PluginManager  ; Debug       ; Found version 9.4.2+3009aace   of Keysight.OpenTap.Plugins.ResultListener.SQLite.dll
+2022-10-01 11:25:35.796827 ; PluginManager  ; Debug       ; Found version 1.2.6+ef0ad804   of OpenTap.VSSdk.Installer.dll
+2022-10-01 11:25:35.796827 ; PluginManager  ; Debug       ; Searched 29 Assemblies. [1.43 s]
+2022-10-01 11:25:35.838826 ; AssemblyData   ; Debug       ; Loaded OpenTap. [480 us]
+2022-10-01 11:25:35.838826 ; AssemblyData   ; Debug       ; Loaded OpenTap. [390 us]
+2022-10-01 11:25:35.851825 ; AssemblyData   ; Debug       ; Loaded Keysight.OpenTap.Wpf. [169 us]
+2022-10-01 11:25:35.881825 ; AssemblyData   ; Debug       ; Loaded OpenTap.Package. [42.4 ms]
+2022-10-01 11:25:35.931825 ; AssemblyData   ; Debug       ; Loaded OpenTap.Plugins.BasicSteps. [88.2 ms]
+2022-10-01 11:25:36.003828 ; AssemblyData   ; Debug       ; Loaded OpenTap.OSIntegration.Windows. [18.4 ms]
+2022-10-01 11:25:36.123828 ; AssemblyData   ; Debug       ; Loaded mscorlib. [700 ns]
+2022-10-01 11:25:36.372826 ; Settings       ; Debug       ; EditorSettings loaded from D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Settings\Editor.xml [7.59 s]
+2022-10-01 11:25:36.425825 ; Resolver       ; Debug       ; Found match for Keysight.Ccl.Wsl, Version=4.0.1.9, Culture=neutral, PublicKeyToken=55333af07c70062e in D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Dependencies\Keysight.Ccl.Wsl.4.0.1.9\Keysight.Ccl.Wsl.dll
+2022-10-01 11:25:36.503827 ; Resolver       ; Debug       ; Found match for MahApps.Metro, Version=1.3.0.0, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f in D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Dependencies\MahApps.Metro.1.3.0.0\MahApps.Metro.dll
+2022-10-01 11:25:36.785825 ; GUI            ; Debug       ; Loaded Light Theme. [19.9 ms]
+2022-10-01 11:25:36.973826 ; Resolver       ; Debug       ; Found match for AvalonDock, Version=4.60.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4 in D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Dependencies\AvalonDock.4.60.0.0\AvalonDock.dll
+2022-10-01 11:25:37.739828 ; Settings       ; Debug       ; GuiControlsSettings loaded from D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Settings\GUI Controls.xml [605 ms]
+2022-10-01 11:25:37.739828 ; Main           ; Debug       ; Window initial dimensions: 1549px, 837px.
+2022-10-01 11:25:37.852827 ; Resolver       ; Debug       ; Found match for Keysight.OpenTap.Licensing, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null in D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Packages\Keysight Licensing\Keysight.OpenTap.Licensing.dll
+2022-10-01 11:25:37.859827 ; Settings       ; Debug       ; EngineSettings loaded from D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Settings\Engine.xml [111 ms]
+2022-10-01 11:25:38.057854 ; Session        ; Debug       ; Session log loaded as 'SessionLogs\SessionLog 2022-10-01 11-25-38.txt'. [32.0 ms]
+2022-10-01 11:25:38.351854 ; Settings       ; Debug       ; No settings file exists for PackageManagerSettings. A new instance with default values has been created. [1.24 ms]
+2022-10-01 11:25:38.552853 ; Settings       ; Debug       ; No settings file exists for AuthenticationSettings. A new instance with default values has been created. [646 us]
+2022-10-01 11:25:38.660855 ; Main           ; Debug       ; GUI initialized. [919 ms]
+2022-10-01 11:25:38.660855 ; Main           ; Debug       ; Docking manager initialized. [78.4 us]
+2022-10-01 11:25:38.664853 ; OpenTAP        ; Information ; OpenTAP version '9.18.5+0328e9b4' 64-bit initialized 10/01/2022 [15.0 s]
+2022-10-01 11:25:38.725852 ; AssemblyData   ; Debug       ; Loaded PackageManager. [408 us]
+2022-10-01 11:25:38.725852 ; AssemblyData   ; Debug       ; Loaded Editor. [28.0 us]
+2022-10-01 11:25:38.767854 ; AssemblyData   ; Debug       ; Loaded MyOpenTapShare. [41.6 ms]
+2022-10-01 11:25:38.787853 ; AssemblyData   ; Debug       ; Loaded ResultsViewer. [20.1 ms]
+2022-10-01 11:25:38.808853 ; AssemblyData   ; Debug       ; Loaded RunExplorer. [20.2 ms]
+2022-10-01 11:25:38.815853 ; Settings       ; Debug       ; ConnectionSettings loaded from D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Settings\Bench\Default\Connections.xml [6.04 ms]
+2022-10-01 11:25:38.829853 ; Settings       ; Debug       ; DutSettings loaded from D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Settings\Bench\Default\DUTs.xml [13.8 ms]
+2022-10-01 11:25:39.668853 ; Settings       ; Debug       ; InstrumentSettings loaded from D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Settings\Bench\Default\Instruments.xml [838 ms]
+2022-10-01 11:25:39.672854 ; Settings       ; Debug       ; MySettings1 loaded from D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Settings\MySettings.xml [4.63 ms]
+2022-10-01 11:25:39.678853 ; Settings       ; Debug       ; ResultSettings loaded from D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Settings\Results.xml [6.02 ms]
+2022-10-01 11:25:39.879853 ; Resolver       ; Debug       ; Found match for Keysight.Kal.Licensing.Api, Version=4.0.0.0, Culture=neutral, PublicKeyToken=55333af07c70062e in D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Dependencies\Keysight.Kal.Licensing.Api.4.0.0\Keysight.Kal.Licensing.Api.dll
+2022-10-01 11:25:40.097852 ; KAL            ; Debug       ; KAL signature verified. [66.9 ms]
+2022-10-01 11:25:40.160852 ; KAL            ; Debug       ; Initialized [133 ms]
+2022-10-01 11:25:40.165852 ; KAL Process    ; Debug       ; Initialized [139 ms]
+2022-10-01 11:25:41.829855 ; Settings       ; Debug       ; PanelSettings loaded from D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Settings\GUI Panels.xml [4.39 ms]
+2022-10-01 11:25:42.715853 ; Main           ; Debug       ; Application startup finished. [19.1 s]
+2022-10-01 11:25:45.208853 ; Main           ; Information ; Latest version of 'Visual Studio SDK CE' is 1.4, your version is 1.2. Please consider updating. [6.54 s]
+2022-10-01 11:25:45.208853 ; Main           ; Information ; Latest version of 'Keysight Licensing' is 1.2, your version is 1.1. Please consider updating. [6.54 s]
+2022-10-01 11:25:45.208853 ; Main           ; Information ; Latest version of 'WPF Controls' is 9.18, your version is 9.17. Please consider updating. [6.54 s]
+2022-10-01 11:25:45.208853 ; Main           ; Information ; Latest version of 'SDK' is 9.18, your version is 9.17. Please consider updating. [6.54 s]
+2022-10-01 11:25:45.208853 ; Main           ; Information ; Latest version of 'OpenTAP' is 9.19, your version is 9.18. Please consider updating. [6.54 s]
+2022-10-01 11:25:45.208853 ; Main           ; Debug       ; Update check complete. [6.54 s]
+2022-10-01 11:25:46.058854 ; AssemblyData   ; Debug       ; Loaded MyPluginChuck. [92.7 ms]
+2022-10-01 11:25:46.081854 ; AssemblyData   ; Debug       ; Loaded MyPluginGen. [22.4 ms]
+2022-10-01 11:25:46.111854 ; AssemblyData   ; Debug       ; Loaded MyPluginVision. [30.0 ms]
+2022-10-01 11:26:24.730585 ; Settings       ; Debug       ; Saved GuiControlsSettings to D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Settings\GUI Controls.xml [27.6 ms]
+2022-10-01 11:26:24.750585 ; Settings       ; Debug       ; Saved PanelSettings to D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Settings\GUI Panels.xml [6.62 ms]
+2022-10-01 11:26:24.765587 ; Settings       ; Debug       ; Saved EditorSettings to D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Settings\Editor.xml [14.3 ms]
+2022-10-01 11:26:27.103094 ; VisaDeviceDiscovery ; Error       ; Detecting device addresses took longer than expected. This might be caused by a broken VISA installation.

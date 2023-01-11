@@ -1,0 +1,135 @@
+﻿2022-10-01 17:24:58.524235 ; Session        ; Debug       ; Session log loaded as 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\SessionLogs\editor 2022-10-01 17-24-53.txt'. [17.1 ms]
+2022-10-01 17:24:58.645234 ; Session        ; Debug       ; Running '"D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\editor.exe" ' in 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug'.
+2022-10-01 17:24:58.844234 ; Session        ; Debug       ; Microsoft Windows 10.0.19043 X64
+2022-10-01 17:24:58.844234 ; Session        ; Debug       ; .NET Framework 4.8.4420.0
+2022-10-01 17:24:58.994237 ; Session        ; Debug       ; OpenTAP Engine 9.18.5+0328e9b4 X64
+2022-10-01 17:24:59.368238 ; AssemblyFinder ; Debug       ; Found 29/93 assembly files. [46.0 ms]
+2022-10-01 17:24:59.601237 ; Resolver       ; Debug       ; Found match for Keysight.OpenTap.Wpf, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null in D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Packages\WPF Controls\Keysight.OpenTap.Wpf.dll
+2022-10-01 17:25:04.422863 ; AssemblyFinder ; Debug       ; Found 29/93 assembly files. [575 ms]
+2022-10-01 17:25:04.557864 ; Resolver       ; Debug       ; Found match for System.Reflection.Metadata, Version=1.4.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a in D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Dependencies\System.Reflection.Metadata.1.4.3.0\System.Reflection.Metadata.dll
+2022-10-01 17:25:04.639932 ; Resolver       ; Debug       ; Found match for System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a in D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Dependencies\System.Collections.Immutable.1.2.3.0\System.Collections.Immutable.dll
+2022-10-01 17:25:05.649175 ; Searcher       ; Debug       ; Ordered 27 assemblies according to references. [1.22 s]
+2022-10-01 17:25:05.780176 ; PluginManager  ; Debug       ; Found 21 plugin assemblies containing 275 plugin types. [1.35 s]
+2022-10-01 17:25:05.806177 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.dll
+2022-10-01 17:25:05.806177 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.Package.dll
+2022-10-01 17:25:05.806177 ; PluginManager  ; Debug       ; Found version 1.1.0            of Keysight.OpenTap.Licensing.dll
+2022-10-01 17:25:05.806177 ; PluginManager  ; Debug       ; Found version 9.18.5+0328e9b4  of OpenTap.Plugins.BasicSteps.dll
+2022-10-01 17:25:05.806177 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of Keysight.OpenTap.Wpf.dll
+2022-10-01 17:25:05.806177 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of PackageManager.exe
+2022-10-01 17:25:05.806177 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of Editor.exe
+2022-10-01 17:25:05.806177 ; PluginManager  ; Debug       ; Found version 0.1.0-Development of MyOpenTapShare.dll
+2022-10-01 17:25:05.806177 ; PluginManager  ; Debug       ; Found version 0.1.0-Development of MyPluginChuck.dll
+2022-10-01 17:25:05.807178 ; PluginManager  ; Debug       ; Found version 0.1.0-Development of MyPluginGen.dll
+2022-10-01 17:25:05.807178 ; PluginManager  ; Debug       ; Found version 0.1.0-Development of MyPluginVision.dll
+2022-10-01 17:25:05.807178 ; PluginManager  ; Debug       ; Found version 9.11.0+98498e58  of Csv.dll
+2022-10-01 17:25:05.807178 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of ResultsViewer.exe
+2022-10-01 17:25:05.807178 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of RunExplorer.exe
+2022-10-01 17:25:05.807178 ; PluginManager  ; Debug       ; Found version 9.17.4+5e508f08  of Keysight.OpenTap.CommunityEditionPopup.exe
+2022-10-01 17:25:05.807178 ; PluginManager  ; Debug       ; Found version 1.0.0            of OpenTap.OSIntegration.Windows.dll
+2022-10-01 17:25:05.807178 ; PluginManager  ; Debug       ; Found version 9.17.4+ea67c63a  of OpenTap.Sdk.New.dll
+2022-10-01 17:25:05.807178 ; PluginManager  ; Debug       ; Found version 9.4.2+3009aace   of Keysight.OpenTap.Plugins.ResultListener.SqlDatabase.dll
+2022-10-01 17:25:05.807178 ; PluginManager  ; Debug       ; Found version 9.4.2+3009aace   of Keysight.OpenTap.Plugins.ResultListener.PostgreSQL.dll
+2022-10-01 17:25:05.807178 ; PluginManager  ; Debug       ; Found version 9.4.2+3009aace   of Keysight.OpenTap.Plugins.ResultListener.SQLite.dll
+2022-10-01 17:25:05.807178 ; PluginManager  ; Debug       ; Found version 1.2.6+ef0ad804   of OpenTap.VSSdk.Installer.dll
+2022-10-01 17:25:05.807178 ; PluginManager  ; Debug       ; Searched 29 Assemblies. [1.38 s]
+2022-10-01 17:25:06.147690 ; AssemblyData   ; Debug       ; Loaded OpenTap. [671 us]
+2022-10-01 17:25:06.160706 ; AssemblyData   ; Debug       ; Loaded Keysight.OpenTap.Wpf. [231 us]
+2022-10-01 17:25:06.236689 ; AssemblyData   ; Debug       ; Loaded OpenTap.Plugins.BasicSteps. [88.5 ms]
+2022-10-01 17:25:06.351692 ; AssemblyData   ; Debug       ; Loaded OpenTap.Package. [162 ms]
+2022-10-01 17:25:06.692691 ; AssemblyData   ; Debug       ; Loaded OpenTap.OSIntegration.Windows. [20.4 ms]
+2022-10-01 17:25:06.867732 ; AssemblyData   ; Debug       ; Loaded mscorlib. [700 ns]
+2022-10-01 17:25:07.225829 ; Settings       ; Debug       ; EditorSettings loaded from D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Settings\Editor.xml [4.87 s]
+2022-10-01 17:25:07.282829 ; Resolver       ; Debug       ; Found match for Keysight.Ccl.Wsl, Version=4.0.1.9, Culture=neutral, PublicKeyToken=55333af07c70062e in D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Dependencies\Keysight.Ccl.Wsl.4.0.1.9\Keysight.Ccl.Wsl.dll
+2022-10-01 17:25:07.355497 ; Resolver       ; Debug       ; Found match for MahApps.Metro, Version=1.3.0.0, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f in D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Dependencies\MahApps.Metro.1.3.0.0\MahApps.Metro.dll
+2022-10-01 17:25:07.762857 ; GUI            ; Debug       ; Loaded Light Theme. [21.8 ms]
+2022-10-01 17:25:08.013858 ; Resolver       ; Debug       ; Found match for AvalonDock, Version=4.60.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4 in D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Dependencies\AvalonDock.4.60.0.0\AvalonDock.dll
+2022-10-01 17:25:08.589855 ; Settings       ; Debug       ; GuiControlsSettings loaded from D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Settings\GUI Controls.xml [473 ms]
+2022-10-01 17:25:08.589855 ; Main           ; Debug       ; Window initial dimensions: 1549px, 837px.
+2022-10-01 17:25:08.629858 ; Settings       ; Debug       ; EngineSettings loaded from D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Settings\Engine.xml [38.2 ms]
+2022-10-01 17:25:08.645858 ; Resolver       ; Debug       ; Found match for Keysight.OpenTap.Licensing, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null in D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Packages\Keysight Licensing\Keysight.OpenTap.Licensing.dll
+2022-10-01 17:25:08.677858 ; Session        ; Debug       ; Session log loaded as 'SessionLogs\SessionLog 2022-10-01 17-25-08.txt'. [30.6 ms]
+2022-10-01 17:25:09.101858 ; Settings       ; Debug       ; No settings file exists for PackageManagerSettings. A new instance with default values has been created. [963 us]
+2022-10-01 17:25:09.174857 ; Settings       ; Debug       ; No settings file exists for AuthenticationSettings. A new instance with default values has been created. [487 us]
+2022-10-01 17:25:09.272371 ; Main           ; Debug       ; GUI initialized. [680 ms]
+2022-10-01 17:25:09.272371 ; Main           ; Debug       ; Docking manager initialized. [75.5 us]
+2022-10-01 17:25:09.277371 ; OpenTAP        ; Information ; OpenTAP version '9.18.5+0328e9b4' 64-bit initialized 10/01/2022 [16.0 s]
+2022-10-01 17:25:09.337370 ; AssemblyData   ; Debug       ; Loaded PackageManager. [13.6 ms]
+2022-10-01 17:25:09.339370 ; AssemblyData   ; Debug       ; Loaded Editor. [45.8 us]
+2022-10-01 17:25:09.483886 ; AssemblyData   ; Debug       ; Loaded MyOpenTapShare. [144 ms]
+2022-10-01 17:25:09.511888 ; AssemblyData   ; Debug       ; Loaded ResultsViewer. [27.5 ms]
+2022-10-01 17:25:09.571886 ; AssemblyData   ; Debug       ; Loaded RunExplorer. [60.1 ms]
+2022-10-01 17:25:09.580887 ; Settings       ; Debug       ; ConnectionSettings loaded from D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Settings\Bench\Default\Connections.xml [7.17 ms]
+2022-10-01 17:25:09.592889 ; Settings       ; Debug       ; DutSettings loaded from D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Settings\Bench\Default\DUTs.xml [11.2 ms]
+2022-10-01 17:25:10.337887 ; Settings       ; Debug       ; InstrumentSettings loaded from D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Settings\Bench\Default\Instruments.xml [745 ms]
+2022-10-01 17:25:10.341887 ; Settings       ; Debug       ; MySettings1 loaded from D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Settings\MySettings.xml [4.00 ms]
+2022-10-01 17:25:10.361886 ; Resolver       ; Debug       ; Found match for Keysight.Kal.Licensing.Api, Version=4.0.0.0, Culture=neutral, PublicKeyToken=55333af07c70062e in D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Dependencies\Keysight.Kal.Licensing.Api.4.0.0\Keysight.Kal.Licensing.Api.dll
+2022-10-01 17:25:10.467886 ; Settings       ; Debug       ; ResultSettings loaded from D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Settings\Results.xml [126 ms]
+2022-10-01 17:25:10.545919 ; KAL            ; Debug       ; KAL signature verified. [64.6 ms]
+2022-10-01 17:25:10.651921 ; KAL            ; Debug       ; Initialized [172 ms]
+2022-10-01 17:25:10.655922 ; KAL Process    ; Debug       ; Initialized [177 ms]
+2022-10-01 17:25:13.035070 ; Settings       ; Debug       ; PanelSettings loaded from D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Settings\GUI Panels.xml [2.86 ms]
+2022-10-01 17:25:13.958586 ; Main           ; Debug       ; Application startup finished. [20.6 s]
+2022-10-01 17:25:14.711587 ; Main           ; Information ; Latest version of 'Keysight Licensing' is 1.2, your version is 1.1. Please consider updating. [5.43 s]
+2022-10-01 17:25:14.711587 ; Main           ; Information ; Latest version of 'SDK' is 9.18, your version is 9.17. Please consider updating. [5.43 s]
+2022-10-01 17:25:14.711587 ; Main           ; Information ; Latest version of 'Visual Studio SDK CE' is 1.4, your version is 1.2. Please consider updating. [5.43 s]
+2022-10-01 17:25:14.711587 ; Main           ; Information ; Latest version of 'OpenTAP' is 9.19, your version is 9.18. Please consider updating. [5.43 s]
+2022-10-01 17:25:14.711587 ; Main           ; Information ; Latest version of 'WPF Controls' is 9.18, your version is 9.17. Please consider updating. [5.43 s]
+2022-10-01 17:25:14.711587 ; Main           ; Debug       ; Update check complete. [5.43 s]
+2022-10-01 17:25:35.570406 ; AssemblyData   ; Debug       ; Loaded MyPluginChuck. [28.3 ms]
+2022-10-01 17:25:35.603406 ; AssemblyData   ; Debug       ; Loaded MyPluginGen. [32.1 ms]
+2022-10-01 17:25:35.622407 ; AssemblyData   ; Debug       ; Loaded MyPluginVision. [19.5 ms]
+2022-10-01 17:25:44.480922 ; Settings       ; Debug       ; Saved GuiControlsSettings to D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Settings\GUI Controls.xml [29.9 ms]
+2022-10-01 17:25:44.502922 ; Settings       ; Debug       ; Saved PanelSettings to D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Settings\GUI Panels.xml [6.38 ms]
+2022-10-01 17:25:44.510922 ; Settings       ; Debug       ; Saved EditorSettings to D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\Settings\Editor.xml [7.15 ms]
+2022-10-01 17:25:46.900921 ; VisaDeviceDiscovery ; Error       ; Detecting device addresses took longer than expected. This might be caused by a broken VISA installation.
+2022-10-01 17:26:06.422552 ; TestPlan       ; Information ; -----------------------------------------------------------------
+2022-10-01 17:26:06.517552 ; TestPlan       ; Information ; Starting TestPlan 'Untitled' on 10/01/2022 17:26:06, 1 of 1 TestSteps enabled.
+2022-10-01 17:26:06.596552 ; TestPlan       ; Debug       ; Saved Test Plan XML [2.95 ms]
+2022-10-01 17:26:06.649550 ; Settings       ; Debug       ; No settings file exists for TestPlanRunPackageParameterMonitor. A new instance with default values has been created. [264 us]
+2022-10-01 17:26:06.727065 ; MyINST         ; Debug       ; Connecting to 'TCPIP0::127.0.0.1::35555::SOCKET'
+2022-10-01 17:26:07.753581 ; MyINST         ; Debug       ; SCPI >> *IDN? [6.19 ms]
+2022-10-01 17:26:07.753581 ; MyINST         ; Debug       ; SCPI << MPI Corporation,Sentio - Probe System Software Suite,0,3.7.99.0
+2022-10-01 17:26:07.753581 ; MyINST         ; Information ; Now connected to: MPI Corporation,Sentio - Probe System Software Suite,0,3.7.99.0
+2022-10-01 17:26:07.755581 ; MyINST         ; Debug       ; SCPI >> *CLS [285 us]
+2022-10-01 17:26:07.756581 ; MyINST         ; Information ; Resource "MyINST (TCPIP0::127.0.0.1::35555::SOCKET)" opened. [1.03 s]
+2022-10-01 17:26:07.758581 ; MyRes          ; Information ; Resource "MyRes" opened. [344 us]
+2022-10-01 17:26:07.802581 ; TestPlan       ; Debug       ; PrePlanRun Methods completed [29.4 ms]
+2022-10-01 17:26:07.819582 ; TestPlan       ; Information ; "ChuckMoveContact" started.
+2022-10-01 17:26:07.829580 ; TestStep       ; Information ; Go To Contact
+2022-10-01 17:26:09.545581 ; MyINST         ; Debug       ; SCPI >> move_chuck_contact [1.71 s]
+2022-10-01 17:26:09.545581 ; MyINST         ; Debug       ; SCPI << 0,0,5432.0
+2022-10-01 17:26:09.545581 ; TestStep       ; Information ; 0,0,5432.0
+2022-10-01 17:26:09.553583 ; TestPlan       ; Information ; "ChuckMoveContact" completed. [1.73 s]
+2022-10-01 17:26:09.555581 ; TestPlan       ; Debug       ; Test step runs finished. [1.75 s]
+2022-10-01 17:26:09.580587 ; Summary        ; Information ; ----- Summary of test plan started 10/01/2022 17:26:06 -----
+2022-10-01 17:26:09.584613 ; Summary        ; Information ;  ChuckMoveContact                                 1.73 s          
+2022-10-01 17:26:09.585596 ; Summary        ; Information ; ------------------------------------------------------------
+2022-10-01 17:26:09.588587 ; Summary        ; Information ; -------- Test plan completed successfully in 2.91 s --------
+2022-10-01 17:26:09.593581 ; MyRes          ; Debug       ; OnTestPlanRunCompleted for MyRes. [853 us]
+2022-10-01 17:26:09.626581 ; MyRes          ; Information ; Resource "MyRes" closed. [158 us]
+2022-10-01 17:26:09.635581 ; MyINST         ; Information ; Resource "MyINST (TCPIP0::127.0.0.1::35555::SOCKET)" closed. [8.68 ms]
+2022-10-01 17:26:21.414965 ; TestPlan       ; Information ; -----------------------------------------------------------------
+2022-10-01 17:26:21.577016 ; TestPlan       ; Information ; Starting TestPlan 'Untitled' on 10/01/2022 17:26:21, 1 of 1 TestSteps enabled.
+2022-10-01 17:26:21.589019 ; TestPlan       ; Debug       ; Saved Test Plan XML [11.0 ms]
+2022-10-01 17:26:21.639017 ; MyINST         ; Debug       ; Connecting to 'TCPIP0::127.0.0.1::35555::SOCKET'
+2022-10-01 17:26:21.653018 ; MyINST         ; Debug       ; SCPI >> *IDN? [318 us]
+2022-10-01 17:26:21.653018 ; MyINST         ; Debug       ; SCPI << MPI Corporation,Sentio - Probe System Software Suite,0,3.7.99.0
+2022-10-01 17:26:21.653018 ; MyINST         ; Information ; Now connected to: MPI Corporation,Sentio - Probe System Software Suite,0,3.7.99.0
+2022-10-01 17:26:21.653018 ; MyINST         ; Debug       ; SCPI >> *CLS [104 us]
+2022-10-01 17:26:21.654018 ; MyINST         ; Information ; Resource "MyINST (TCPIP0::127.0.0.1::35555::SOCKET)" opened. [16.9 ms]
+2022-10-01 17:26:21.654018 ; MyRes          ; Information ; Resource "MyRes" opened. [257 us]
+2022-10-01 17:26:21.657018 ; TestPlan       ; Debug       ; PrePlanRun Methods completed [8.30 us]
+2022-10-01 17:26:21.657018 ; TestPlan       ; Information ; "ChuckMoveContact" started.
+2022-10-01 17:26:21.657018 ; TestStep       ; Information ; Go To Contact
+2022-10-01 17:26:22.293067 ; MyINST         ; Debug       ; SCPI >> move_chuck_contact [635 ms]
+2022-10-01 17:26:22.293067 ; MyINST         ; Debug       ; SCPI << 0,0,5432.0
+2022-10-01 17:26:22.293067 ; TestStep       ; Information ; 0,0,5432.0
+2022-10-01 17:26:22.293067 ; TestPlan       ; Information ; "ChuckMoveContact" completed. [636 ms]
+2022-10-01 17:26:22.293067 ; TestPlan       ; Debug       ; Test step runs finished. [636 ms]
+2022-10-01 17:26:22.299068 ; Summary        ; Information ; ----- Summary of test plan started 10/01/2022 17:26:21 -----
+2022-10-01 17:26:22.299068 ; Summary        ; Information ;  ChuckMoveContact                                  636 ms         
+2022-10-01 17:26:22.299068 ; Summary        ; Information ; ------------------------------------------------------------
+2022-10-01 17:26:22.299068 ; Summary        ; Information ; -------- Test plan completed successfully in 665 ms --------
+2022-10-01 17:26:22.314066 ; MyRes          ; Debug       ; OnTestPlanRunCompleted for MyRes. [57.9 us]
+2022-10-01 17:26:22.320067 ; MyRes          ; Information ; Resource "MyRes" closed. [33.0 us]
+2022-10-01 17:26:22.333067 ; MyINST         ; Information ; Resource "MyINST (TCPIP0::127.0.0.1::35555::SOCKET)" closed. [8.72 ms]

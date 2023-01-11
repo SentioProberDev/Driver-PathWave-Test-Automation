@@ -1,0 +1,24 @@
+﻿2022-09-30 22:34:01.976601 ; Session        ; Debug       ; Session log loaded as 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapShare\bin\Debug\SessionLogs\MSBuild.18452 2022-09-30 22-32-36.txt'. [55.0 ms]
+2022-09-30 22:34:02.003600 ; Session        ; Debug       ; Running 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe /nologo /nodemode:1 /nodeReuse:true /low:false' in 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapShare'.
+2022-09-30 22:34:02.510601 ; FilePackageRepository ; Debug       ; Rebuilding cache: .PackageCache.4D38F979.20.xml [150 ms]
+2022-09-30 22:34:02.510601 ; Package Query  ; Debug       ; Read 20 packages from [FilePackageRepository: file:///C:/Users/hoca.chen/AppData/Local/OpenTap/PackageCache] [152 ms]
+2022-09-30 22:34:04.058599 ; GraphQL        ; Debug       ; query Query {                 packages(version: "", type:"tappackage", os:"Windows", architecture:"x64" ) {                  name version dependencies {                    name version        }}} -> found 1123 packages. [1.70 s]
+2022-09-30 22:34:06.109600 ; OpenTAP        ; Information ; Target installation is already up to date.
+2022-09-30 22:34:26.742148 ; Session        ; Debug       ; Session log loaded as 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\SessionLogs\MSBuild.18452 2022-09-30 22-32-36.txt'. [75.6 ms]
+2022-09-30 22:34:26.790149 ; Session        ; Debug       ; Running 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe /nologo /nodemode:1 /nodeReuse:true /low:false' in 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain'.
+2022-09-30 22:34:27.090149 ; FilePackageRepository ; Debug       ; Rebuilding cache: .PackageCache.4D38F979.20.xml [166 ms]
+2022-09-30 22:34:27.093147 ; Package Query  ; Debug       ; Read 20 packages from [FilePackageRepository: file:///C:/Users/hoca.chen/AppData/Local/OpenTap/PackageCache] [170 ms]
+2022-09-30 22:34:28.675149 ; GraphQL        ; Debug       ; query Query {                 packages(version: "", type:"tappackage", os:"Windows", architecture:"x64" ) {                  name version dependencies {                    name version        }}} -> found 1123 packages. [1.75 s]
+2022-09-30 22:34:30.501150 ; OpenTAP        ; Information ; Target installation is already up to date.
+2022-09-30 22:34:44.171692 ; Session        ; Debug       ; Session log loaded as 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyPluginVision\bin\Debug\SessionLogs\MSBuild.18452 2022-09-30 22-32-36.txt'. [87.6 ms]
+2022-09-30 22:34:44.202693 ; Session        ; Debug       ; Running 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe /nologo /nodemode:1 /nodeReuse:true /low:false' in 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyPluginVision'.
+2022-09-30 22:34:44.478694 ; FilePackageRepository ; Debug       ; Rebuilding cache: .PackageCache.4D38F979.20.xml [151 ms]
+2022-09-30 22:34:44.479692 ; Package Query  ; Debug       ; Read 20 packages from [FilePackageRepository: file:///C:/Users/hoca.chen/AppData/Local/OpenTap/PackageCache] [154 ms]
+2022-09-30 22:34:46.148206 ; GraphQL        ; Debug       ; query Query {                 packages(version: "", type:"tappackage", os:"Windows", architecture:"x64" ) {                  name version dependencies {                    name version        }}} -> found 1123 packages. [1.82 s]
+2022-09-30 22:34:48.130777 ; OpenTAP        ; Information ; Target installation is already up to date.
+2022-09-30 22:34:49.203776 ; Session        ; Debug       ; Session log loaded as 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyPluginGen\bin\Debug\SessionLogs\MSBuild.18452 2022-09-30 22-32-36.txt'. [114 ms]
+2022-09-30 22:34:49.255775 ; Session        ; Debug       ; Running 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe /nologo /nodemode:1 /nodeReuse:true /low:false' in 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyPluginGen'.
+2022-09-30 22:34:49.698775 ; FilePackageRepository ; Debug       ; Rebuilding cache: .PackageCache.4D38F979.20.xml [193 ms]
+2022-09-30 22:34:49.699776 ; Package Query  ; Debug       ; Read 20 packages from [FilePackageRepository: file:///C:/Users/hoca.chen/AppData/Local/OpenTap/PackageCache] [195 ms]
+2022-09-30 22:34:51.454776 ; GraphQL        ; Debug       ; query Query {                 packages(version: "", type:"tappackage", os:"Windows", architecture:"x64" ) {                  name version dependencies {                    name version        }}} -> found 1123 packages. [1.94 s]
+2022-09-30 22:34:53.363292 ; OpenTAP        ; Information ; Target installation is already up to date.

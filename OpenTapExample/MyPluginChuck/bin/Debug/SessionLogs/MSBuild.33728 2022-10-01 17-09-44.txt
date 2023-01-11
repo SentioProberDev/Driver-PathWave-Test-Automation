@@ -1,0 +1,3 @@
+﻿2022-10-01 17:10:03.147597 ; Session        ; Debug       ; Session log loaded as 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyPluginChuck\bin\Debug\SessionLogs\MSBuild.33728 2022-10-01 17-09-44.txt'. [61.0 ms]
+2022-10-01 17:10:03.157597 ; Session        ; Debug       ; Running '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe" "C:\Users\hoca.chen\AppData\Local\Temp\Butuhib.proj"' in 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyPluginChuck'.
+2022-10-01 17:10:04.100598 ; OpenTAP        ; Information ; Target installation is already up to date.

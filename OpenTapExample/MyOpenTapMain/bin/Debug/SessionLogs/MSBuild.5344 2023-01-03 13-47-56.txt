@@ -1,0 +1,12 @@
+﻿2023-01-03 13:48:01.879044 ; Session        ; Debug       ; Session log loaded as 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyPluginChuck\bin\Debug\SessionLogs\MSBuild.5344 2023-01-03 13-47-56.txt'. [40.5 ms]
+2023-01-03 13:48:01.885045 ; Session        ; Debug       ; Running '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe" "C:\Users\hoca.chen\AppData\Local\Temp\Gedebes.proj"' in 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyPluginChuck'.
+2023-01-03 13:48:02.662044 ; OpenTAP        ; Information ; Target installation is already up to date.
+2023-01-03 13:48:02.767044 ; Session        ; Debug       ; Session log loaded as 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyPluginVision\bin\Debug\SessionLogs\MSBuild.5344 2023-01-03 13-47-56.txt'. [10.2 ms]
+2023-01-03 13:48:02.774059 ; Session        ; Debug       ; Running '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe" "C:\Users\hoca.chen\AppData\Local\Temp\Gedebes.proj"' in 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyPluginVision'.
+2023-01-03 13:48:03.463044 ; OpenTAP        ; Information ; Target installation is already up to date.
+2023-01-03 13:48:03.545043 ; Session        ; Debug       ; Session log loaded as 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyPluginGen\bin\Debug\SessionLogs\MSBuild.5344 2023-01-03 13-47-56.txt'. [13.3 ms]
+2023-01-03 13:48:03.552044 ; Session        ; Debug       ; Running '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe" "C:\Users\hoca.chen\AppData\Local\Temp\Gedebes.proj"' in 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyPluginGen'.
+2023-01-03 13:48:04.243042 ; OpenTAP        ; Information ; Target installation is already up to date.
+2023-01-03 13:48:04.358043 ; Session        ; Debug       ; Session log loaded as 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\SessionLogs\MSBuild.5344 2023-01-03 13-47-56.txt'. [11.1 ms]
+2023-01-03 13:48:04.365043 ; Session        ; Debug       ; Running '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe" "C:\Users\hoca.chen\AppData\Local\Temp\Gedebes.proj"' in 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain'.
+2023-01-03 13:48:05.050042 ; OpenTAP        ; Information ; Target installation is already up to date.

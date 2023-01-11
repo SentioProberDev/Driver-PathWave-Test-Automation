@@ -1,0 +1,3 @@
+﻿2022-10-01 17:10:27.395174 ; Session        ; Debug       ; Session log loaded as 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain\bin\Debug\SessionLogs\MSBuild.21180 2022-10-01 17-09-57.txt'. [66.2 ms]
+2022-10-01 17:10:27.403175 ; Session        ; Debug       ; Running 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe /nologo /nodemode:1 /nodeReuse:false /low:false' in 'D:\Program_Project\Git\SentioDev\Examples-OpenTAP\MyOpenTapMain'.
+2022-10-01 17:10:34.099174 ; OpenTAP        ; Information ; Target installation is already up to date.
