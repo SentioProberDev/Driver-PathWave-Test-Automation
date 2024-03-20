@@ -1,3 +1,8 @@
+2024-03-20
+add command
+- move UVW
+- set origin
+
 2023-09-19
 add wafer step subsite
 add get NanoCubeXY and move NanoCubeXY
